@@ -1,28 +1,33 @@
 # Enrollment Requirement Validator
 
-Individual Final Project for PFEBSIT 002 (Weeks 13–18)
+**Individual Final Project – PFEBSIT 002 (Weeks 13–18)**
 
-A Flutter Web application with a Laravel backend designed to help students and enrollment staff manage, submit, and verify enrollment requirements.
+A Flutter Web application integrated with a Laravel 12 backend API that helps students and enrollment staff organize, submit, manage, and verify enrollment requirements.
 
 ## Project Information
 
-- Student: Sam Russell M. So
-- Selected Project: Project 23 – Enrollment Requirement Validator
-- Frontend: Flutter Web
-- Backend: Laravel 12
-- Database: SQLite (current backend project configuration; update this if you change databases)
-- API Testing: Postman
-- Development Tools: Visual Studio Code
+- **Student:** Sam Russell M. So
+- **Program/Section:** BSIT – 3A
+- **School:** University of La Salette
+- **Selected Project:** Project 23 – Enrollment Requirement Validator
+- **Frontend:** Flutter Web
+- **Backend:** Laravel 12
+- **Database:** SQLite
+- **API Testing:** Postman
+- **Development Environment:** Visual Studio Code
+- **Version Control:** Git and GitHub
 
-## What It Does
+## Project Overview
 
-The Enrollment Requirement Validator helps organize the process of checking student enrollment requirements. Students can view their required documents, mark requirements as submitted, and monitor their completion progress.
+The Enrollment Requirement Validator is designed to make the enrollment requirement submission and validation process more organized and manageable.
 
-The system includes a requirements checklist, missing-requirement detection, and a progress indicator. The Laravel backend provides API endpoints for managing student records and their enrollment requirements.
+Students can enter their information, view their required documents, mark requirements as submitted, and monitor their completion progress through a checklist and progress indicator.
 
-The system is being developed to support a more organized validation process between students and enrollment staff.
+The Laravel backend provides API endpoints for managing student records and enrollment requirements. It allows the frontend and backend to work as separate applications while communicating through API requests.
 
-## Current Features and Progress
+The project also aims to support automated missing-requirement detection, secure API integration, and more reliable validation processes as development continues.
+
+## Current Features and Development Progress
 
 | Feature | Status |
 |---|---|
@@ -32,132 +37,208 @@ The system is being developed to support a more organized validation process bet
 | Missing requirements detection | Completed |
 | Completion progress indicator | Completed |
 | Basic input validation | Completed |
-| Laravel backend project | Created |
+| Laravel 12 backend setup | Completed |
 | Database migrations | Completed |
-| Student API | Implemented |
-| Requirements API | Implemented |
-| API testing using Postman | Tested |
+| Student API implementation | Implemented |
+| Requirements API implementation | Implemented |
+| Postman API testing | Tested |
+| GitHub repository setup | Completed |
+| Flutter and Laravel project upload | Completed |
 | User authentication | Pending |
 | Role-based authorization | Pending |
 | Automated reminders and retries | Pending |
+| Secure API integration and configuration | Pending |
 | Security testing and hardening | Pending |
 
 ## Technologies Used
 
-- Flutter and Dart – Frontend development
-- Laravel 12 and PHP – Backend API
-- SQLite – Current database configuration
-- Postman – API testing
-- Git and GitHub – Version control and project repository
+- **Flutter and Dart** – Frontend development and user interface.
+- **Laravel 12 and PHP** – Backend development and REST API.
+- **SQLite** – Current database configuration.
+- **Postman** – API endpoint testing.
+- **Visual Studio Code** – Code editing and development.
+- **Git and GitHub** – Source code management and project collaboration.
 
 ## API Endpoints
 
-### Students
+The Laravel backend provides endpoints for student and enrollment requirement management.
+
+### Student API
 
 | Method | Endpoint | Description |
 |---|---|---|
 | GET | `/api/students` | Retrieve all students |
-| POST | `/api/students` | Add a student |
+| POST | `/api/students` | Create a student record |
 | GET | `/api/students/{id}` | Retrieve a specific student |
-| PATCH / PUT | `/api/students/{id}` | Update student information |
-| DELETE | `/api/students/{id}` | Delete a student |
+| PUT/PATCH | `/api/students/{id}` | Update student information |
+| DELETE | `/api/students/{id}` | Delete a student record |
 
-### Requirements
+### Requirements API
 
 | Method | Endpoint | Description |
 |---|---|---|
 | GET | `/api/requirements` | Retrieve all requirements |
-| POST | `/api/requirements` | Add a requirement |
+| POST | `/api/requirements` | Create a requirement |
 | GET | `/api/requirements/{id}` | Retrieve a specific requirement |
-| PATCH / PUT | `/api/requirements/{id}` | Update a requirement |
+| PUT/PATCH | `/api/requirements/{id}` | Update a requirement |
 | DELETE | `/api/requirements/{id}` | Delete a requirement |
 
-## Running the Project
+*Note: These are the documented API routes. Refer to the Laravel `routes/api.php` file for the actual registered endpoints.*
 
-### Frontend – Flutter Web
+## Repository Structure
 
-1. Open the `enrollment_requirement_validator` folder in Visual Studio Code.
-2. Open the terminal.
-3. Run:
+The GitHub repository contains the Flutter frontend, Laravel backend, and project evidence.
 
-   `flutter pub get`
+```text
+enrollment-requirement-validator-final/
+│
+├── android/
+├── enrollment_validator_api/
+│   ├── app/
+│   ├── bootstrap/
+│   ├── config/
+│   ├── database/
+│   ├── public/
+│   ├── resources/
+│   ├── routes/
+│   ├── storage/
+│   ├── tests/
+│   ├── artisan
+│   ├── composer.json
+│   └── README.md
+│
+├── evidence/
+├── ios/
+├── lib/
+│   └── main.dart
+├── linux/
+├── macos/
+├── test/
+├── web/
+├── windows/
+├── .gitignore
+├── analysis_options.yaml
+├── pubspec.yaml
+├── pubspec.lock
+└── README.md
+```
 
-4. Start the application:
+## How to Run the Project
 
-   `flutter run -d chrome`
+The frontend and backend are separate applications. Both must be running when testing their integration.
 
-### Backend – Laravel API
+### 1. Frontend – Flutter Web
+
+1. Open the project root folder in Visual Studio Code.
+2. Open the integrated terminal.
+3. Install the required Flutter packages:
+
+```bash
+flutter pub get
+```
+
+4. Run the Flutter Web application:
+
+```bash
+flutter run -d chrome
+```
+
+### 2. Backend – Laravel API
 
 1. Open the `enrollment_validator_api` folder in Visual Studio Code.
-2. Open the terminal.
-3. Install dependencies:
+2. Open a terminal inside that folder.
+3. Install the Laravel dependencies:
 
-   `composer install`
+```bash
+composer install
+```
 
 4. Configure the `.env` file and database connection.
-5. Run database migrations:
+5. Run the database migrations:
 
-   `php artisan migrate`
+```bash
+php artisan migrate
+```
 
 6. Start the Laravel development server:
 
-   `php artisan serve`
+```bash
+php artisan serve
+```
 
-7. The API will be available at:
+7. The local API server will be available at:
 
-   `http://127.0.0.1:8000`
+```text
+http://127.0.0.1:8000
+```
 
-## API Testing
+## API Testing Using Postman
 
-The backend API was tested using Postman.
+Postman is used to test and verify the Laravel backend API endpoints.
 
-Tested operations include:
+The documented testing activities include:
 
-- Creating a student requirement.
+- Creating student records.
+- Retrieving student records.
+- Creating enrollment requirements.
 - Retrieving all requirements.
 - Retrieving a specific requirement.
-- Updating a requirement's status.
-- Deleting a requirement.
+- Updating requirement information or status.
+- Deleting requirement records.
 
-The tested API responses included successful HTTP status codes such as `200 OK` and `201 Created`.
+Successful API responses include HTTP status codes such as `200 OK` and `201 Created`, depending on the operation.
 
-## User Manual
-
-A separate User Manual will be provided to explain how to operate the system.
-
-It will include step-by-step instructions and screenshots for the major functions, such as:
-
-1. Opening the application.
-2. Entering student information.
-3. Viewing the requirements checklist.
-4. Checking submitted and missing requirements.
-5. Monitoring completion progress.
-6. Managing student and requirement records through the backend API.
-
-## Weeks and Project Development
+## Project Development Plan
 
 | Week | Development Focus | Status |
 |---|---|---|
 | Week 13 | Automation Foundation | In Progress |
 | Week 14 | Secure Integration | Pending |
 | Week 15 | Testing and Hardening | Pending |
-| Weeks 16–18 | Final integration, evaluation, documentation, and defense | Pending |
+| Weeks 16–18 | Integration, evaluation, documentation, and project defense | Pending |
 
-## Repository Structure
+### Planned Improvements
 
-The repository contains the Flutter frontend and Laravel backend as separate project folders.
+The remaining development work focuses on the following:
 
-- `enrollment_requirement_validator/` – Flutter Web application
-- `enrollment_validator_api/` – Laravel backend API
+- Automatic detection of missing enrollment requirements.
+- Reminder scheduling and deadline notifications.
+- Retry and recovery handling for temporary API failures.
+- User authentication and role-based authorization.
+- Secure API communication and protected configuration.
+- Input validation and safe error handling.
+- Functional, integration, reliability, and security testing.
+- Final system evaluation and user documentation.
+
+## User Manual and Documentation
+
+A separate User Manual will document how to operate the system.
+
+It will include instructions and screenshots covering:
+
+1. Opening the application.
+2. Entering student information.
+3. Viewing the enrollment requirements checklist.
+4. Marking requirements as submitted.
+5. Identifying missing requirements.
+6. Monitoring completion progress.
+7. Managing student and requirement records through the backend API.
+
+Project evidence and development screenshots are maintained in the `evidence/` directory.
 
 ## Project Notes
 
-- This project uses fictional student information for development and testing.
-- The frontend and backend are maintained as separate applications.
-- Authentication, authorization, automation, and additional security features are still part of the remaining development work.
+- The system uses fictional student information for development and testing.
+- The Flutter frontend and Laravel backend are maintained as separate applications within the same GitHub repository.
+- The current database configuration uses SQLite.
+- Authentication, authorization, automation, and additional security features remain part of the development plan.
+- No production student records or credentials should be committed to the public repository.
+- The `.env` file containing local configuration and secrets should remain excluded from GitHub.
 
 ## Author
 
-Sam So  
+**Sam Russell M. So**  
 BSIT – 3A  
 University of La Salette
+
+**Repository:** https://github.com/Samatrix35/enrollment-requirement-validator-final
