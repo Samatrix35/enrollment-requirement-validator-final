@@ -1,9 +1,0 @@
-development ordinary repeat 1: 33 requests, p95=1535.9 ms, 1.44 rps, 0 unexpected errors
-development peak repeat 1: 41 requests, p95=5281.7 ms, 1.69 rps, 0 unexpected errors
-development ordinary repeat 2: 36 requests, p95=1368.0 ms, 1.70 rps, 0 unexpected errors
-development peak repeat 2: 44 requests, p95=4891.3 ms, 1.77 rps, 0 unexpected errors
-controlled ordinary repeat 1: 33 requests, p95=1412.8 ms, 1.55 rps, 0 unexpected errors
-controlled peak repeat 1: 43 requests, p95=5023.7 ms, 1.79 rps, 0 unexpected errors
-controlled ordinary repeat 2: 41 requests, p95=1157.7 ms, 1.80 rps, 0 unexpected errors
-controlled peak repeat 2: 49 requests, p95=4326.8 ms, 2.04 rps, 0 unexpected errors
-Rollback pass=true, recovery=1.18 s
