@@ -1,7 +1,0 @@
-ID,Type,Severity,Observed,Change,Verification,Disposition,Owner
-D01,Usability defect,Medium,Blank correction note gives no visible explanation,Form validator displays required note,defect-D01-before.txt; flutter-tests.txt; browser-acceptance.json,Developer fixed/retested; participant retest pending,Developer
-D02,Validation defect,Medium,Empty staff PATCH has no defined guard,"422 update validation error, no DB mutation",defect-D02-before.txt; backend-tests.txt; postman-results.json,Developer fixed/retested,Developer
-L01,Acceptance gap,High for final acceptance,No real participant feedback supplied,Run supplied UAT scenarios,UAT_Plan_and_Stakeholder_Record,Open; acceptance pending,Student facilitator + participant
-L02,Deployment gap,High for public use,Historical peak/health targets missed,Representative environment and optimization needed,Week16_Baseline/performance/workload-summary.json,Open; local demo only,Deployment maintainer
-L03,Scope limit,Informational,"No upload verification, reminder automation or public reset",Do not claim complete external registrar service,AS3 scope statement,Explicitly outside implemented slice,Project owner
-D03,Demo reliability issue,Medium,CanvasKit CDN fetch blocked startup,Bundled web resources in local build command,browser-initial-cdn-failure.json; final browser-acceptance.json,Developer fixed/retested,Developer

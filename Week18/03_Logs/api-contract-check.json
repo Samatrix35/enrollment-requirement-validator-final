@@ -1,6 +1,0 @@
-{
-  "operations": 19,
-  "all_implemented_routes_documented": true,
-  "all_local_references_resolve": true,
-  "scope": "Structural and route coverage check; not independent full OpenAPI certification"
-}

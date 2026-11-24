@@ -1,5 +1,0 @@
-PHP 8.2.12 (cli) (built: Oct 24 2023 21:15:15) (ZTS Visual C++ 2019 x64)
-Copyright (c) The PHP Group
-Zend Engine v4.2.12, Copyright (c) Zend Technologies
-v24.19.0
-Dart SDK version: 3.13.7 (stable) (Thu Oct 22 14:28:57 2026 -0700) on "windows_x64"

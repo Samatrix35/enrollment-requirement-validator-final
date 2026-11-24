@@ -1,1 +1,0 @@
-4 scenarios and 7 actual UI captures; no JavaScript errors.
