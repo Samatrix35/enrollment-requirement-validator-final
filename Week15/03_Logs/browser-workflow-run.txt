@@ -1,1 +1,0 @@
-5 browser scenarios passed; 14 genuine UI screenshots; no JavaScript errors.

@@ -1,7 +1,0 @@
-Resolving dependencies...
-Downloading packages...
-  meta 1.18.3 (1.19.0 available)
-  vector_math 2.4.0 (2.4.4 available)
-Got dependencies!
-2 packages have newer versions incompatible with dependency constraints.
-Try `flutter pub outdated` for more information.

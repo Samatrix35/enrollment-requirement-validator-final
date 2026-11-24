@@ -1,9 +1,0 @@
-{
-  "review_date": "2026-11-23",
-  "pdf_documents": 5,
-  "pdf_pages": 13,
-  "application_screenshots": 13,
-  "architecture_diagram": 1,
-  "review": "Rendered all final PDF pages and inspected layout; inspected application captures; no clipping/overlap found.",
-  "stakeholder_uat": "PENDING"
-}

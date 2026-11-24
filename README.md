@@ -1,32 +1,5 @@
 # Enrollment Requirement Validator
 
-
-## Weekly submissions - Project 23
-
-**Sam Russell M. So | BSIT-3A | Enrollment Requirement Validator**
-
-The submitted Week 14-18 snapshots are organized below on the `main` branch. Each folder preserves that week's reports, evidence, logs and source from the supplied combined submission archive.
-
-| Week | Focus | Open the submission |
-|---|---|---|
-| 14 | Secure integration | [Week 14](Week14/README.md) |
-| 15 | Testing and hardening (IA6) | [Week 15](Week15/README.md) |
-| 16 | Performance, reliability and deployment evaluation | [Week 16](Week16/README.md) |
-| 17 | Final integration, UAT, documentation and evaluation | [Week 17](Week17/README.md) |
-| 18 | Final integration review, examination and technical defense | [Week 18 - final portfolio](Week18/README.md) |
-
-**Start the latest system from [`Week18/04_Source_Code`](Week18/04_Source_Code/README.md).** Its setup instructions, Laravel API, Flutter Web client, Postman collection and VS Code workspace are included. Install dependencies using the supplied scripts/lockfiles before running it. Earlier weekly folders are separate historical snapshots; changing one does not update another.
-
-The combined archive contains Weeks 14-18 only. **Week 13 was not supplied**, so no Week 13 submission has been invented or assigned to the existing root application.
-
-Private `.env` files, runtime databases, TLS private keys, generated caches/build output and installed dependencies are omitted from GitHub. Known fictional demo credentials in setup scripts are for local practice only. Original reports and recorded results are preserved; this repository upload does not represent a new test run, stakeholder approval or production deployment. See the Week 18 report for pending stakeholder UAT and deployment/audit limitations.
-
-The application files already at the repository root are retained below as an **earlier implementation**. The historical feature/status descriptions below describe that root version; consult the weekly folders for their later implementations and evidence.
-
----
-
-## Earlier root application documentation (retained)
-
 **Individual Final Project – PFEBSIT 002 (Weeks 13–18)**
 
 A Flutter Web application integrated with a Laravel 12 backend API that helps students and enrollment staff organize, submit, manage, and verify enrollment requirements.
