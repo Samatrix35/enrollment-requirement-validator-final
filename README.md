@@ -1,271 +1,68 @@
 # Enrollment Requirement Validator
 
+**Project 23 | Week 15 Testing and Hardening (IA6)**  
+**Sam Russell M. So | BSIT-3A | University of La Salette**  
+Prepared and verified: 18 November 2026, Asia/Manila.
 
-## Weekly submissions - Project 23
+## Completed Week 15 work
 
-**Sam Russell M. So | BSIT-3A | Enrollment Requirement Validator**
+The Laravel and Flutter enrollment prototype now includes a traceable test suite, recorded defects, regression fixes, real API/Postman checks, browser workflow evidence, local HTTPS verification, and dependency hardening. Student submission, staff correction, resubmission, approval, and explicit retry recovery remain the bounded workflow.
 
-The submitted Week 14-18 snapshots are organized below on the `main` branch. Each folder preserves that week's reports, evidence, logs and source from the supplied combined submission archive.
+Eight findings were recorded: duplicate assignments, expiry handling before JSON parsing, diagnostic leakage on server errors, invalid response shape acceptance, queue pagination, login overflow, abandoned futures on session expiry, and dependency advisories. The source includes fixes and the logs preserve the observed failures and final passes. Additional hardening includes a whole-response timeout and conditional database updates for workflow transitions.
 
-| Week | Focus | Open the submission |
-|---|---|---|
-| 14 | Secure integration | [Week 14](Week14/README.md) |
-| 15 | Testing and hardening (IA6) | [Week 15](Week15/README.md) |
-| 16 | Performance, reliability and deployment evaluation | [Week 16](Week16/README.md) |
-| 17 | Final integration, UAT, documentation and evaluation | [Week 17](Week17/README.md) |
-| 18 | Final integration review, examination and technical defense | [Week 18 - final portfolio](Week18/README.md) |
+## Folder guide
 
-**Start the latest system from [`Week18/04_Source_Code`](Week18/04_Source_Code/README.md).** Its setup instructions, Laravel API, Flutter Web client, Postman collection and VS Code workspace are included. Install dependencies using the supplied scripts/lockfiles before running it. Earlier weekly folders are separate historical snapshots; changing one does not update another.
-
-The combined archive contains Weeks 14-18 only. **Week 13 was not supplied**, so no Week 13 submission has been invented or assigned to the existing root application.
-
-Private `.env` files, runtime databases, TLS private keys, generated caches/build output and installed dependencies are omitted from GitHub. Known fictional demo credentials in setup scripts are for local practice only. Original reports and recorded results are preserved; this repository upload does not represent a new test run, stakeholder approval or production deployment. See the Week 18 report for pending stakeholder UAT and deployment/audit limitations.
-
-The application files already at the repository root are retained below as an **earlier implementation**. The historical feature/status descriptions below describe that root version; consult the weekly folders for their later implementations and evidence.
-
----
-
-## Earlier root application documentation (retained)
-
-**Individual Final Project – PFEBSIT 002 (Weeks 13–18)**
-
-A Flutter Web application integrated with a Laravel 12 backend API that helps students and enrollment staff organize, submit, manage, and verify enrollment requirements.
-
-## Project Information
-
-- **Student:** Sam Russell M. So
-- **Program/Section:** BSIT – 3A
-- **School:** University of La Salette
-- **Selected Project:** Project 23 – Enrollment Requirement Validator
-- **Frontend:** Flutter Web
-- **Backend:** Laravel 12
-- **Database:** SQLite
-- **API Testing:** Postman
-- **Development Environment:** Visual Studio Code
-- **Version Control:** Git and GitHub
-
-## Project Overview
-
-The Enrollment Requirement Validator is designed to make the enrollment requirement submission and validation process more organized and manageable.
-
-Students can enter their information, view their required documents, mark requirements as submitted, and monitor their completion progress through a checklist and progress indicator.
-
-The Laravel backend provides API endpoints for managing student records and enrollment requirements. It allows the frontend and backend to work as separate applications while communicating through API requests.
-
-The project also aims to support automated missing-requirement detection, secure API integration, and more reliable validation processes as development continues.
-
-## Current Features and Development Progress
-
-| Feature | Status |
+| Folder | Contents |
 |---|---|
-| Flutter Web project setup | Completed |
-| Student ID and name fields | Completed |
-| Requirements checklist | Completed |
-| Missing requirements detection | Completed |
-| Completion progress indicator | Completed |
-| Basic input validation | Completed |
-| Laravel 12 backend setup | Completed |
-| Database migrations | Completed |
-| Student API implementation | Implemented |
-| Requirements API implementation | Implemented |
-| Postman API testing | Tested |
-| GitHub repository setup | Completed |
-| Flutter and Laravel project upload | Completed |
-| User authentication | Pending |
-| Role-based authorization | Pending |
-| Automated reminders and retries | Pending |
-| Secure API integration and configuration | Pending |
-| Security testing and hardening | Pending |
+| 0 Registration (private) | Project 23 registration and approval-request documents for Sam Russell M. So, BSIT-3A; instructor approval remains blank |
+| 01_Report | Three completed reports in PDF and editable Markdown, traceability CSV, defect register, risks, setup and demonstration guide |
+| 02_Evidence | Fresh application screenshots grouped into setup, backend, regression/recovery, screens, forms, final checks and negative tests; open index.html |
+| 03_Logs | Before/after test results, JUnit, Postman Newman results, verified HTTPS record, dependency audit, browser record, manifest |
+| 04_Source_Code | Laravel/Flutter source, tests, VS Code workspace/tasks, local setup and Postman collection |
 
-## Technologies Used
+The reports follow the reference document structure but all project content concerns Enrollment Requirement Validator. No friend's screenshots, logs, findings, student registry, or application code were adopted. The Week 14 enrollment archive supplied in this chat is the continuation baseline.
 
-- **Flutter and Dart** – Frontend development and user interface.
-- **Laravel 12 and PHP** – Backend development and REST API.
-- **SQLite** – Current database configuration.
-- **Postman** – API endpoint testing.
-- **Visual Studio Code** – Code editing and development.
-- **Git and GitHub** – Source code management and project collaboration.
+## Verified checks
 
-## API Endpoints
+- Laravel feature suite: **23 tests, 80 assertions passed**.
+- Flutter: **19 tests passed**, covering API error handling, pagination, timeouts, screen states, submission, staff decisions, expiry and recovery.
+- Postman Newman: **43 HTTPS requests, 130 assertions**, zero failures in the completed run.
+- Flutter analysis: **no issues found**; debug web build completed.
+- Browser: fresh end-to-end captures, responsive views, controlled offline recovery and server-side token revocation. Read browser-check.json for the final observed results.
+- Composer audit after updates: no reported advisories or abandoned packages at the captured audit time. This is not a guarantee against unknown vulnerabilities.
 
-The Laravel backend provides endpoints for student and enrollment requirement management.
+## Run locally in VS Code
 
-### Student API
+Open `04_Source_Code/EnrollmentValidator.code-workspace`. In its terminal:
 
-| Method | Endpoint | Description |
-|---|---|---|
-| GET | `/api/students` | Retrieve all students |
-| POST | `/api/students` | Create a student record |
-| GET | `/api/students/{id}` | Retrieve a specific student |
-| PUT/PATCH | `/api/students/{id}` | Update student information |
-| DELETE | `/api/students/{id}` | Delete a student record |
-
-### Requirements API
-
-| Method | Endpoint | Description |
-|---|---|---|
-| GET | `/api/requirements` | Retrieve all requirements |
-| POST | `/api/requirements` | Create a requirement |
-| GET | `/api/requirements/{id}` | Retrieve a specific requirement |
-| PUT/PATCH | `/api/requirements/{id}` | Update a requirement |
-| DELETE | `/api/requirements/{id}` | Delete a requirement |
-
-*Note: These are the documented API routes. Refer to the Laravel `routes/api.php` file for the actual registered endpoints.*
-
-## Repository Structure
-
-The GitHub repository contains the Flutter frontend, Laravel backend, and project evidence.
-
-```text
-enrollment-requirement-validator-final/
-│
-├── android/
-├── enrollment_validator_api/
-│   ├── app/
-│   ├── bootstrap/
-│   ├── config/
-│   ├── database/
-│   ├── public/
-│   ├── resources/
-│   ├── routes/
-│   ├── storage/
-│   ├── tests/
-│   ├── artisan
-│   ├── composer.json
-│   └── README.md
-│
-├── evidence/
-├── ios/
-├── lib/
-│   └── main.dart
-├── linux/
-├── macos/
-├── test/
-├── web/
-├── windows/
-├── .gitignore
-├── analysis_options.yaml
-├── pubspec.yaml
-├── pubspec.lock
-└── README.md
+```powershell
+.\Setup-Demo.ps1
 ```
 
-## How to Run the Project
+Use the **Start Laravel API** and **Start Flutter Web** tasks in separate terminals. They use ports **8035** and **5035**. Local debug HTTP is allowed. The independently recorded Postman run used a local TLS proxy and explicit test certificate trust; no browser or OS trust protections were disabled.
 
-The frontend and backend are separate applications. Both must be running when testing their integration.
+Fictional local student: `student.demo@example.test` / `StudentDemo-2026!`  
+Fictional local staff: `staff.demo@example.test` / `StaffDemo-2026!`
 
-### 1. Frontend – Flutter Web
+These are demonstration credentials, not production secrets. Setup generates the private app key and local database. Neither is included in the clean submission ZIP. Composer dependencies, generated web files and Flutter caches are restored locally.
 
-1. Open the project root folder in Visual Studio Code.
-2. Open the integrated terminal.
-3. Install the required Flutter packages:
+## Repeat the checks
 
-```bash
-flutter pub get
+```powershell
+# In 04_Source_Code/enrollment_validator_api
+php artisan test
+composer audit --locked
+
+# In 04_Source_Code
+flutter analyze
+flutter test
+newman run postman/Week15_Enrollment_IA6.postman_collection.json
 ```
 
-4. Run the Flutter Web application:
+The ordered Postman collection expects a disposable freshly seeded database. It creates and removes fictional test records and exercises requirement IDs 1–3. Do not run it against real or valuable records. Setup itself does not erase an existing database. See WEEK15_SETUP.md before resetting a disposable demo.
 
-```bash
-flutter run -d chrome
-```
+## Boundaries
 
-### 2. Backend – Laravel API
+Week 15 does not complete Weeks 16–18. There are no scanned-document uploads, public registration, password recovery, reminder scheduler, or real school records. SQLite and the PHP development server remain local prototype infrastructure. Local HTTPS evidence uses an explicitly trusted test certificate and is not public deployment certification. Simulated client tests are labeled separately from live API and browser tests. A real multi-process concurrency stress test was not performed.
 
-1. Open the `enrollment_validator_api` folder in Visual Studio Code.
-2. Open a terminal inside that folder.
-3. Install the Laravel dependencies:
-
-```bash
-composer install
-```
-
-4. Configure the `.env` file and database connection.
-5. Run the database migrations:
-
-```bash
-php artisan migrate
-```
-
-6. Start the Laravel development server:
-
-```bash
-php artisan serve
-```
-
-7. The local API server will be available at:
-
-```text
-http://127.0.0.1:8000
-```
-
-## API Testing Using Postman
-
-Postman is used to test and verify the Laravel backend API endpoints.
-
-The documented testing activities include:
-
-- Creating student records.
-- Retrieving student records.
-- Creating enrollment requirements.
-- Retrieving all requirements.
-- Retrieving a specific requirement.
-- Updating requirement information or status.
-- Deleting requirement records.
-
-Successful API responses include HTTP status codes such as `200 OK` and `201 Created`, depending on the operation.
-
-## Project Development Plan
-
-| Week | Development Focus | Status |
-|---|---|---|
-| Week 13 | Automation Foundation | In Progress |
-| Week 14 | Secure Integration | Pending |
-| Week 15 | Testing and Hardening | Pending |
-| Weeks 16–18 | Integration, evaluation, documentation, and project defense | Pending |
-
-### Planned Improvements
-
-The remaining development work focuses on the following:
-
-- Automatic detection of missing enrollment requirements.
-- Reminder scheduling and deadline notifications.
-- Retry and recovery handling for temporary API failures.
-- User authentication and role-based authorization.
-- Secure API communication and protected configuration.
-- Input validation and safe error handling.
-- Functional, integration, reliability, and security testing.
-- Final system evaluation and user documentation.
-
-## User Manual and Documentation
-
-A separate User Manual will document how to operate the system.
-
-It will include instructions and screenshots covering:
-
-1. Opening the application.
-2. Entering student information.
-3. Viewing the enrollment requirements checklist.
-4. Marking requirements as submitted.
-5. Identifying missing requirements.
-6. Monitoring completion progress.
-7. Managing student and requirement records through the backend API.
-
-Project evidence and development screenshots are maintained in the `evidence/` directory.
-
-## Project Notes
-
-- The system uses fictional student information for development and testing.
-- The Flutter frontend and Laravel backend are maintained as separate applications within the same GitHub repository.
-- The current database configuration uses SQLite.
-- Authentication, authorization, automation, and additional security features remain part of the development plan.
-- No production student records or credentials should be committed to the public repository.
-- The `.env` file containing local configuration and secrets should remain excluded from GitHub.
-
-## Author
-
-**Sam Russell M. So**  
-BSIT – 3A  
-University of La Salette
-
-**Repository:** https://github.com/Samatrix35/enrollment-requirement-validator-final
+Registration documents request review; no instructor signature or approval date has been fabricated. Review all materials and be prepared to explain the implementation and tests. Development and preparation were assisted by Codex; do not represent automated runs as personally conducted classroom demonstrations.
