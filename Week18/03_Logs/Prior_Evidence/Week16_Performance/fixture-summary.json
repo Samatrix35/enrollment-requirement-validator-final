@@ -1,9 +1,0 @@
-{
-  "students": 200,
-  "requirements": 600,
-  "roles": [
-    "student",
-    "enrollment_staff"
-  ],
-  "credential_scope": "Preissued isolated fictional accounts; tokens remain in excluded runtime files. Login latency is not measured."
-}
