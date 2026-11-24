@@ -1,0 +1,11 @@
+﻿ID,Guide requirement,Method,Evidence,Observed result
+W16-01,Ordinary and peak workloads,2 and 8 concurrent virtual users; two repetitions per environment; 200 fictional students and 600 requirements,tools/WORKLOAD_PLAN.json; performance/fixture-summary.json,Defined and executed
+W16-02,Response time and throughput,"Complete-response p50/p95/p99, actual completed requests / actual elapsed time",MEASURED_RESULTS.csv; performance/*-requests.json,Measured all 8 runs; latency gate 6/8; throughput gate 5/8
+W16-03,Errors,Count unexpected HTTP and transport outcomes against expected 200,performance/workload-summary.json,0 unexpected errors / 320 measured application requests
+W16-04,CPU and memory,Windows per-PHP-process CPU seconds and sampled working set/private bytes,performance/process-samples.json; process-samples.csv,CPU 83.01-89.53% of one core; maximum sampled RSS 47.94 MiB
+W16-05,Monitoring and health,Liveness versus database/schema readiness; no sensitive diagnostics; request trace IDs,Week16OperationsTest.php; performance/*-health.json; browser-check.json,Readiness latency gate 0/8; health responses stayed 200 during load
+W16-06,Environment comparison,"Same host, development HTTP uncached versus production-flag cached configuration/routes plus verified local TLS",performance/host-environment.json; release-manifest.json; https-verification.json,Measured both; not a public FPM/web-server comparison
+W16-07,Recovery and rollback,Detect dependency failure; restore previous cached configuration and a stopped-server SQLite checkpoint,performance/rollback-recovery.json,Passed; readiness restored in 1.179 seconds; checkpoint hash and record preserved
+W16-08,Readiness recommendation,State restrictions and unresolved gates,3_Deployment_Recovery_and_Readiness.md,Conditional local demonstration only; NO-GO for real enrollment/public peak commitments
+W16-09,Regression,"Laravel, Flutter and Postman collection checks",backend-tests.txt; flutter-tests.txt; postman-results.json,30 backend tests / 106 assertions; 21 Flutter tests; 46 HTTPS requests / 144 Newman assertions
+W16-10,Reproducible source and evidence,"Runnable tools, raw records, plots, actual browser captures and runbook",04_Source_Code/tools; 02_Evidence/index.html,Complete; fixture secrets and databases excluded from submission

@@ -1,0 +1,283 @@
+{
+  "captured_at": "2026-11-23T14:26:26.174Z",
+  "release": "w17-r1",
+  "scope": "Developer rehearsal; no stakeholder feedback/approval",
+  "checks": [
+    {
+      "id": "AC05",
+      "passed": true,
+      "type": "Developer-run browser acceptance rehearsal",
+      "observation": "Blank form gives email/password feedback; protected screen is not shown.",
+      "timestamp": "2026-11-23T14:25:31.161Z"
+    },
+    {
+      "id": "AC01",
+      "passed": true,
+      "type": "Developer-run browser acceptance rehearsal",
+      "observation": "Student identity and three Pending checklist items visible.",
+      "timestamp": "2026-11-23T14:25:39.282Z"
+    },
+    {
+      "id": "AC02",
+      "passed": true,
+      "type": "Developer-run browser acceptance rehearsal",
+      "observation": "Submission transitions to Submitted and approved count remains zero.",
+      "timestamp": "2026-11-23T14:25:42.182Z"
+    },
+    {
+      "id": "AC07",
+      "passed": true,
+      "type": "Developer-run browser acceptance rehearsal",
+      "observation": "Blank note shows actionable validation; valid note returns requirement.",
+      "timestamp": "2026-11-23T14:25:56.560Z"
+    },
+    {
+      "id": "AC03",
+      "passed": true,
+      "type": "Developer-run browser acceptance rehearsal",
+      "observation": "Returned item and correction text appear on student checklist.",
+      "timestamp": "2026-11-23T14:26:01.596Z"
+    },
+    {
+      "id": "AC09",
+      "passed": true,
+      "type": "Developer-run browser acceptance rehearsal",
+      "observation": "Actual readiness200 ->503 ->200 after controlled DB config failure/recovery.",
+      "timestamp": "2026-11-23T14:26:18.917Z"
+    },
+    {
+      "id": "AC04",
+      "passed": true,
+      "type": "Developer-run browser acceptance rehearsal",
+      "observation": "Resubmit/approve loop preserves staff authority and updates student result.",
+      "timestamp": "2026-11-23T14:26:24.928Z"
+    },
+    {
+      "id": "AC08",
+      "passed": true,
+      "type": "Developer-run browser acceptance rehearsal",
+      "observation": "Student result renders at narrow viewport; no full accessibility certification inferred.",
+      "timestamp": "2026-11-23T14:26:25.288Z"
+    },
+    {
+      "id": "AC10",
+      "passed": true,
+      "type": "Developer-run browser acceptance rehearsal",
+      "observation": "Sign-out returns to login; token revocation separately verified by API tests.",
+      "timestamp": "2026-11-23T14:26:26.173Z"
+    }
+  ],
+  "captures": [
+    {
+      "file": "1 Application Acceptance/01_blank_login_validation.png",
+      "caption": "AC05: required login fields show visible validation before any login request.",
+      "origin": "Actual compiled Flutter Web in Chrome",
+      "timestamp": "2026-11-23T14:25:31.160Z"
+    },
+    {
+      "file": "1 Application Acceptance/02_student_pending_checklist.png",
+      "caption": "AC01: fictional student sees their own Pending checklist.",
+      "origin": "Actual compiled Flutter Web in Chrome",
+      "timestamp": "2026-11-23T14:25:39.282Z"
+    },
+    {
+      "file": "1 Application Acceptance/03_submitted_for_staff_review.png",
+      "caption": "AC02: submitted is awaiting staff, not approved.",
+      "origin": "Actual compiled Flutter Web in Chrome",
+      "timestamp": "2026-11-23T14:25:42.182Z"
+    },
+    {
+      "file": "1 Application Acceptance/04_staff_submitted_queue.png",
+      "caption": "AC02: authorized staff sees the student submission.",
+      "origin": "Actual compiled Flutter Web in Chrome",
+      "timestamp": "2026-11-23T14:25:50.768Z"
+    },
+    {
+      "file": "1 Application Acceptance/05_empty_correction_feedback.png",
+      "caption": "AC07/D01: fixed dialog explains an empty correction note; no decision is sent.",
+      "origin": "Actual compiled Flutter Web in Chrome",
+      "timestamp": "2026-11-23T14:25:51.625Z"
+    },
+    {
+      "file": "1 Application Acceptance/06_student_correction_note.png",
+      "caption": "AC03: student receives the exact staff correction note.",
+      "origin": "Actual compiled Flutter Web in Chrome",
+      "timestamp": "2026-11-23T14:26:01.596Z"
+    },
+    {
+      "file": "1 Application Acceptance/07_student_resubmitted.png",
+      "caption": "AC04: resubmission clears the obsolete correction feedback.",
+      "origin": "Actual compiled Flutter Web in Chrome",
+      "timestamp": "2026-11-23T14:26:03.379Z"
+    },
+    {
+      "file": "1 Application Acceptance/08_staff_review_completed.png",
+      "caption": "AC04: staff approval removes the item from the submitted queue.",
+      "origin": "Actual compiled Flutter Web in Chrome",
+      "timestamp": "2026-11-23T14:26:11.018Z"
+    },
+    {
+      "file": "1 Application Acceptance/09_service_ready.png",
+      "caption": "AC09: Laravel reports database/schema ready with release w17-r1.",
+      "origin": "Actual compiled Flutter Web in Chrome",
+      "timestamp": "2026-11-23T14:26:12.810Z"
+    },
+    {
+      "file": "1 Application Acceptance/10_safe_dependency_failure.png",
+      "caption": "AC09: real missing database produces HTTP503 and a safe UI message.",
+      "origin": "Actual compiled Flutter Web in Chrome",
+      "timestamp": "2026-11-23T14:26:15.897Z"
+    },
+    {
+      "file": "1 Application Acceptance/11_service_recovered.png",
+      "caption": "AC09: restoring valid local configuration restores readiness.",
+      "origin": "Actual compiled Flutter Web in Chrome",
+      "timestamp": "2026-11-23T14:26:18.888Z"
+    },
+    {
+      "file": "1 Application Acceptance/12_student_approved_result.png",
+      "caption": "AC04: approved count increases to1/3; other items remain Pending.",
+      "origin": "Actual compiled Flutter Web in Chrome",
+      "timestamp": "2026-11-23T14:26:24.928Z"
+    },
+    {
+      "file": "1 Application Acceptance/13_narrow_student_view.png",
+      "caption": "AC08: actual390x844 browser rendering; human accessibility/UAT evaluation pending.",
+      "origin": "Actual compiled Flutter Web in Chrome",
+      "timestamp": "2026-11-23T14:26:25.288Z"
+    }
+  ],
+  "api_responses": [
+    {
+      "method": "POST",
+      "path": "/api/auth/login",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/my/enrollment",
+      "status": 200
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/my/requirements/1/submit",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/my/enrollment",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/auth/logout",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/auth/login",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/requirements",
+      "status": 200
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/requirements/1",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/requirements",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/auth/logout",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/auth/login",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/my/enrollment",
+      "status": 200
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/my/requirements/1/submit",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/my/enrollment",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/auth/logout",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/auth/login",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/requirements",
+      "status": 200
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/requirements/1",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/requirements",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/health/ready",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/health/ready",
+      "status": 503
+    },
+    {
+      "method": "GET",
+      "path": "/api/health/ready",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/auth/logout",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/auth/login",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/my/enrollment",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/auth/logout",
+      "status": 200
+    }
+  ],
+  "page_errors": []
+}

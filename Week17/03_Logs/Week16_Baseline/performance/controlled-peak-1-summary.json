@@ -1,0 +1,31 @@
+{
+  "environment": "controlled",
+  "profile": "peak",
+  "repeat": 1,
+  "virtual_users": 8,
+  "think_ms": 0,
+  "started_at": 1795010138672,
+  "ended_at": 1795010162725,
+  "actual_elapsed_seconds": 24.053,
+  "requests": 43,
+  "unexpected_errors": 0,
+  "error_percent": 0,
+  "requests_per_second": 1.7877187876772127,
+  "latency_ms": {
+    "p50": 4292.430300000007,
+    "p95": 5023.697700000019,
+    "p99": 5063.520699999994,
+    "max": 5063.520699999994
+  },
+  "health": {
+    "probes": 3,
+    "failures": 0,
+    "p95_ms": 5217.944099999993
+  },
+  "gates": {
+    "p95_pass": false,
+    "error_pass": true,
+    "throughput_pass": false,
+    "health_pass": false
+  }
+}

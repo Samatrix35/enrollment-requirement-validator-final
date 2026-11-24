@@ -1,0 +1,907 @@
+{
+  "runner": "Postman Newman",
+  "transport": "Verified local HTTPS",
+  "captured_at": "2026-11-18T13:51:12.346Z",
+  "stats": {
+    "iterations": {
+      "total": 1,
+      "pending": 0,
+      "failed": 0
+    },
+    "items": {
+      "total": 46,
+      "pending": 0,
+      "failed": 0
+    },
+    "scripts": {
+      "total": 46,
+      "pending": 0,
+      "failed": 0
+    },
+    "prerequests": {
+      "total": 46,
+      "pending": 0,
+      "failed": 0
+    },
+    "requests": {
+      "total": 46,
+      "pending": 0,
+      "failed": 0
+    },
+    "tests": {
+      "total": 46,
+      "pending": 0,
+      "failed": 0
+    },
+    "assertions": {
+      "total": 144,
+      "pending": 0,
+      "failed": 0
+    },
+    "testScripts": {
+      "total": 46,
+      "pending": 0,
+      "failed": 0
+    },
+    "prerequestScripts": {
+      "total": 0,
+      "pending": 0,
+      "failed": 0
+    }
+  },
+  "failures": [],
+  "executions": [
+    {
+      "name": "W16 liveness signal",
+      "status": 200,
+      "assertions": [
+        {
+          "name": "HTTP 200",
+          "passed": true
+        },
+        {
+          "name": "No store",
+          "passed": true
+        },
+        {
+          "name": "Alive",
+          "passed": true
+        },
+        {
+          "name": "No environment leak",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "name": "W16 database and schema readiness",
+      "status": 200,
+      "assertions": [
+        {
+          "name": "HTTP 200",
+          "passed": true
+        },
+        {
+          "name": "No store",
+          "passed": true
+        },
+        {
+          "name": "Ready",
+          "passed": true
+        },
+        {
+          "name": "Database up",
+          "passed": true
+        },
+        {
+          "name": "Schema up",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "name": "W16 correlation and release",
+      "status": 200,
+      "assertions": [
+        {
+          "name": "HTTP 200",
+          "passed": true
+        },
+        {
+          "name": "No store",
+          "passed": true
+        },
+        {
+          "name": "Trace header",
+          "passed": true
+        },
+        {
+          "name": "Release",
+          "passed": true
+        },
+        {
+          "name": "Server timing",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "name": "Unauthenticated access denied",
+      "status": 401,
+      "assertions": [
+        {
+          "name": "Unauthenticated access denied",
+          "passed": true
+        },
+        {
+          "name": "JSON API content type",
+          "passed": true
+        },
+        {
+          "name": "Responses are not cacheable",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "name": "Invalid token denied",
+      "status": 401,
+      "assertions": [
+        {
+          "name": "Invalid token denied",
+          "passed": true
+        },
+        {
+          "name": "JSON API content type",
+          "passed": true
+        },
+        {
+          "name": "Responses are not cacheable",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "name": "Invalid login input rejected",
+      "status": 422,
+      "assertions": [
+        {
+          "name": "Invalid login input rejected",
+          "passed": true
+        },
+        {
+          "name": "JSON API content type",
+          "passed": true
+        },
+        {
+          "name": "Responses are not cacheable",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "name": "Student sign in",
+      "status": 200,
+      "assertions": [
+        {
+          "name": "Student sign in",
+          "passed": true
+        },
+        {
+          "name": "JSON API content type",
+          "passed": true
+        },
+        {
+          "name": "Responses are not cacheable",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "name": "Staff sign in",
+      "status": 200,
+      "assertions": [
+        {
+          "name": "Staff sign in",
+          "passed": true
+        },
+        {
+          "name": "JSON API content type",
+          "passed": true
+        },
+        {
+          "name": "Responses are not cacheable",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "name": "Student role cannot list students",
+      "status": 403,
+      "assertions": [
+        {
+          "name": "Student role cannot list students",
+          "passed": true
+        },
+        {
+          "name": "JSON API content type",
+          "passed": true
+        },
+        {
+          "name": "Responses are not cacheable",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "name": "Student sees own checklist",
+      "status": 200,
+      "assertions": [
+        {
+          "name": "Student sees own checklist",
+          "passed": true
+        },
+        {
+          "name": "JSON API content type",
+          "passed": true
+        },
+        {
+          "name": "Responses are not cacheable",
+          "passed": true
+        },
+        {
+          "name": "Student email minimized",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "name": "Staff creates second fictional student",
+      "status": 201,
+      "assertions": [
+        {
+          "name": "Staff creates second fictional student",
+          "passed": true
+        },
+        {
+          "name": "JSON API content type",
+          "passed": true
+        },
+        {
+          "name": "Responses are not cacheable",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "name": "Staff assigns requirement",
+      "status": 201,
+      "assertions": [
+        {
+          "name": "Staff assigns requirement",
+          "passed": true
+        },
+        {
+          "name": "JSON API content type",
+          "passed": true
+        },
+        {
+          "name": "Responses are not cacheable",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "name": "W15 duplicate assignment rejected",
+      "status": 422,
+      "assertions": [
+        {
+          "name": "W15 duplicate assignment rejected",
+          "passed": true
+        },
+        {
+          "name": "JSON API content type",
+          "passed": true
+        },
+        {
+          "name": "Responses are not cacheable",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "name": "W15 name boundary 120 accepted",
+      "status": 201,
+      "assertions": [
+        {
+          "name": "W15 name boundary 120 accepted",
+          "passed": true
+        },
+        {
+          "name": "JSON API content type",
+          "passed": true
+        },
+        {
+          "name": "Responses are not cacheable",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "name": "W15 name boundary 121 rejected",
+      "status": 422,
+      "assertions": [
+        {
+          "name": "W15 name boundary 121 rejected",
+          "passed": true
+        },
+        {
+          "name": "JSON API content type",
+          "passed": true
+        },
+        {
+          "name": "Responses are not cacheable",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "name": "W15 empty requirement rejected",
+      "status": 422,
+      "assertions": [
+        {
+          "name": "W15 empty requirement rejected",
+          "passed": true
+        },
+        {
+          "name": "JSON API content type",
+          "passed": true
+        },
+        {
+          "name": "Responses are not cacheable",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "name": "W15 nonexistent student rejected",
+      "status": 422,
+      "assertions": [
+        {
+          "name": "W15 nonexistent student rejected",
+          "passed": true
+        },
+        {
+          "name": "JSON API content type",
+          "passed": true
+        },
+        {
+          "name": "Responses are not cacheable",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "name": "W15 owner field cannot be reassigned",
+      "status": 422,
+      "assertions": [
+        {
+          "name": "W15 owner field cannot be reassigned",
+          "passed": true
+        },
+        {
+          "name": "JSON API content type",
+          "passed": true
+        },
+        {
+          "name": "Responses are not cacheable",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "name": "W15 unknown status filter rejected",
+      "status": 422,
+      "assertions": [
+        {
+          "name": "W15 unknown status filter rejected",
+          "passed": true
+        },
+        {
+          "name": "JSON API content type",
+          "passed": true
+        },
+        {
+          "name": "Responses are not cacheable",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "name": "W15 staff cannot use student-only endpoint",
+      "status": 403,
+      "assertions": [
+        {
+          "name": "W15 staff cannot use student-only endpoint",
+          "passed": true
+        },
+        {
+          "name": "JSON API content type",
+          "passed": true
+        },
+        {
+          "name": "Responses are not cacheable",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "name": "W15 student name boundary 81 rejected",
+      "status": 422,
+      "assertions": [
+        {
+          "name": "W15 student name boundary 81 rejected",
+          "passed": true
+        },
+        {
+          "name": "JSON API content type",
+          "passed": true
+        },
+        {
+          "name": "Responses are not cacheable",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "name": "W15 student name boundary 80 accepted",
+      "status": 200,
+      "assertions": [
+        {
+          "name": "W15 student name boundary 80 accepted",
+          "passed": true
+        },
+        {
+          "name": "JSON API content type",
+          "passed": true
+        },
+        {
+          "name": "Responses are not cacheable",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "name": "Cross-student submission denied",
+      "status": 404,
+      "assertions": [
+        {
+          "name": "Cross-student submission denied",
+          "passed": true
+        },
+        {
+          "name": "JSON API content type",
+          "passed": true
+        },
+        {
+          "name": "Responses are not cacheable",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "name": "Student cannot approve own requirement",
+      "status": 403,
+      "assertions": [
+        {
+          "name": "Student cannot approve own requirement",
+          "passed": true
+        },
+        {
+          "name": "JSON API content type",
+          "passed": true
+        },
+        {
+          "name": "Responses are not cacheable",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "name": "Premature approval denied",
+      "status": 409,
+      "assertions": [
+        {
+          "name": "Premature approval denied",
+          "passed": true
+        },
+        {
+          "name": "JSON API content type",
+          "passed": true
+        },
+        {
+          "name": "Responses are not cacheable",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "name": "Student submits requirement",
+      "status": 200,
+      "assertions": [
+        {
+          "name": "Student submits requirement",
+          "passed": true
+        },
+        {
+          "name": "JSON API content type",
+          "passed": true
+        },
+        {
+          "name": "Responses are not cacheable",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "name": "Duplicate submission denied",
+      "status": 409,
+      "assertions": [
+        {
+          "name": "Duplicate submission denied",
+          "passed": true
+        },
+        {
+          "name": "JSON API content type",
+          "passed": true
+        },
+        {
+          "name": "Responses are not cacheable",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "name": "Staff queue shows submission",
+      "status": 200,
+      "assertions": [
+        {
+          "name": "Staff queue shows submission",
+          "passed": true
+        },
+        {
+          "name": "JSON API content type",
+          "passed": true
+        },
+        {
+          "name": "Responses are not cacheable",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "name": "W15 correction boundary 501 rejected",
+      "status": 422,
+      "assertions": [
+        {
+          "name": "W15 correction boundary 501 rejected",
+          "passed": true
+        },
+        {
+          "name": "JSON API content type",
+          "passed": true
+        },
+        {
+          "name": "Responses are not cacheable",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "name": "W15 correction boundary 500 accepted",
+      "status": 200,
+      "assertions": [
+        {
+          "name": "W15 correction boundary 500 accepted",
+          "passed": true
+        },
+        {
+          "name": "JSON API content type",
+          "passed": true
+        },
+        {
+          "name": "Responses are not cacheable",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "name": "W15 resubmit after boundary correction",
+      "status": 200,
+      "assertions": [
+        {
+          "name": "W15 resubmit after boundary correction",
+          "passed": true
+        },
+        {
+          "name": "JSON API content type",
+          "passed": true
+        },
+        {
+          "name": "Responses are not cacheable",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "name": "Return without correction note rejected",
+      "status": 422,
+      "assertions": [
+        {
+          "name": "Return without correction note rejected",
+          "passed": true
+        },
+        {
+          "name": "JSON API content type",
+          "passed": true
+        },
+        {
+          "name": "Responses are not cacheable",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "name": "Staff requests correction",
+      "status": 200,
+      "assertions": [
+        {
+          "name": "Staff requests correction",
+          "passed": true
+        },
+        {
+          "name": "JSON API content type",
+          "passed": true
+        },
+        {
+          "name": "Responses are not cacheable",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "name": "Student reads correction feedback",
+      "status": 200,
+      "assertions": [
+        {
+          "name": "Student reads correction feedback",
+          "passed": true
+        },
+        {
+          "name": "JSON API content type",
+          "passed": true
+        },
+        {
+          "name": "Responses are not cacheable",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "name": "Student resubmits returned requirement",
+      "status": 200,
+      "assertions": [
+        {
+          "name": "Student resubmits returned requirement",
+          "passed": true
+        },
+        {
+          "name": "JSON API content type",
+          "passed": true
+        },
+        {
+          "name": "Responses are not cacheable",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "name": "Staff approves resubmission",
+      "status": 200,
+      "assertions": [
+        {
+          "name": "Staff approves resubmission",
+          "passed": true
+        },
+        {
+          "name": "JSON API content type",
+          "passed": true
+        },
+        {
+          "name": "Responses are not cacheable",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "name": "W15 repeated staff decision rejected",
+      "status": 409,
+      "assertions": [
+        {
+          "name": "W15 repeated staff decision rejected",
+          "passed": true
+        },
+        {
+          "name": "JSON API content type",
+          "passed": true
+        },
+        {
+          "name": "Responses are not cacheable",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "name": "W15 approved item cannot be submitted",
+      "status": 409,
+      "assertions": [
+        {
+          "name": "W15 approved item cannot be submitted",
+          "passed": true
+        },
+        {
+          "name": "JSON API content type",
+          "passed": true
+        },
+        {
+          "name": "Responses are not cacheable",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "name": "Student sees approved result",
+      "status": 200,
+      "assertions": [
+        {
+          "name": "Student sees approved result",
+          "passed": true
+        },
+        {
+          "name": "JSON API content type",
+          "passed": true
+        },
+        {
+          "name": "Responses are not cacheable",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "name": "Invalid requirement creation rejected",
+      "status": 422,
+      "assertions": [
+        {
+          "name": "Invalid requirement creation rejected",
+          "passed": true
+        },
+        {
+          "name": "JSON API content type",
+          "passed": true
+        },
+        {
+          "name": "Responses are not cacheable",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "name": "Delete ownership test requirement",
+      "status": 200,
+      "assertions": [
+        {
+          "name": "Delete ownership test requirement",
+          "passed": true
+        },
+        {
+          "name": "JSON API content type",
+          "passed": true
+        },
+        {
+          "name": "Responses are not cacheable",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "name": "W15 deleted requirement returns 404",
+      "status": 404,
+      "assertions": [
+        {
+          "name": "W15 deleted requirement returns 404",
+          "passed": true
+        },
+        {
+          "name": "JSON API content type",
+          "passed": true
+        },
+        {
+          "name": "Responses are not cacheable",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "name": "W15 delete boundary test record",
+      "status": 200,
+      "assertions": [
+        {
+          "name": "W15 delete boundary test record",
+          "passed": true
+        },
+        {
+          "name": "JSON API content type",
+          "passed": true
+        },
+        {
+          "name": "Responses are not cacheable",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "name": "Delete ownership test student",
+      "status": 200,
+      "assertions": [
+        {
+          "name": "Delete ownership test student",
+          "passed": true
+        },
+        {
+          "name": "JSON API content type",
+          "passed": true
+        },
+        {
+          "name": "Responses are not cacheable",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "name": "Student logout revokes token",
+      "status": 200,
+      "assertions": [
+        {
+          "name": "Student logout revokes token",
+          "passed": true
+        },
+        {
+          "name": "JSON API content type",
+          "passed": true
+        },
+        {
+          "name": "Responses are not cacheable",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "name": "Revoked token denied",
+      "status": 401,
+      "assertions": [
+        {
+          "name": "Revoked token denied",
+          "passed": true
+        },
+        {
+          "name": "JSON API content type",
+          "passed": true
+        },
+        {
+          "name": "Responses are not cacheable",
+          "passed": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+00:00 +0: loading C:/Users/jonga/Documents/Codex/2026-11-17/can-x20/outputs/EnrollmentRequirementValidator_Week15/04_Source_Code/test/week15_api_test.dart
+00:00 +0: D01 malformed 401 still clears token and expires session
+00:00 +0 -1: D01 malformed 401 still clears token and expires session [E]
+  Expected: <1>
+    Actual: <0>
+  
+  package:matcher                                     expect
+  package:flutter_test/src/widget_tester.dart 473:18  expect
+  test\week15_api_test.dart 19:5                      main.<fn>
+  
+00:00 +0 -1: D02 server failures do not expose internal diagnostics
+00:00 +0 -2: D02 server failures do not expose internal diagnostics [E]
+  Expected: throws <Instance of 'ApiException'> with `safe message`: not contains 'private-database-value'
+    Actual: <Instance of 'Future<Map<String, dynamic>>'>
+     Which: threw ApiException:<SQL password=private-database-value>
+            stack package:enrollment_requirement_validator/api_client.dart 110:9  ApiClient._send
+                  ===== asynchronous gap ===========================
+                  package:matcher                                                 expectLater
+                  package:flutter_test/src/widget_tester.dart 507:8               expectLater
+                  test\week15_api_test.dart 25:11                                 main.<fn>
+                  
+            which has `safe message` with value 'SQL password=private-database-value'
+  
+  package:matcher                                    expectLater
+  package:flutter_test/src/widget_tester.dart 507:8  expectLater
+  test\week15_api_test.dart 25:11                    main.<fn>
+  
+00:00 +0 -2: D03 successful non-object JSON is rejected
+00:00 +0 -3: D03 successful non-object JSON is rejected [E]
+  Expected: throws <Instance of 'ApiException'>
+    Actual: <Instance of 'Future<Map<String, dynamic>>'>
+     Which: emitted {}
+  
+  package:matcher                                    expectLater
+  package:flutter_test/src/widget_tester.dart 507:8  expectLater
+  test\week15_api_test.dart 30:11                    main.<fn>
+  
+00:00 +0 -3: D04 staff queue follows all result pages
+00:00 +0 -4: D04 staff queue follows all result pages [E]
+  Expected: <2>
+    Actual: <1>
+  
+  package:matcher                                     expect
+  package:flutter_test/src/widget_tester.dart 473:18  expect
+  test\week15_api_test.dart 39:5                      main.<fn>
+  
+00:00 +0 -4: D05 malformed JSON response yields safe failure
+00:00 +1 -4: D06 manually retrying after service failure can recover
+00:00 +2 -4: D07 failed logout still removes bearer token
+00:00 +3 -4: D08 field validation message is preserved
+00:00 +4 -4: D09 login trims email and sends JSON without a token
+00:00 +5 -4: D10 transport error does not echo credentials
+00:00 +6 -4: Some tests failed.
+
+Failing tests:
+  C:/Users/jonga/Documents/Codex/2026-11-17/can-x20/outputs/EnrollmentRequirementValidator_Week15/04_Source_Code/test/week15_api_test.dart: D01 malformed 401 still clears token and expires session
+  C:/Users/jonga/Documents/Codex/2026-11-17/can-x20/outputs/EnrollmentRequirementValidator_Week15/04_Source_Code/test/week15_api_test.dart: D02 server failures do not expose internal diagnostics
+  C:/Users/jonga/Documents/Codex/2026-11-17/can-x20/outputs/EnrollmentRequirementValidator_Week15/04_Source_Code/test/week15_api_test.dart: D03 successful non-object JSON is rejected
+  C:/Users/jonga/Documents/Codex/2026-11-17/can-x20/outputs/EnrollmentRequirementValidator_Week15/04_Source_Code/test/week15_api_test.dart: D04 staff queue follows all result pages

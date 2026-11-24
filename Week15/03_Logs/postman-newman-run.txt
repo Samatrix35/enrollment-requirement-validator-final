@@ -1,0 +1,284 @@
+(node:24844) [DEP0176] DeprecationWarning: fs.F_OK is deprecated, use fs.constants.F_OK instead
+(Use `node --trace-deprecation ...` to show where the warning was created)
+newman
+
+Project 23 Week 15 Testing and Hardening IA6
+
+→ Unauthenticated access denied
+  GET https://localhost:8445/api/students [401 Unauthorized, 402B, 637ms]
+  √  Unauthenticated access denied
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ Invalid token denied
+  GET https://localhost:8445/api/me [401 Unauthorized, 402B, 721ms]
+  √  Invalid token denied
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ Invalid login input rejected
+  POST https://localhost:8445/api/auth/login [422 Unprocessable Entity, 624B, 965ms]
+  √  Invalid login input rejected
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ Student sign in
+  POST https://localhost:8445/api/auth/login [200 OK, 599B, 1747ms]
+  √  Student sign in
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ Staff sign in
+  POST https://localhost:8445/api/auth/login [200 OK, 615B, 1303ms]
+  √  Staff sign in
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ Student role cannot list students
+  GET https://localhost:8445/api/students [403 Forbidden, 429B, 723ms]
+  √  Student role cannot list students
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ Student sees own checklist
+  GET https://localhost:8445/api/my/enrollment [200 OK, 750B, 627ms]
+  √  Student sees own checklist
+  √  JSON API content type
+  √  Responses are not cacheable
+  √  Student email minimized
+
+→ Staff creates second fictional student
+  POST https://localhost:8445/api/students [201 Created, 511B, 694ms]
+  √  Staff creates second fictional student
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ Staff assigns requirement
+  POST https://localhost:8445/api/requirements [201 Created, 610B, 928ms]
+  √  Staff assigns requirement
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ W15 duplicate assignment rejected
+  POST https://localhost:8445/api/requirements [422 Unprocessable Entity, 517B, 901ms]
+  √  W15 duplicate assignment rejected
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ W15 name boundary 120 accepted
+  POST https://localhost:8445/api/requirements [201 Created, 706B, 952ms]
+  √  W15 name boundary 120 accepted
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ W15 name boundary 121 rejected
+  POST https://localhost:8445/api/requirements [422 Unprocessable Entity, 563B, 846ms]
+  √  W15 name boundary 121 rejected
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ W15 empty requirement rejected
+  POST https://localhost:8445/api/requirements [422 Unprocessable Entity, 507B, 892ms]
+  √  W15 empty requirement rejected
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ W15 nonexistent student rejected
+  POST https://localhost:8445/api/requirements [422 Unprocessable Entity, 493B, 1355ms]
+  √  W15 nonexistent student rejected
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ W15 owner field cannot be reassigned
+  PATCH https://localhost:8445/api/requirements/4 [422 Unprocessable Entity, 493B, 1645ms]
+  √  W15 owner field cannot be reassigned
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ W15 unknown status filter rejected
+  GET https://localhost:8445/api/requirements?status=Invalid [422 Unprocessable Entity, 481B, 1670ms]
+  √  W15 unknown status filter rejected
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ W15 staff cannot use student-only endpoint
+  GET https://localhost:8445/api/my/enrollment [403 Forbidden, 429B, 736ms]
+  √  W15 staff cannot use student-only endpoint
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ W15 student name boundary 81 rejected
+  PATCH https://localhost:8445/api/students/2 [422 Unprocessable Entity, 543B, 775ms]
+  √  W15 student name boundary 81 rejected
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ W15 student name boundary 80 accepted
+  PATCH https://localhost:8445/api/students/2 [200 OK, 580B, 923ms]
+  √  W15 student name boundary 80 accepted
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ Cross-student submission denied
+  PATCH https://localhost:8445/api/my/requirements/4/submit [404 Not Found, 405B, 768ms]
+  √  Cross-student submission denied
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ Student cannot approve own requirement
+  PATCH https://localhost:8445/api/requirements/1 [403 Forbidden, 429B, 862ms]
+  √  Student cannot approve own requirement
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ Premature approval denied
+  PATCH https://localhost:8445/api/requirements/1 [409 Conflict, 439B, 794ms]
+  √  Premature approval denied
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ Student submits requirement
+  PATCH https://localhost:8445/api/my/requirements/1/submit [200 OK, 491B, 811ms]
+  √  Student submits requirement
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ Duplicate submission denied
+  PATCH https://localhost:8445/api/my/requirements/1/submit [409 Conflict, 439B, 704ms]
+  √  Duplicate submission denied
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ Staff queue shows submission
+  GET https://localhost:8445/api/requirements?status=Submitted [200 OK, 1.12kB, 771ms]
+  √  Staff queue shows submission
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ W15 correction boundary 501 rejected
+  PATCH https://localhost:8445/api/requirements/1 [422 Unprocessable Entity, 536B, 792ms]
+  √  W15 correction boundary 501 rejected
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ W15 correction boundary 500 accepted
+  PATCH https://localhost:8445/api/requirements/1 [200 OK, 1.61kB, 787ms]
+  √  W15 correction boundary 500 accepted
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ W15 resubmit after boundary correction
+  PATCH https://localhost:8445/api/my/requirements/1/submit [200 OK, 491B, 797ms]
+  √  W15 resubmit after boundary correction
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ Return without correction note rejected
+  PATCH https://localhost:8445/api/requirements/1 [422 Unprocessable Entity, 507B, 724ms]
+  √  Return without correction note rejected
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ Staff requests correction
+  PATCH https://localhost:8445/api/requirements/1 [200 OK, 716B, 774ms]
+  √  Staff requests correction
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ Student reads correction feedback
+  GET https://localhost:8445/api/my/enrollment [200 OK, 819B, 723ms]
+  √  Student reads correction feedback
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ Student resubmits returned requirement
+  PATCH https://localhost:8445/api/my/requirements/1/submit [200 OK, 491B, 715ms]
+  √  Student resubmits returned requirement
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ Staff approves resubmission
+  PATCH https://localhost:8445/api/requirements/1 [200 OK, 596B, 781ms]
+  √  Staff approves resubmission
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ W15 repeated staff decision rejected
+  PATCH https://localhost:8445/api/requirements/1 [409 Conflict, 439B, 637ms]
+  √  W15 repeated staff decision rejected
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ W15 approved item cannot be submitted
+  PATCH https://localhost:8445/api/my/requirements/1/submit [409 Conflict, 439B, 596ms]
+  √  W15 approved item cannot be submitted
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ Student sees approved result
+  GET https://localhost:8445/api/my/enrollment [200 OK, 751B, 733ms]
+  √  Student sees approved result
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ Invalid requirement creation rejected
+  POST https://localhost:8445/api/requirements [422 Unprocessable Entity, 571B, 807ms]
+  √  Invalid requirement creation rejected
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ Delete ownership test requirement
+  DELETE https://localhost:8445/api/requirements/4 [200 OK, 403B, 656ms]
+  √  Delete ownership test requirement
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ W15 deleted requirement returns 404
+  GET https://localhost:8445/api/requirements/4 [404 Not Found, 445B, 654ms]
+  √  W15 deleted requirement returns 404
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ W15 delete boundary test record
+  DELETE https://localhost:8445/api/requirements/5 [200 OK, 403B, 719ms]
+  √  W15 delete boundary test record
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ Delete ownership test student
+  DELETE https://localhost:8445/api/students/2 [200 OK, 399B, 628ms]
+  √  Delete ownership test student
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ Student logout revokes token
+  POST https://localhost:8445/api/auth/logout [200 OK, 387B, 662ms]
+  √  Student logout revokes token
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ Revoked token denied
+  GET https://localhost:8445/api/me [401 Unauthorized, 402B, 514ms]
+  √  Revoked token denied
+  √  JSON API content type
+  √  Responses are not cacheable
+
+┌─────────────────────────┬─────────────────────┬─────────────────────┐
+│                         │            executed │              failed │
+├─────────────────────────┼─────────────────────┼─────────────────────┤
+│              iterations │                   1 │                   0 │
+├─────────────────────────┼─────────────────────┼─────────────────────┤
+│                requests │                  43 │                   0 │
+├─────────────────────────┼─────────────────────┼─────────────────────┤
+│            test-scripts │                  43 │                   0 │
+├─────────────────────────┼─────────────────────┼─────────────────────┤
+│      prerequest-scripts │                   0 │                   0 │
+├─────────────────────────┼─────────────────────┼─────────────────────┤
+│              assertions │                 130 │                   0 │
+├─────────────────────────┴─────────────────────┴─────────────────────┤
+│ total run duration: 37.8s                                           │
+├─────────────────────────────────────────────────────────────────────┤
+│ total data received: 7.97kB (approx)                                │
+├─────────────────────────────────────────────────────────────────────┤
+│ average response time: 847ms [min: 514ms, max: 1747ms, s.d.: 277ms] │
+└─────────────────────────────────────────────────────────────────────┘

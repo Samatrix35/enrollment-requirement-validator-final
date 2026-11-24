@@ -46,3 +46,20 @@ app.*.map.json
 
 # Widget Preview related
 .widget_preview/
+
+
+# Runtime files for all weekly Laravel/Flutter snapshots
+**/vendor/
+**/node_modules/
+**/.dart_tool/
+**/build/
+**/.env
+**/.env.*
+!**/.env.example
+**/database/*.sqlite*
+**/tools/certs/
+**/tools/runtime*/
+**/.phpunit.result.cache
+**/local.properties
+**/Generated.xcconfig
+**/flutter_export_environment.sh

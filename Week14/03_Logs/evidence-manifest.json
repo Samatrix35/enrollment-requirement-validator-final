@@ -1,0 +1,1240 @@
+{
+  "project": "Enrollment Requirement Validator",
+  "files": [
+    {
+      "path": "01_Report/PROJECT_SPECIFICATION.md",
+      "bytes": 8062,
+      "sha256": "e4e17f7e86e265a82a86d7c7f66ee61219186962672ab4a095f4080fe9e07c98"
+    },
+    {
+      "path": "01_Report/Week14_Evidence_Index.csv",
+      "bytes": 2057,
+      "sha256": "360b72dc369a9d7fbc873d71f46da93addf69b88ef5df27d8fdef7e210496ab4"
+    },
+    {
+      "path": "01_Report/Week14_Report.pdf",
+      "bytes": 342610,
+      "sha256": "cbabd2d91d7f56a353f4784e660be0fa7bb56d8813bf93a5ab93f5183f16d0d3"
+    },
+    {
+      "path": "01_Report/WEEK14_SECURITY.md",
+      "bytes": 2555,
+      "sha256": "cdf9ee014a22db59672de8be07f2d4f04add590eba4c998aaa370e6b60b3f6ed"
+    },
+    {
+      "path": "01_Report/WEEK14_SETUP.md",
+      "bytes": 2848,
+      "sha256": "30cc7f31580749c33d4f885d03da631b15b0cf81fc47f280e4de78ac3dc75467"
+    },
+    {
+      "path": "02_Evidence/01_sign_in.png",
+      "bytes": 28054,
+      "sha256": "92e479da4a8ef3c11b13f6c6f237fa06fce12095cbbbd870bd25c662a0fdd70b"
+    },
+    {
+      "path": "02_Evidence/02_student_checklist.png",
+      "bytes": 53450,
+      "sha256": "2cf6129ab0bd3dbecfd760b71f25d7daf94d1b7e3cbba7c2bff41ec92af022f9"
+    },
+    {
+      "path": "02_Evidence/03_student_submitted.png",
+      "bytes": 53926,
+      "sha256": "b20d958cac85aa661fd35062a743623e674cc8aa6aafcc5e4e2620f73407052d"
+    },
+    {
+      "path": "02_Evidence/04_staff_review_queue.png",
+      "bytes": 39186,
+      "sha256": "4c7e62947962afeecf0b0312a5e1769d9e14827f7cce634b8e3a7cf8ff9ca899"
+    },
+    {
+      "path": "02_Evidence/05_staff_correction_note.png",
+      "bytes": 56719,
+      "sha256": "36c0605116a23e0917d4286454e1d7db9d24297d318d48f1489a7ac86efbd2a8"
+    },
+    {
+      "path": "02_Evidence/06_student_correction_feedback.png",
+      "bytes": 58221,
+      "sha256": "450d6cfd188f10ced640d8c3cd87b470237ce87fb4da53496f19c7881fd861ab"
+    },
+    {
+      "path": "02_Evidence/07_mobile_checklist.png",
+      "bytes": 50363,
+      "sha256": "03eefb4f82f41fb01412d27a2160b072bac96320a917d0b11b9c73d678fd1745"
+    },
+    {
+      "path": "02_Evidence/index.html",
+      "bytes": 4049,
+      "sha256": "1c9e106f549dc2e64866b603069e1477892e24f47125b09ee8710796a40cdd0d"
+    },
+    {
+      "path": "03_Logs/api-security-results.json",
+      "bytes": 18142,
+      "sha256": "f7c37207d02b62de57ce6ea5a16c3c21c553d5b3c234a0201c73d21bb4da79a4"
+    },
+    {
+      "path": "03_Logs/api-security-summary.txt",
+      "bytes": 1694,
+      "sha256": "b16fbfffbfaf9d6ecd07996c18e20f066c7738389ff62ff8663e6de2fb75b0fd"
+    },
+    {
+      "path": "03_Logs/backend-junit.xml",
+      "bytes": 4335,
+      "sha256": "2d3f870fb966bd08f70ed0cd40452109cb2de83aeeb734e67b584e976713a98a"
+    },
+    {
+      "path": "03_Logs/backend-test-run.txt",
+      "bytes": 402,
+      "sha256": "011260f1cef225957f63f8119f63572faca2bd2f8768725ad323ac4d7cd48959"
+    },
+    {
+      "path": "03_Logs/browser-check.json",
+      "bytes": 222,
+      "sha256": "5c2d5f8b3a70566e38a84911bd07b731cef8b2093ac8a06223b02ca62a1cd99c"
+    },
+    {
+      "path": "03_Logs/browser-workflow-run.txt",
+      "bytes": 815,
+      "sha256": "d1efd605db0530612ba7210f83c33659346b138689755901bd322038da8add79"
+    },
+    {
+      "path": "03_Logs/demo-reset.txt",
+      "bytes": 1186,
+      "sha256": "6ce33bdb5b9825d9377c2a408a4fe336d16e0b89042cb37da6b4d930eeb0e9b2"
+    },
+    {
+      "path": "03_Logs/environment-versions.txt",
+      "bytes": 249,
+      "sha256": "da48fdb70108f552fd5777d46e32edf5b94e045fa876cafb76dc72f14805cb11"
+    },
+    {
+      "path": "03_Logs/flutter-analyze.txt",
+      "bytes": 99,
+      "sha256": "bf70d4efc5a9fa5a7b026a9b7a849a432b8481517d81efbb7b71d8d8f1005f95"
+    },
+    {
+      "path": "03_Logs/flutter-build.txt",
+      "bytes": 95,
+      "sha256": "ffa938395560d2a6bae71054d2c89d399724b896e23c14799fe185184d253967"
+    },
+    {
+      "path": "03_Logs/flutter-pub-get.txt",
+      "bytes": 403,
+      "sha256": "8af0d2f8d45d64ffab6c7e16042cf4c08fe6b526d7a8864331d5feca1239ef4a"
+    },
+    {
+      "path": "03_Logs/flutter-tests.txt",
+      "bytes": 240,
+      "sha256": "ddaab0482c95793cd9da918d182687f9bfacea84de4f522dd29aa4d87448d11f"
+    },
+    {
+      "path": "03_Logs/postman-newman-junit.xml",
+      "bytes": 7823,
+      "sha256": "379452451cf9c3c64e2a0bb0e01811255872e5391f6346d4b38dbec09283957d"
+    },
+    {
+      "path": "03_Logs/postman-newman-results.json",
+      "bytes": 6865,
+      "sha256": "e07b6d86e9b0549cad9d66f9ea78d47c55d946e66677b0ad124b84b566d61efe"
+    },
+    {
+      "path": "03_Logs/postman-newman-run.txt",
+      "bytes": 6987,
+      "sha256": "6ec555c0a0dc10104d81454048ebe3a2d9d492e7dcdf8d58cfeae194e51217c7"
+    },
+    {
+      "path": "03_Logs/VERIFICATION_NOTES.md",
+      "bytes": 1959,
+      "sha256": "9074e8d143e5377644fe3483f714e3f0481ccdabb87514843997dcb2e8bf69ea"
+    },
+    {
+      "path": "03_Logs/week14_security_log_excerpt.txt",
+      "bytes": 3198,
+      "sha256": "d9eb364cd8be8cf00ac0aad1ae71265a33ffb36667211bf91a77d9f64ecbbdbf"
+    },
+    {
+      "path": "03_Logs/windows-sandbox-test-harness.php",
+      "bytes": 414,
+      "sha256": "6fb60ef218487ad06a5cafc9d2f11fb0bfda575b59ca0efa2e449bc7b5dadbb6"
+    },
+    {
+      "path": "04_Source_Code/.gitignore",
+      "bytes": 746,
+      "sha256": "441eaa1de5b3db9fae056e7503567e9f8dd94173e1389c60f76956abf729015a"
+    },
+    {
+      "path": "04_Source_Code/.metadata",
+      "bytes": 1706,
+      "sha256": "1e6f619f44431123a19db1f9d998f479f190c702b606665dfcef83fc14a1c9bb"
+    },
+    {
+      "path": "04_Source_Code/.vscode/tasks.json",
+      "bytes": 653,
+      "sha256": "3211777d977f539a87daeb71725cdbcd6ecf8ad2c523f45a0a28d0710d156149"
+    },
+    {
+      "path": "04_Source_Code/analysis_options.yaml",
+      "bytes": 1547,
+      "sha256": "d6702eea40def1dc7143adfcf5a3fdf59b8f83ac2ca298857c502775830813a7"
+    },
+    {
+      "path": "04_Source_Code/android/.gitignore",
+      "bytes": 253,
+      "sha256": "b027c9de1011765c015e5819bf857c0d75bfcd0886fb01721c091159012e50f1"
+    },
+    {
+      "path": "04_Source_Code/android/app/build.gradle.kts",
+      "bytes": 1814,
+      "sha256": "766d39cf0a04c513151ebce1fb6d089d30352774680d79d9ea3dfd5c92ea86d0"
+    },
+    {
+      "path": "04_Source_Code/android/app/src/debug/AndroidManifest.xml",
+      "bytes": 378,
+      "sha256": "30b0832ed8b92dfbd6ae2abfa939ccf26333d37600056b1572bd4a397a18a74b"
+    },
+    {
+      "path": "04_Source_Code/android/app/src/main/AndroidManifest.xml",
+      "bytes": 2220,
+      "sha256": "4dbd44b32b28b79580804d340bbd4a94d599d9cf6db8d440eafa7f813eb55d9e"
+    },
+    {
+      "path": "04_Source_Code/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java",
+      "bytes": 516,
+      "sha256": "462f4a19778f3fe486674c6ab64b62f555095bddb6dfb6690a1d63ad92ef0f54"
+    },
+    {
+      "path": "04_Source_Code/android/app/src/main/kotlin/com/example/enrollment_requirement_validator/MainActivity.kt",
+      "bytes": 146,
+      "sha256": "9c54b089eda1b9aceac8e7fad8d555324bbbf8897582ca154469606ffeb12592"
+    },
+    {
+      "path": "04_Source_Code/android/app/src/main/res/drawable/launch_background.xml",
+      "bytes": 434,
+      "sha256": "94433756fe10005ddd6fc55cc5c0b1e9f3c10b66a08ceac795ece6713d34e28a"
+    },
+    {
+      "path": "04_Source_Code/android/app/src/main/res/drawable-v21/launch_background.xml",
+      "bytes": 438,
+      "sha256": "7ca6d5cec2169c5a98661a119db23a6f3399c8fef2256ff04f3a642831282478"
+    },
+    {
+      "path": "04_Source_Code/android/app/src/main/res/mipmap-hdpi/ic_launcher.png",
+      "bytes": 544,
+      "sha256": "6a7c8f0d703e3682108f9662f813302236240d3f8f638bb391e32bfb96055fef"
+    },
+    {
+      "path": "04_Source_Code/android/app/src/main/res/mipmap-mdpi/ic_launcher.png",
+      "bytes": 442,
+      "sha256": "c7c0c0189145e4e32a401c61c9bdc615754b0264e7afae24e834bb81049eaf81"
+    },
+    {
+      "path": "04_Source_Code/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png",
+      "bytes": 721,
+      "sha256": "e14aa40904929bf313fded22cf7e7ffcbf1d1aac4263b5ef1be8bfce650397aa"
+    },
+    {
+      "path": "04_Source_Code/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png",
+      "bytes": 1031,
+      "sha256": "4d470bf22d5c17d84edc5f82516d1ba8a1c09559cd761cefb792f86d9f52b540"
+    },
+    {
+      "path": "04_Source_Code/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+      "bytes": 1443,
+      "sha256": "3c34e1f298d0c9ea3455d46db6b7759c8211a49e9ec6e44b635fc5c87dfb4180"
+    },
+    {
+      "path": "04_Source_Code/android/app/src/main/res/values/styles.xml",
+      "bytes": 996,
+      "sha256": "937d7c82f539c72eb94fd3a3773f29b3d3fef1997213c92cb632298cedf4bda9"
+    },
+    {
+      "path": "04_Source_Code/android/app/src/main/res/values-night/styles.xml",
+      "bytes": 995,
+      "sha256": "8c5bad5152f217e837519f9c15211d19f39bd45f5f67faf6dd81cb4b299e518f"
+    },
+    {
+      "path": "04_Source_Code/android/app/src/profile/AndroidManifest.xml",
+      "bytes": 378,
+      "sha256": "30b0832ed8b92dfbd6ae2abfa939ccf26333d37600056b1572bd4a397a18a74b"
+    },
+    {
+      "path": "04_Source_Code/android/build.gradle.kts",
+      "bytes": 537,
+      "sha256": "6a26dba2cb8dfba1e74f540b0d17a89d96c1301d3c3bfda14348bed257fddcba"
+    },
+    {
+      "path": "04_Source_Code/android/gradle/wrapper/gradle-wrapper.properties",
+      "bytes": 202,
+      "sha256": "b690d26223576fe4e63889fad9a00df81945cb870b9476cc5a563152a1a88a74"
+    },
+    {
+      "path": "04_Source_Code/android/gradle.properties",
+      "bytes": 300,
+      "sha256": "0f82b18017fba6bb5ce3aa4b2d1a00c9382fc8aae7b1d9326e44b18abd66d80b"
+    },
+    {
+      "path": "04_Source_Code/android/settings.gradle.kts",
+      "bytes": 770,
+      "sha256": "016759283e88ade6eba92910583feeef88b962839b957aa414296afd2952d122"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/.editorconfig",
+      "bytes": 258,
+      "sha256": "d9a5756ca5adea55000be0ee4f5af68946e3554c986981b7f8e35e7acaad28fa"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/.env.example",
+      "bytes": 1404,
+      "sha256": "189a26294a5272c76a3ff180c7ed2160d827a823a06c238c22775ea1eab567d9"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/.gitattributes",
+      "bytes": 186,
+      "sha256": "a40eb27ee0b545ca5b5542daaf99fec51f84f23b3766a6353864ef2a115bc51c"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/.gitignore",
+      "bytes": 286,
+      "sha256": "2049db033d4f531564a125d6bb85fef678d924f998b75c895e9d3e5bb2e68cca"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/app/Http/Controllers/Api/AuthController.php",
+      "bytes": 2743,
+      "sha256": "21ca492a44e3b8eef3d3e463a331e145534ecf0a819ddcb11b3ad4910a7458c6"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/app/Http/Controllers/Api/MyEnrollmentController.php",
+      "bytes": 1895,
+      "sha256": "b723ba765df2f99e49268e2c459fe34668e9441cc9f76aa474d025f436dbacc5"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/app/Http/Controllers/Api/RequirementController.php",
+      "bytes": 3790,
+      "sha256": "8ab5279559d04c6c5c1bb8081d80b1c62ec2835bec61a91bbddb7c7a7f1b473a"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/app/Http/Controllers/Api/StudentController.php",
+      "bytes": 2863,
+      "sha256": "f413fb7d3b72f67bfaac2dc46961933933208944a49a60f8fbcfc383e55239d6"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/app/Http/Controllers/Controller.php",
+      "bytes": 77,
+      "sha256": "25d1c1ef8e6cc8a376553faacfba2b07d9dfaee9bdbb84f14f77517580e9deb1"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/app/Http/Middleware/ApplySecurityHeaders.php",
+      "bytes": 796,
+      "sha256": "5332b21e832ccaa543df47b20a2b3d523ea0eef9b83ba33a8fbc80b896b39a5f"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/app/Http/Middleware/EnsureRole.php",
+      "bytes": 499,
+      "sha256": "072ae10b84a267af42238d2a28af0eacfa7d077a0cab801e6e708b254c9b3ca8"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/app/Http/Middleware/RequireHttpsInProduction.php",
+      "bytes": 442,
+      "sha256": "3ab58ec1b460da2348a2ea9a0cfe7297c5a05ccc6c5290e685a54b6bb827ebca"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/app/Http/Resources/RequirementResource.php",
+      "bytes": 1138,
+      "sha256": "8cac561cb828ff21296bb8f66b734b02be8a1a44ce834a0840c6168803707d39"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/app/Http/Resources/StudentResource.php",
+      "bytes": 691,
+      "sha256": "ce97b9de30c17a7d54f705008c12c42758784ca90ed8005343bd8ec036628a42"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/app/Models/Requirement.php",
+      "bytes": 385,
+      "sha256": "a43e6a84c972bfc6ecfc3d95192c4c249a764c6d6d45ef5da613076855cdc767"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/app/Models/Student.php",
+      "bytes": 584,
+      "sha256": "644d08aabcf042366966648217e3b1102c351f1245ccf5a2ad586c7e96396712"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/app/Models/User.php",
+      "bytes": 1252,
+      "sha256": "7638ab4fc65ab3525a118074e53ce957d08518061fe0c6633d3ca3316a7d6be5"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/app/Providers/AppServiceProvider.php",
+      "bytes": 361,
+      "sha256": "caf306ef6a25a547bbb7edd5508a39b51c365083eb6dd58378cf2242018e94c7"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/artisan",
+      "bytes": 425,
+      "sha256": "f91a517c0c5d3a904c3f390933964a5e08ec1fc68146882730daac4aca4ffcec"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/bootstrap/app.php",
+      "bytes": 1132,
+      "sha256": "f2f23029a8274b2761e57519d357a60d82b8a105a00a4ad528e742b9bcc91b96"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/bootstrap/cache/.gitignore",
+      "bytes": 14,
+      "sha256": "240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/bootstrap/providers.php",
+      "bytes": 64,
+      "sha256": "2ef405f988a6ef3f5222bfbdd89352a6ad7b2e9e21aa25e236ac5dff58358953"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/composer.json",
+      "bytes": 2416,
+      "sha256": "99e0f6ce053dd071ddbe32bc5ce3b7ea909149c1dcc77eea6931899354aa2fae"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/composer.lock",
+      "bytes": 315905,
+      "sha256": "21a3759085b17b6c542832a5304dfba3056d02470eb3dba4960472825273a61d"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/config/app.php",
+      "bytes": 4263,
+      "sha256": "c8863128d674a2c067542d6d83b9f0a899a8ad1c5f84a60e5cc9ca5e37654935"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/config/auth.php",
+      "bytes": 4029,
+      "sha256": "d5bd78db15ec31df30248bb56dff53d385d7826d9ab0cfb2846dc6ce06d531c0"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/config/cache.php",
+      "bytes": 3476,
+      "sha256": "dc3a64749bc19946ba6a054be0b67ae8c450c9401799cb176ac0a0b8d4756664"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/config/cors.php",
+      "bytes": 548,
+      "sha256": "20dbb19f16a0d407fa6d6ac090e3bb0a7c8b307e63d1146232fa0d2203bebf73"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/config/database.php",
+      "bytes": 6258,
+      "sha256": "4c831a869f4335805c6ca67c3f583e71329622ee8f70dbdc70c57a523a6b6021"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/config/filesystems.php",
+      "bytes": 2500,
+      "sha256": "46b977d9555ed617aa0d42055a0c76a34c9d16c63ee634ff6683bc95712c9317"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/config/logging.php",
+      "bytes": 4310,
+      "sha256": "6e0885a09b96f9e3e9ccfae9e536da3c33dbd53a7710a518c05ac0f2b6808fb8"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/config/mail.php",
+      "bytes": 3539,
+      "sha256": "433acc0d5342a074b32e44b3d7ffba153c3eaf292a5a2fc94d7cb6ee0addb147"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/config/queue.php",
+      "bytes": 3824,
+      "sha256": "a185a3e86b65db26938204f4f50cf0c0ca99974e9926b9cdcef6b7743feea482"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/config/sanctum.php",
+      "bytes": 3136,
+      "sha256": "c913b58d8efe2220e11fcaf84f009f4e718a141f64a1517b276af261dcf8a889"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/config/services.php",
+      "bytes": 1035,
+      "sha256": "2226be3fa0e560fc8cd628f3e8f50fcd78639a24375f5e931d0c656eaf1d4ce8"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/config/session.php",
+      "bytes": 7858,
+      "sha256": "c7f637c49f3e61d5488a11653b06a6b5a8a73b335d1dadbd84666be5ec4f6de6"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/database/.gitignore",
+      "bytes": 10,
+      "sha256": "e758642d95e83e907e010b6e46b07b3f953c7cef11fe5ebefc2a77b9d7b4d5f7"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/database/factories/UserFactory.php",
+      "bytes": 1075,
+      "sha256": "05c4cfa8e4dc7ebe659c66717b30ea6970f62d732a1bbce32b55650cccc6aa8d"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/database/migrations/0001_01_01_000000_create_users_table.php",
+      "bytes": 1473,
+      "sha256": "10d79883bc08ce46510f9ad8b1830b4d06d586dc56ae2c8bac3b3e491f69a90f"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/database/migrations/0001_01_01_000001_create_cache_table.php",
+      "bytes": 849,
+      "sha256": "20f769d3c11748c1cc42c41cd3789b0b9b2cd0db44ee22d378addac3ff8aed4f"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/database/migrations/0001_01_01_000002_create_jobs_table.php",
+      "bytes": 1812,
+      "sha256": "7c9c712adf4091c87bf2612f4d0dccdfa1df4501553e4ac068b83d7bd5462fa5"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/database/migrations/2026_10_30_084051_create_students_table.php",
+      "bytes": 785,
+      "sha256": "49457b105b9d96f1509de359659ffb35ea05e07593624de938646be21468988b"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/database/migrations/2026_10_30_085407_create_personal_access_tokens_table.php",
+      "bytes": 863,
+      "sha256": "c81ecde85ea5072188c468dcaf79776728b6eb8f684d63fc0d88a4908484ca75"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/database/migrations/2026_10_30_114355_create_requirements_table.php",
+      "bytes": 810,
+      "sha256": "8701c87ca0ccf72215cd612c3a8a5b3230d6cb28168d0fcb8b12e27a8fd0ba17"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/database/migrations/2026_11_17_000001_add_roles_and_student_link_to_users_table.php",
+      "bytes": 845,
+      "sha256": "f452c5198b991a5dcfa384c13ad88ebca30c952fe2ddd6d0bdabafd59cbd87ab"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/database/seeders/DatabaseSeeder.php",
+      "bytes": 2314,
+      "sha256": "5187bf6c19a2e4da9958a182ceea039d97e7daf4f7b8030d47235db16d7ef6b0"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/package.json",
+      "bytes": 355,
+      "sha256": "f468a85e1fc5e344ff9505f0aaa407b3307fdc2af2f4ad9891a31c6c5d0a2845"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/phpunit.xml",
+      "bytes": 1173,
+      "sha256": "bbc808f5e83ec45da2c9e2493b73282149bef023dd3ed91e762a49f18f951e0f"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/public/.htaccess",
+      "bytes": 740,
+      "sha256": "b7e379c77639fd56144947dbae84c84eb466d9c686ea81f2f013ae85421da923"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/public/favicon.ico",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/public/index.php",
+      "bytes": 543,
+      "sha256": "eba77cba39695b6bd091fe5211d481f7ebb2ce2d8d26230b5a609465d0a4aff9"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/public/robots.txt",
+      "bytes": 24,
+      "sha256": "e5c4b84484ee4216e9373be99380320c25dd94805f99f0a805846f087636553f"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/README.md",
+      "bytes": 4109,
+      "sha256": "44b83afe2178ca6fd420f84d447de3b1dab72b996804c3ff719bdf68c265147f"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/resources/css/app.css",
+      "bytes": 413,
+      "sha256": "370514b05335f69079d62747e4a119469213de68dc760ed0566ce0f9e22a56fd"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/resources/js/app.js",
+      "bytes": 22,
+      "sha256": "cf6dab196c721f6911ff99cc4f910897f978599a2d289971a316a5fc33091f94"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/resources/js/bootstrap.js",
+      "bytes": 127,
+      "sha256": "6fd9fc82e68fa915a882f4e227b9faacbe7bfd66cb953c628840e83bda6b72f4"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/resources/views/welcome.blade.php",
+      "bytes": 82540,
+      "sha256": "2712f5909e694cf0676ace8a9b9da3e190293e7a6cb5995fde756491c8385521"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/routes/api.php",
+      "bytes": 1035,
+      "sha256": "7905a352b8f0553b133bfb438aff841fe3e610ab1cab5046906aecfd7ad82d9c"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/routes/console.php",
+      "bytes": 210,
+      "sha256": "9adccc33e7dd400683e434774077c7fdb2f299c5712cedf16a43fdf56f2850fa"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/routes/web.php",
+      "bytes": 108,
+      "sha256": "248c7eeeb43bb61ee4fb6603e52b44843c64f72a841d671bcd41871aab23f970"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/storage/app/.gitignore",
+      "bytes": 33,
+      "sha256": "993b9e3709d7b5189da331725d1169d79e561a509db2490b722b525073d2d976"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/storage/app/private/.gitignore",
+      "bytes": 14,
+      "sha256": "240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/storage/app/public/.gitignore",
+      "bytes": 14,
+      "sha256": "240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/storage/framework/.gitignore",
+      "bytes": 119,
+      "sha256": "2d452d65596636197757afa17df52331c84da7bb74ee0f3462fd5be4eb6afdc6"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/storage/framework/cache/.gitignore",
+      "bytes": 21,
+      "sha256": "32f79194633ddb34f013c6ee8819d112104ff822357adf308ec385b46a7f42f6"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/storage/framework/cache/data/.gitignore",
+      "bytes": 14,
+      "sha256": "240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/storage/framework/sessions/.gitignore",
+      "bytes": 14,
+      "sha256": "240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/storage/framework/testing/.gitignore",
+      "bytes": 14,
+      "sha256": "240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/storage/framework/views/.gitignore",
+      "bytes": 14,
+      "sha256": "240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/storage/logs/.gitignore",
+      "bytes": 14,
+      "sha256": "240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/tests/Feature/ExampleTest.php",
+      "bytes": 359,
+      "sha256": "aaa4a192fb4aa96d4e81eda06a29968da3d9a73b71026b87a67297e66dd985b8"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/tests/Feature/SecureEnrollmentApiTest.php",
+      "bytes": 6204,
+      "sha256": "f60813f2f902cbce6f34049a77e6eb279a64ab3ea25b66121da106269ee1e183"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/tests/TestCase.php",
+      "bytes": 142,
+      "sha256": "c7c209f5579c42647c1f7b2a79ac828e8b54ac62a98442045a6e94fa2c0d0ebc"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/tests/Unit/ExampleTest.php",
+      "bytes": 243,
+      "sha256": "ffacae5c1a2a44c809420af5b3b404910da1b12167d58764dac6d10b8ba8cfaf"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/vite.config.js",
+      "bytes": 331,
+      "sha256": "1bd7f75ae1df969c819e63114e9be5f0e2a69e399d4dcab4373aa680314a93d9"
+    },
+    {
+      "path": "04_Source_Code/EnrollmentValidator.code-workspace",
+      "bytes": 179,
+      "sha256": "52172b2ff710e5693be891265cd62012cc2fd18d5e800f35a8ca3d795980665f"
+    },
+    {
+      "path": "04_Source_Code/ios/.gitignore",
+      "bytes": 569,
+      "sha256": "37380775aeb2499662b7aca80f4ac4c95ae827c3ba2bfa179aa3e9af4812c623"
+    },
+    {
+      "path": "04_Source_Code/ios/Flutter/AppFrameworkInfo.plist",
+      "bytes": 720,
+      "sha256": "da12038f9b2688a8a26160fea2609fa8fcb11421448c109f09c0f573efe7698d"
+    },
+    {
+      "path": "04_Source_Code/ios/Flutter/Debug.xcconfig",
+      "bytes": 30,
+      "sha256": "a82d7765b37116ee4821d2cd1d65942febf8032353757ffb0826eabde785b4a6"
+    },
+    {
+      "path": "04_Source_Code/ios/Flutter/Release.xcconfig",
+      "bytes": 30,
+      "sha256": "a82d7765b37116ee4821d2cd1d65942febf8032353757ffb0826eabde785b4a6"
+    },
+    {
+      "path": "04_Source_Code/ios/Runner/AppDelegate.swift",
+      "bytes": 539,
+      "sha256": "451c6d9ba0a2b3ff43092ea349c60fa79a91f1158b915eb29dbdd357cb95d7b8"
+    },
+    {
+      "path": "04_Source_Code/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json",
+      "bytes": 2519,
+      "sha256": "3b1e214f466ffedff74baa5598ad5c4421130eea6bc8d57b8fe23435e8280ae4"
+    },
+    {
+      "path": "04_Source_Code/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png",
+      "bytes": 10932,
+      "sha256": "7770183009e914112de7d8ef1d235a6a30c5834424858e0d2f8253f6b8d31926"
+    },
+    {
+      "path": "04_Source_Code/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png",
+      "bytes": 295,
+      "sha256": "cab10a0d391ec5bc09ef50ce49e8ad401cee7ef03707ec0923a222c5c2b3d212"
+    },
+    {
+      "path": "04_Source_Code/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png",
+      "bytes": 406,
+      "sha256": "b9ad02cf6576a04d1b6806ac02a2431481b448dd0c2e505ce25842d1f7c4730b"
+    },
+    {
+      "path": "04_Source_Code/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png",
+      "bytes": 450,
+      "sha256": "c6e6d3b215ae744a9c391f4c4d44157eff5e739d6ad6c39f9bfa5df66dddd267"
+    },
+    {
+      "path": "04_Source_Code/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png",
+      "bytes": 282,
+      "sha256": "5dee24dc104ac76dc162e42ae0beb163d426bf365562ee28ba7b3ad368559a60"
+    },
+    {
+      "path": "04_Source_Code/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png",
+      "bytes": 462,
+      "sha256": "a9b21eb6f4271385655a8771f76e29eef8c1107d7879cbcfc567e6619d1f716a"
+    },
+    {
+      "path": "04_Source_Code/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png",
+      "bytes": 704,
+      "sha256": "e677d701ffe4af7bc2935098d6b3984cc9ab7ace573e6900955a5535b12410cf"
+    },
+    {
+      "path": "04_Source_Code/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png",
+      "bytes": 406,
+      "sha256": "b9ad02cf6576a04d1b6806ac02a2431481b448dd0c2e505ce25842d1f7c4730b"
+    },
+    {
+      "path": "04_Source_Code/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png",
+      "bytes": 586,
+      "sha256": "7c61c42fc7b657d9cf314d32a4ec458f0647c3aaf360be1b9377857266ec2499"
+    },
+    {
+      "path": "04_Source_Code/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png",
+      "bytes": 862,
+      "sha256": "19be171481dc71a0b2803ebcd01dd8b0c5fd5778dee34c0a3cabc948c225f24e"
+    },
+    {
+      "path": "04_Source_Code/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png",
+      "bytes": 862,
+      "sha256": "19be171481dc71a0b2803ebcd01dd8b0c5fd5778dee34c0a3cabc948c225f24e"
+    },
+    {
+      "path": "04_Source_Code/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png",
+      "bytes": 1674,
+      "sha256": "4209a49e44a92ec40a327d3455eb1b1c153ee83d75de1c2be0a12ab18b2ff9de"
+    },
+    {
+      "path": "04_Source_Code/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png",
+      "bytes": 762,
+      "sha256": "836c918cb613249eba0483a6b02fa3df3c1c0a89a315ee4d3b88509b83c7ab73"
+    },
+    {
+      "path": "04_Source_Code/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png",
+      "bytes": 1226,
+      "sha256": "41c7d42f6e61f8fe7f30b1ffa2256aecbc9682be06d18c4a3062043e1a2e547c"
+    },
+    {
+      "path": "04_Source_Code/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png",
+      "bytes": 1418,
+      "sha256": "5d7e5bdf01b93802bc973345b3a78c038907147625035952a08a115a563b7f81"
+    },
+    {
+      "path": "04_Source_Code/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json",
+      "bytes": 391,
+      "sha256": "ccc7950fd5f5b82067c85f667940a9d59189151460761ece8098ca78daa19469"
+    },
+    {
+      "path": "04_Source_Code/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png",
+      "bytes": 68,
+      "sha256": "93ae7d494fad0fb30cbf3ae746a39c4bc7a0f8bbf87fbb587a3f3c01f3c5ce20"
+    },
+    {
+      "path": "04_Source_Code/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png",
+      "bytes": 68,
+      "sha256": "93ae7d494fad0fb30cbf3ae746a39c4bc7a0f8bbf87fbb587a3f3c01f3c5ce20"
+    },
+    {
+      "path": "04_Source_Code/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png",
+      "bytes": 68,
+      "sha256": "93ae7d494fad0fb30cbf3ae746a39c4bc7a0f8bbf87fbb587a3f3c01f3c5ce20"
+    },
+    {
+      "path": "04_Source_Code/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md",
+      "bytes": 336,
+      "sha256": "a985b626c4f7546a8ba392d135e9226c3547c8e2b46895f5f2bdf40d7b14ef9f"
+    },
+    {
+      "path": "04_Source_Code/ios/Runner/Base.lproj/LaunchScreen.storyboard",
+      "bytes": 2377,
+      "sha256": "857e61203b3deafb05766d8fcda898b86a7cb6f3d5e385ecc9926c4d698215e9"
+    },
+    {
+      "path": "04_Source_Code/ios/Runner/Base.lproj/Main.storyboard",
+      "bytes": 1605,
+      "sha256": "fd367b6c43006d61b730f674970dd48b9f662c8f2264e52ffc1558102a2c9f2d"
+    },
+    {
+      "path": "04_Source_Code/ios/Runner/GeneratedPluginRegistrant.h",
+      "bytes": 378,
+      "sha256": "a5f88cc6415d2e639d2cb549348b84e02a7fdd0261603b0063abef6fa11f075a"
+    },
+    {
+      "path": "04_Source_Code/ios/Runner/GeneratedPluginRegistrant.m",
+      "bytes": 225,
+      "sha256": "4707ddc36a164aed1fdd809c9e4a046a5f2a8d01a2c6ec788b8d91bfcfc4018b"
+    },
+    {
+      "path": "04_Source_Code/ios/Runner/Info.plist",
+      "bytes": 2262,
+      "sha256": "a8211352d145e0bcd81f10390fa635bf5a7fdea911e9a746422b25ef9938889f"
+    },
+    {
+      "path": "04_Source_Code/ios/Runner/Runner-Bridging-Header.h",
+      "bytes": 38,
+      "sha256": "1a8d11d01d1cc92c650c9c9ed35299240052d4683a15a719a2315ef44185e074"
+    },
+    {
+      "path": "04_Source_Code/ios/Runner/SceneDelegate.swift",
+      "bytes": 76,
+      "sha256": "add68b905971dedfcc0d0b5b7118030de5925ba8c081ad9815463699e3a444ad"
+    },
+    {
+      "path": "04_Source_Code/ios/Runner.xcodeproj/project.pbxproj",
+      "bytes": 25869,
+      "sha256": "92a270f17d0e027fe23c90e5cb353a81ab612d165e31f153680e930587182e09"
+    },
+    {
+      "path": "04_Source_Code/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata",
+      "bytes": 135,
+      "sha256": "7f3b00b5c3fdb45242d7b87e1e5c4e25d1fa8129a16c94295ecc4e8ea2235c5f"
+    },
+    {
+      "path": "04_Source_Code/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist",
+      "bytes": 238,
+      "sha256": "dfa0f9bb85b95ccba9c6811adadf8cb407fb5d52088e89db83ebc308ec448542"
+    },
+    {
+      "path": "04_Source_Code/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings",
+      "bytes": 226,
+      "sha256": "11b247bc6796892d67c9a821d18604db4dd6a880981b34f38460b9866e6b247f"
+    },
+    {
+      "path": "04_Source_Code/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme",
+      "bytes": 4717,
+      "sha256": "9fbce429f56243561dd437a527136c9f9ed77165e3b271b923faf236cfcd0484"
+    },
+    {
+      "path": "04_Source_Code/ios/Runner.xcworkspace/contents.xcworkspacedata",
+      "bytes": 152,
+      "sha256": "46c3c9702ff7c5584e11c954d943cfb6e07fb26e3fbd072ddbc0f388aa352de1"
+    },
+    {
+      "path": "04_Source_Code/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist",
+      "bytes": 238,
+      "sha256": "dfa0f9bb85b95ccba9c6811adadf8cb407fb5d52088e89db83ebc308ec448542"
+    },
+    {
+      "path": "04_Source_Code/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings",
+      "bytes": 226,
+      "sha256": "11b247bc6796892d67c9a821d18604db4dd6a880981b34f38460b9866e6b247f"
+    },
+    {
+      "path": "04_Source_Code/ios/RunnerTests/RunnerTests.swift",
+      "bytes": 285,
+      "sha256": "5e8f4908dacea6f29b2a790e4d38bf5fded69096063f9a27a2f21584d62b30c0"
+    },
+    {
+      "path": "04_Source_Code/lib/api_client.dart",
+      "bytes": 4239,
+      "sha256": "7c5174666eee2666cfa66dae25fd34055e45024a5be337eff159f98949a965a1"
+    },
+    {
+      "path": "04_Source_Code/lib/auth_controller.dart",
+      "bytes": 1778,
+      "sha256": "b89dec91cf8d90da3b53728a2899181d3c313f81fd8fea85900ca03fdb93a02b"
+    },
+    {
+      "path": "04_Source_Code/lib/main.dart",
+      "bytes": 19829,
+      "sha256": "17e34421953571c795c06eac21453f6b60115b21318cb05f097368c643daac6f"
+    },
+    {
+      "path": "04_Source_Code/linux/.gitignore",
+      "bytes": 18,
+      "sha256": "5ded4f1a9d10d34bf6ee5beb0711d88ee2ef07b0f07ace9ed77935a246e8eb82"
+    },
+    {
+      "path": "04_Source_Code/linux/CMakeLists.txt",
+      "bytes": 4803,
+      "sha256": "460ceb2f883ec5614e82f0e8f44dbe072d34567eddef323e4c209c7c7cd66a45"
+    },
+    {
+      "path": "04_Source_Code/linux/flutter/CMakeLists.txt",
+      "bytes": 2815,
+      "sha256": "787189e2623313cfee590a0b553338eb9fc68b3af922ddd77c5d39c75f989aeb"
+    },
+    {
+      "path": "04_Source_Code/linux/flutter/generated_plugin_registrant.cc",
+      "bytes": 161,
+      "sha256": "7861b227b10a10cc1d7643f82a246b7db35b503f2d9ff1d3c906136e6c260dce"
+    },
+    {
+      "path": "04_Source_Code/linux/flutter/generated_plugin_registrant.h",
+      "bytes": 303,
+      "sha256": "00f93bb5b1faefdede8f6065df327522900fb0b8efee86bacf424fd947ed14bb"
+    },
+    {
+      "path": "04_Source_Code/linux/flutter/generated_plugins.cmake",
+      "bytes": 739,
+      "sha256": "d5aaa52ef8594d3128b35b6619c6a353e1be5f3c5a63a9c29c0a32b424e91952"
+    },
+    {
+      "path": "04_Source_Code/linux/runner/CMakeLists.txt",
+      "bytes": 974,
+      "sha256": "8cdcfd911e770fd7d511c97c7bce6559486a815352a47c953f7ef632e236d2cc"
+    },
+    {
+      "path": "04_Source_Code/linux/runner/main.cc",
+      "bytes": 180,
+      "sha256": "ea23f7cdf74091d63bba29ef60486370b766157b848f0cfe62bd8b1c1695a0c1"
+    },
+    {
+      "path": "04_Source_Code/linux/runner/my_application.cc",
+      "bytes": 5503,
+      "sha256": "0498e095421e50bc337da2f1290fc113cfcdf1f9c2fd489ed5b88ea55d3faa03"
+    },
+    {
+      "path": "04_Source_Code/linux/runner/my_application.h",
+      "bytes": 451,
+      "sha256": "a4218d7ac0db8a9a6716daf216b2d4fc6bdc7ac647e3183078b2c962ebdfcf70"
+    },
+    {
+      "path": "04_Source_Code/macos/.gitignore",
+      "bytes": 89,
+      "sha256": "ffec1a0bbd70547186b82ad4e49089bafab2de309b89de97c776d70debb179fa"
+    },
+    {
+      "path": "04_Source_Code/macos/Flutter/Flutter-Debug.xcconfig",
+      "bytes": 48,
+      "sha256": "62290ad8e938bf410206d8c7e131262696b58a6df110d39faf3399396ffe61b1"
+    },
+    {
+      "path": "04_Source_Code/macos/Flutter/Flutter-Release.xcconfig",
+      "bytes": 48,
+      "sha256": "62290ad8e938bf410206d8c7e131262696b58a6df110d39faf3399396ffe61b1"
+    },
+    {
+      "path": "04_Source_Code/macos/Flutter/GeneratedPluginRegistrant.swift",
+      "bytes": 147,
+      "sha256": "9ebc54b4d21464b875d1289b3dd5e44cd7e68930dbd6e8c7f954e438eb6ad499"
+    },
+    {
+      "path": "04_Source_Code/macos/Runner/AppDelegate.swift",
+      "bytes": 311,
+      "sha256": "ce9dbe45a57c59e85519da50a26c471615b9c8cdd85a8f4a39d2e480e62a4af4"
+    },
+    {
+      "path": "04_Source_Code/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_1024.png",
+      "bytes": 102994,
+      "sha256": "6232e5815af17e25e0268b2fec7aea9e068cc92ec709e9605c2b31df4ff2a313"
+    },
+    {
+      "path": "04_Source_Code/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_128.png",
+      "bytes": 5680,
+      "sha256": "15591f03f31313af6fd644ed0512106cc04365130b8b73244f1cfa6dddfb4400"
+    },
+    {
+      "path": "04_Source_Code/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_16.png",
+      "bytes": 520,
+      "sha256": "cc6928b5adfc00dbf526192e2705dd9af641cdf20ab4c6c7ca7cd4936dca59f0"
+    },
+    {
+      "path": "04_Source_Code/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_256.png",
+      "bytes": 14142,
+      "sha256": "416efd77cde932d42ef34168da24dd428a495b1f4f34bbbd125a18d2add186a2"
+    },
+    {
+      "path": "04_Source_Code/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_32.png",
+      "bytes": 1066,
+      "sha256": "ae8c4458e41f1e28b1e851ed87d3268d4a0351ceea427fa2a84cc94ddfb6d4c5"
+    },
+    {
+      "path": "04_Source_Code/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_512.png",
+      "bytes": 36406,
+      "sha256": "0a91c6c1bf242e54ee179e34629e9ef3e8a6d286c0fce01e302280a8be9277e6"
+    },
+    {
+      "path": "04_Source_Code/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_64.png",
+      "bytes": 2218,
+      "sha256": "6ad229623498e5f1277800db3ab7cb11faf85eb2569e1213f7d8e55003c07b42"
+    },
+    {
+      "path": "04_Source_Code/macos/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json",
+      "bytes": 1291,
+      "sha256": "bc6ba8105ca69651aeeb77358851590de295dca04681a1d58c0f449641c242f3"
+    },
+    {
+      "path": "04_Source_Code/macos/Runner/Base.lproj/MainMenu.xib",
+      "bytes": 23729,
+      "sha256": "be9e9ef8469d3262370e0f0b855ed163cbf9c8362c59e330b2ffe63b86fa42f4"
+    },
+    {
+      "path": "04_Source_Code/macos/Runner/Configs/AppInfo.xcconfig",
+      "bytes": 649,
+      "sha256": "2f625c6b100f3b1b2bfde97527e4d6892c5670a3cbe05b38727696b9a19bd804"
+    },
+    {
+      "path": "04_Source_Code/macos/Runner/Configs/Debug.xcconfig",
+      "bytes": 77,
+      "sha256": "8067d533ef6593760baad9a9855a786a7a77470fcc3f0925ec04fe43bc1ac4b0"
+    },
+    {
+      "path": "04_Source_Code/macos/Runner/Configs/Release.xcconfig",
+      "bytes": 79,
+      "sha256": "7a6a4b4d973a23052fa0a0388dd261e32d311d7b66ba1bfc3b914b361808ac61"
+    },
+    {
+      "path": "04_Source_Code/macos/Runner/Configs/Warnings.xcconfig",
+      "bytes": 580,
+      "sha256": "0e341a392b16ad302d12890aa3dac9257a6c10ece685437604259a85341645a3"
+    },
+    {
+      "path": "04_Source_Code/macos/Runner/DebugProfile.entitlements",
+      "bytes": 348,
+      "sha256": "ebaab2b9992173de422c33e1fbab7f6e31acaa2213956097ac8cefd894a91ac8"
+    },
+    {
+      "path": "04_Source_Code/macos/Runner/Info.plist",
+      "bytes": 1060,
+      "sha256": "f253e89c512b3a9a81bc5cdd7a14bf932470f835f261654a808ea4549cd94aad"
+    },
+    {
+      "path": "04_Source_Code/macos/Runner/MainFlutterWindow.swift",
+      "bytes": 388,
+      "sha256": "65c9613c11bcedfa51416b16c975d8ba6ff12b405fc19d60db8755d92e86d9fe"
+    },
+    {
+      "path": "04_Source_Code/macos/Runner/Release.entitlements",
+      "bytes": 240,
+      "sha256": "b746c74b201e6af4e0864fbd1f4f629f96156a7ec4b7208bc995d0a5089bb592"
+    },
+    {
+      "path": "04_Source_Code/macos/Runner.xcodeproj/project.pbxproj",
+      "bytes": 28160,
+      "sha256": "e3faa479175360be890addbf5e830503a5837d626d2bc0942f194da06bd7b850"
+    },
+    {
+      "path": "04_Source_Code/macos/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist",
+      "bytes": 238,
+      "sha256": "dfa0f9bb85b95ccba9c6811adadf8cb407fb5d52088e89db83ebc308ec448542"
+    },
+    {
+      "path": "04_Source_Code/macos/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme",
+      "bytes": 4690,
+      "sha256": "e63c8572d1d1bd47a9b667b0e67dc30ecd52e299e8b939850fa0c7334fb30117"
+    },
+    {
+      "path": "04_Source_Code/macos/Runner.xcworkspace/contents.xcworkspacedata",
+      "bytes": 152,
+      "sha256": "46c3c9702ff7c5584e11c954d943cfb6e07fb26e3fbd072ddbc0f388aa352de1"
+    },
+    {
+      "path": "04_Source_Code/macos/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist",
+      "bytes": 238,
+      "sha256": "dfa0f9bb85b95ccba9c6811adadf8cb407fb5d52088e89db83ebc308ec448542"
+    },
+    {
+      "path": "04_Source_Code/macos/RunnerTests/RunnerTests.swift",
+      "bytes": 290,
+      "sha256": "6bc180bc77c7def7a21d197233e25dff42cc493ab9d294632edafc18fdf0ac44"
+    },
+    {
+      "path": "04_Source_Code/postman/Week14_Enrollment.postman_collection.json",
+      "bytes": 24620,
+      "sha256": "fbda55321e092a3598030ad84e12b894a007ef599e565e74124818402834e48e"
+    },
+    {
+      "path": "04_Source_Code/pubspec.lock",
+      "bytes": 6985,
+      "sha256": "f30f38cc1ca7942743eecda2c725dec53d9cd1c2be1be4ae22f497d6bdf0b21a"
+    },
+    {
+      "path": "04_Source_Code/pubspec.yaml",
+      "bytes": 4006,
+      "sha256": "aa53f0b020be3fd97b8af64d9b644033ff3703816530ac121fd588b60c1ae47d"
+    },
+    {
+      "path": "04_Source_Code/README.md",
+      "bytes": 1326,
+      "sha256": "27939687fcf00b27aa193c28e0f9d098fe24e7da1e75e77d605129f0f1e8bdd8"
+    },
+    {
+      "path": "04_Source_Code/Setup-Demo.ps1",
+      "bytes": 1125,
+      "sha256": "72262edc21883cca51878d75d7fe9cce3bb19ba16b6bef6283beda6e3c91d7bd"
+    },
+    {
+      "path": "04_Source_Code/test/widget_test.dart",
+      "bytes": 580,
+      "sha256": "1524ca6eab3854df61bfbfb853c3d0e1c244a7ac61acc3e9a6c6b1647fef927a"
+    },
+    {
+      "path": "04_Source_Code/web/favicon.png",
+      "bytes": 917,
+      "sha256": "7ab2525f4b86b65d3e4c70358a17e5a1aaf6f437f99cbcc046dad73d59bb9015"
+    },
+    {
+      "path": "04_Source_Code/web/icons/Icon-192.png",
+      "bytes": 5292,
+      "sha256": "3dce99077602f70421c1c6b2a240bc9b83d64d86681d45f2154143310c980be3"
+    },
+    {
+      "path": "04_Source_Code/web/icons/Icon-512.png",
+      "bytes": 8252,
+      "sha256": "baccb205ae45f0b421be1657259b4943ac40c95094ab877f3bcbe12cd544dcbe"
+    },
+    {
+      "path": "04_Source_Code/web/icons/Icon-maskable-192.png",
+      "bytes": 5594,
+      "sha256": "d2c842e22a9f4ec9d996b23373a905c88d9a203b220c5c151885ad621f974b5c"
+    },
+    {
+      "path": "04_Source_Code/web/icons/Icon-maskable-512.png",
+      "bytes": 20998,
+      "sha256": "6aee06cdcab6b2aef74b1734c4778f4421d2da100b0ff9e52b21b55240202929"
+    },
+    {
+      "path": "04_Source_Code/web/index.html",
+      "bytes": 1569,
+      "sha256": "45e40d2ca29ad26d2f2c47e136c7b4e045a7c18dbf0d4f668126c5594cf64d04"
+    },
+    {
+      "path": "04_Source_Code/web/manifest.json",
+      "bytes": 960,
+      "sha256": "88335a51cdb5cf79485b50921d8eecf4021f6aba7c2612a25f50077209fe4f86"
+    },
+    {
+      "path": "04_Source_Code/windows/.gitignore",
+      "bytes": 291,
+      "sha256": "96345475f1a3c66bd32d28178fba151ab1506b35b1f7857b8f7651863093ea11"
+    },
+    {
+      "path": "04_Source_Code/windows/CMakeLists.txt",
+      "bytes": 4200,
+      "sha256": "a54aa90644278adbee88a0312110e429e99afcefa0736e5cbbf6591f7b9abbdf"
+    },
+    {
+      "path": "04_Source_Code/windows/flutter/CMakeLists.txt",
+      "bytes": 3742,
+      "sha256": "1fe418971b6f41bb35ceb3d64113a835f3f6f171ecaa707bf232492b57a588d6"
+    },
+    {
+      "path": "04_Source_Code/windows/flutter/generated_plugin_registrant.cc",
+      "bytes": 164,
+      "sha256": "82e02567f2faf5e732dc92a2fb0d01104f7ba8c48973f8cfd41a860b4fac3f3b"
+    },
+    {
+      "path": "04_Source_Code/windows/flutter/generated_plugin_registrant.h",
+      "bytes": 302,
+      "sha256": "dbc11635d7b1ba1887adf40df5b83d634e9c3ab0bee34510c71528bb4d73602a"
+    },
+    {
+      "path": "04_Source_Code/windows/flutter/generated_plugins.cmake",
+      "bytes": 743,
+      "sha256": "286346b0d5303dc6b41072f9582d4c52bca35255b85b27b310f858e264dfdc56"
+    },
+    {
+      "path": "04_Source_Code/windows/runner/CMakeLists.txt",
+      "bytes": 1796,
+      "sha256": "34119ec122e36940235ef4bc245fcfb43b6960ed443e28af1a8d833a81209b9e"
+    },
+    {
+      "path": "04_Source_Code/windows/runner/flutter_window.cpp",
+      "bytes": 2122,
+      "sha256": "dd185884c0b5301d400b58f12ebb36b1c8b326531597e531b40e44a6eeb0e943"
+    },
+    {
+      "path": "04_Source_Code/windows/runner/flutter_window.h",
+      "bytes": 928,
+      "sha256": "38e0fcd3a0b83895852ec295cb70d90179c0dcd40d58f065eb5232a4ecd84898"
+    },
+    {
+      "path": "04_Source_Code/windows/runner/main.cpp",
+      "bytes": 1285,
+      "sha256": "2f208a1d0566cd4001b48143dc4f01876547b2b7649ee53f779171ae5657483d"
+    },
+    {
+      "path": "04_Source_Code/windows/runner/resource.h",
+      "bytes": 432,
+      "sha256": "1fa98588b04561590ba1cf0521ab86a9db4a878312f21c9d5861d965ddd8d1ae"
+    },
+    {
+      "path": "04_Source_Code/windows/runner/resources/app_icon.ico",
+      "bytes": 33772,
+      "sha256": "c098d3fc85cacff98b8e69811b48e9f0d852fcee278132d794411d978869cbf8"
+    },
+    {
+      "path": "04_Source_Code/windows/runner/runner.exe.manifest",
+      "bytes": 602,
+      "sha256": "825d243e9fa1542619909c1b72d09b3ed7c1f3b225bb8367c125835e5dc3f8aa"
+    },
+    {
+      "path": "04_Source_Code/windows/runner/Runner.rc",
+      "bytes": 3125,
+      "sha256": "ce45f03400d84a1ea6134f7107a9b12e7b9a7a110a8b5689e7e04cb7a8d3fedd"
+    },
+    {
+      "path": "04_Source_Code/windows/runner/utils.cpp",
+      "bytes": 2168,
+      "sha256": "6c2c87106b4b29d534c7edcafb3b7f7b9079caa3cdafa7e56671ad2adf5a2543"
+    },
+    {
+      "path": "04_Source_Code/windows/runner/utils.h",
+      "bytes": 672,
+      "sha256": "95a7f7dddb832997cefa937a96f89472332277e75734a5de553610760b744b03"
+    },
+    {
+      "path": "04_Source_Code/windows/runner/win32_window.cpp",
+      "bytes": 8534,
+      "sha256": "9065f31ccf746cf8b390121f958f9e959033af864aed779597066625ed56bc36"
+    },
+    {
+      "path": "04_Source_Code/windows/runner/win32_window.h",
+      "bytes": 3522,
+      "sha256": "7dd03746b19dcf3542829b2f6e8ed40a2714ce5f2cb3b0e23f0118a2fcf62d62"
+    },
+    {
+      "path": "READ_ME_FIRST_Week14.md",
+      "bytes": 4090,
+      "sha256": "ce0ec65fd0722e423219dd19a0165fa5a52a9191375b69491217fd5dfc822c47"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4090,
+      "sha256": "ce0ec65fd0722e423219dd19a0165fa5a52a9191375b69491217fd5dfc822c47"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="C:\Users\jonga\Documents\Codex\2026-11-17\can-x20\outputs\EnrollmentRequirementValidator_Week14\04_Source_Code\enrollment_validator_api\phpunit.xml" tests="7" assertions="32" errors="0" failures="0" skipped="0" time="17.360878">
+    <testsuite name="Unit" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.634919">
+      <testsuite name="Tests\Unit\ExampleTest" file="C:\Users\jonga\Documents\Codex\2026-11-17\can-x20\outputs\EnrollmentRequirementValidator_Week14\04_Source_Code\enrollment_validator_api\tests\Unit\ExampleTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.634919">
+        <testcase name="test_that_true_is_true" file="C:\Users\jonga\Documents\Codex\2026-11-17\can-x20\outputs\EnrollmentRequirementValidator_Week14\04_Source_Code\enrollment_validator_api\tests\Unit\ExampleTest.php" line="12" class="Tests\Unit\ExampleTest" classname="Tests.Unit.ExampleTest" assertions="1" time="0.634919"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Feature" tests="6" assertions="31" errors="0" failures="0" skipped="0" time="16.725960">
+      <testsuite name="Tests\Feature\ExampleTest" file="C:\Users\jonga\Documents\Codex\2026-11-17\can-x20\outputs\EnrollmentRequirementValidator_Week14\04_Source_Code\enrollment_validator_api\tests\Feature\ExampleTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="7.090455">
+        <testcase name="test_the_application_returns_a_successful_response" file="C:\Users\jonga\Documents\Codex\2026-11-17\can-x20\outputs\EnrollmentRequirementValidator_Week14\04_Source_Code\enrollment_validator_api\tests\Feature\ExampleTest.php" line="13" class="Tests\Feature\ExampleTest" classname="Tests.Feature.ExampleTest" assertions="1" time="7.090455"/>
+      </testsuite>
+      <testsuite name="Tests\Feature\SecureEnrollmentApiTest" file="C:\Users\jonga\Documents\Codex\2026-11-17\can-x20\outputs\EnrollmentRequirementValidator_Week14\04_Source_Code\enrollment_validator_api\tests\Feature\SecureEnrollmentApiTest.php" tests="5" assertions="30" errors="0" failures="0" skipped="0" time="9.635505">
+        <testcase name="test_api_requires_authentication_and_staff_role_for_management_routes" file="C:\Users\jonga\Documents\Codex\2026-11-17\can-x20\outputs\EnrollmentRequirementValidator_Week14\04_Source_Code\enrollment_validator_api\tests\Feature\SecureEnrollmentApiTest.php" line="53" class="Tests\Feature\SecureEnrollmentApiTest" classname="Tests.Feature.SecureEnrollmentApiTest" assertions="3" time="3.887770"/>
+        <testcase name="test_student_can_only_view_and_submit_their_own_requirement" file="C:\Users\jonga\Documents\Codex\2026-11-17\can-x20\outputs\EnrollmentRequirementValidator_Week14\04_Source_Code\enrollment_validator_api\tests\Feature\SecureEnrollmentApiTest.php" line="66" class="Tests\Feature\SecureEnrollmentApiTest" classname="Tests.Feature.SecureEnrollmentApiTest" assertions="7" time="1.419493"/>
+        <testcase name="test_staff_can_decide_only_submitted_requirements_and_invalid_values_are_rejected" file="C:\Users\jonga\Documents\Codex\2026-11-17\can-x20\outputs\EnrollmentRequirementValidator_Week14\04_Source_Code\enrollment_validator_api\tests\Feature\SecureEnrollmentApiTest.php" line="99" class="Tests\Feature\SecureEnrollmentApiTest" classname="Tests.Feature.SecureEnrollmentApiTest" assertions="4" time="0.999724"/>
+        <testcase name="test_login_token_can_be_revoked_and_invalid_or_expired_tokens_are_rejected" file="C:\Users\jonga\Documents\Codex\2026-11-17\can-x20\outputs\EnrollmentRequirementValidator_Week14\04_Source_Code\enrollment_validator_api\tests\Feature\SecureEnrollmentApiTest.php" line="131" class="Tests\Feature\SecureEnrollmentApiTest" classname="Tests.Feature.SecureEnrollmentApiTest" assertions="7" time="3.176120"/>
+        <testcase name="test_api_responses_include_safe_headers_and_no_store" file="C:\Users\jonga\Documents\Codex\2026-11-17\can-x20\outputs\EnrollmentRequirementValidator_Week14\04_Source_Code\enrollment_validator_api\tests\Feature\SecureEnrollmentApiTest.php" line="163" class="Tests\Feature\SecureEnrollmentApiTest" classname="Tests.Feature.SecureEnrollmentApiTest" assertions="9" time="0.152398"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

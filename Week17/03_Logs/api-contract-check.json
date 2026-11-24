@@ -1,0 +1,8 @@
+{
+  "operations": 19,
+  "route_coverage": "All implemented API verbs excluding implicit HEAD",
+  "missing": [],
+  "extra": [],
+  "local_refs_resolve": true,
+  "scope": "Structural/route check, not independent OpenAPI certification"
+}

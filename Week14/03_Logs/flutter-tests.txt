@@ -1,0 +1,3 @@
+00:00 +0: loading C:/Users/jonga/Documents/Codex/2026-11-17/can-x20/outputs/EnrollmentRequirementValidator_Week14/04_Source_Code/test/widget_test.dart
+00:00 +0: shows sign-in before displaying enrollment data
+00:02 +1: All tests passed!

@@ -1,0 +1,10 @@
+Requirement,Implementation or document,Verification,Remaining gap
+Acceptance scope/roles/thresholds,UAT_Plan_and_Stakeholder_Record.md,Acceptance_Matrix.csv,Actual stakeholder decisions pending
+Conduct UAT and record findings,UAT script + developer browser rehearsal,browser-acceptance.json; Defect register,Developer rehearsal only; stakeholder session pending
+Fix/retest issues,Form validator; empty PATCH guard; bundled web resources,Before logs + final test/API/browser logs,Participant retest pending
+Final technical quality evaluation,SA9 report,Fresh verification summary + dated Week16 baseline,No current audit; capacity/acceptance gaps remain
+Compare architecture alternatives,Architecture_and_Decision.md,Contextual eight-criterion comparison,Alternative B not deployed/benchmarked
+API documentation,docs/openapi.json,19-operation route/$ref check,Independent full schema/consumer review not performed
+Repository/setup/handover,"Source lockfiles, example config, README and setup",Fresh analyze/build/regression; excluded secret scan,Recipient must install dependencies
+Operations/maintenance/limitations,Operations_and_Maintenance.md; User_Guide.md,Health503/recovery + historical rollback logs,Real support/data/deployment approval pending
+SA9 and AS3,Editable Markdown and visually checked PDFs,Evidence index links to raw artifacts,Stakeholder acceptance honestly pending

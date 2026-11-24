@@ -1,0 +1,33 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Start Laravel API",
+      "type": "shell",
+      "command": "php",
+      "args": [
+        "artisan",
+        "serve",
+        "--host=127.0.0.1",
+        "--port=8035"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/enrollment_validator_api"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Start Flutter Web",
+      "type": "shell",
+      "command": "flutter",
+      "args": [
+        "run",
+        "-d",
+        "chrome",
+        "--web-port=5035",
+        "--dart-define=API_BASE_URL=http://127.0.0.1:8035/api"
+      ],
+      "problemMatcher": []
+    }
+  ]
+}

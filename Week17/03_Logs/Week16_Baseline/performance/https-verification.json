@@ -1,0 +1,8 @@
+{
+  "verified_https_status": 200,
+  "certificate_authorized": true,
+  "tls_protocol": "TLSv1.3",
+  "strict_verification": true,
+  "plain_http_status": 400,
+  "insecure_mode": false
+}

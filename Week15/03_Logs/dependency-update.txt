@@ -1,0 +1,81 @@
+Loading composer repositories with package information
+Cannot create cache directory C:\Users\jonga\Documents\Codex\2026-11-17\can-x20\work\week15\composer-cache/repo/https---repo.packagist.org/, or directory is not writable. Proceeding without cache. See also cache-read-only config if your filesystem is read-only.
+Updating dependencies
+Lock file operations: 0 installs, 23 updates, 0 removals
+  - Upgrading guzzlehttp/guzzle (7.16.1 => 7.16.3)
+  - Upgrading guzzlehttp/psr7 (2.13.2 => 2.13.4)
+  - Upgrading laravel/framework (v12.70.2 => v12.73.0)
+  - Upgrading laravel/prompts (v0.3.26 => v0.3.27)
+  - Upgrading laravel/serializable-closure (v2.1.0 => v2.2.0)
+  - Upgrading league/commonmark (2.10.4 => 2.10.7)
+  - Upgrading league/uri (7.9.1 => 7.10.0)
+  - Upgrading league/uri-interfaces (7.9.1 => 7.10.0)
+  - Upgrading monolog/monolog (3.12.1 => 3.13.0)
+  - Upgrading nunomaduro/termwind (v2.4.0 => v2.4.1)
+  - Upgrading ramsey/uuid (4.9.4 => 4.10.0)
+  - Upgrading symfony/console (v7.4.22 => v7.4.23)
+  - Upgrading symfony/deprecation-contracts (v3.7.1 => v3.8.1)
+  - Upgrading symfony/event-dispatcher-contracts (v3.7.1 => v3.8.1)
+  - Upgrading symfony/finder (v7.4.22 => v7.4.23)
+  - Upgrading symfony/http-foundation (v7.4.22 => v7.4.23)
+  - Upgrading symfony/http-kernel (v7.4.22 => v7.4.23)
+  - Upgrading symfony/polyfill-php85 (v1.43.0 => v1.44.0)
+  - Upgrading symfony/routing (v7.4.22 => v7.4.23)
+  - Upgrading symfony/service-contracts (v3.7.3 => v3.8.1)
+  - Upgrading symfony/translation (v7.4.22 => v7.4.23)
+  - Upgrading symfony/translation-contracts (v3.7.1 => v3.8.1)
+  - Upgrading symfony/yaml (v7.4.22 => v7.4.23)
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Package operations: 0 installs, 23 updates, 0 removals
+Cannot create cache directory C:\Users\jonga\Documents\Codex\2026-11-17\can-x20\work\week15\composer-cache/files/, or directory is not writable. Proceeding without cache. See also cache-read-only config if your filesystem is read-only.
+  - Downloading symfony/deprecation-contracts (v3.8.1)
+  - Downloading symfony/http-foundation (v7.4.23)
+  - Downloading guzzlehttp/psr7 (2.13.4)
+  - Downloading guzzlehttp/guzzle (7.16.3)
+  - Downloading symfony/service-contracts (v3.8.1)
+  - Downloading symfony/console (v7.4.23)
+  - Downloading nunomaduro/termwind (v2.4.1)
+  - Downloading symfony/routing (v7.4.23)
+  - Downloading symfony/polyfill-php85 (v1.44.0)
+  - Downloading symfony/event-dispatcher-contracts (v3.8.1)
+  - Downloading symfony/http-kernel (v7.4.23)
+  - Downloading symfony/finder (v7.4.23)
+  - Downloading ramsey/uuid (4.10.0)
+  - Downloading symfony/translation-contracts (v3.8.1)
+  - Downloading symfony/translation (v7.4.23)
+  - Downloading monolog/monolog (3.13.0)
+  - Downloading league/uri-interfaces (7.10.0)
+  - Downloading league/uri (7.10.0)
+  - Downloading league/commonmark (2.10.7)
+  - Downloading laravel/serializable-closure (v2.2.0)
+  - Downloading laravel/prompts (v0.3.27)
+  - Downloading laravel/framework (v12.73.0)
+  - Downloading symfony/yaml (v7.4.23)
+  - Upgrading symfony/deprecation-contracts (v3.7.1 => v3.8.1): Extracting archive
+  - Upgrading symfony/http-foundation (v7.4.22 => v7.4.23): Extracting archive
+  - Upgrading guzzlehttp/psr7 (2.13.2 => 2.13.4): Extracting archive
+  - Upgrading guzzlehttp/guzzle (7.16.1 => 7.16.3): Extracting archive
+  - Upgrading symfony/service-contracts (v3.7.3 => v3.8.1): Extracting archive
+  - Upgrading symfony/console (v7.4.22 => v7.4.23): Extracting archive
+  - Upgrading nunomaduro/termwind (v2.4.0 => v2.4.1): Extracting archive
+  - Upgrading symfony/routing (v7.4.22 => v7.4.23): Extracting archive
+  - Upgrading symfony/polyfill-php85 (v1.43.0 => v1.44.0): Extracting archive
+  - Upgrading symfony/event-dispatcher-contracts (v3.7.1 => v3.8.1): Extracting archive
+  - Upgrading symfony/http-kernel (v7.4.22 => v7.4.23): Extracting archive
+  - Upgrading symfony/finder (v7.4.22 => v7.4.23): Extracting archive
+  - Upgrading ramsey/uuid (4.9.4 => 4.10.0): Extracting archive
+  - Upgrading symfony/translation-contracts (v3.7.1 => v3.8.1): Extracting archive
+  - Upgrading symfony/translation (v7.4.22 => v7.4.23): Extracting archive
+  - Upgrading monolog/monolog (3.12.1 => 3.13.0): Extracting archive
+  - Upgrading league/uri-interfaces (7.9.1 => 7.10.0): Extracting archive
+  - Upgrading league/uri (7.9.1 => 7.10.0): Extracting archive
+  - Upgrading league/commonmark (2.10.4 => 2.10.7): Extracting archive
+  - Upgrading laravel/serializable-closure (v2.1.0 => v2.2.0): Extracting archive
+  - Upgrading laravel/prompts (v0.3.26 => v0.3.27): Extracting archive
+  - Upgrading laravel/framework (v12.70.2 => v12.73.0): Extracting archive
+  - Upgrading symfony/yaml (v7.4.22 => v7.4.23): Extracting archive
+Generating optimized autoload files
+82 packages you are using are looking for funding.
+Use the `composer fund` command to find out more!
+No security vulnerability advisories found.

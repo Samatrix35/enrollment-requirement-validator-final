@@ -1,0 +1,431 @@
+
+   INFO  Preparing database.  
+
+  Creating migration table ............................................................................. 327.70ms DONE
+
+   INFO  Running migrations.  
+
+  0001_01_01_000000_create_users_table .................................................................. 83.06ms DONE
+  0001_01_01_000001_create_cache_table ................................................................... 6.08ms DONE
+  0001_01_01_000002_create_jobs_table ................................................................... 18.66ms DONE
+  2026_10_30_084051_create_students_table ................................................................ 6.38ms DONE
+  2026_10_30_085407_create_personal_access_tokens_table ................................................. 12.78ms DONE
+  2026_10_30_114355_create_requirements_table ............................................................ 8.92ms DONE
+  2026_11_17_000001_add_roles_and_student_link_to_users_table ........................................... 33.80ms DONE
+  2026_11_18_000001_unique_student_requirement ........................................................... 2.50ms DONE
+  2026_11_18_160001_add_review_queue_index ............................................................... 2.18ms DONE
+
+
+   INFO  Seeding database.  
+
+
+   INFO  Application cache cleared successfully.  
+
+(node:13868) [DEP0176] DeprecationWarning: fs.F_OK is deprecated, use fs.constants.F_OK instead
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[Mon Nov 23 23:16:14 2026] PHP 8.2.12 Development Server (http://127.0.0.1:8048) started
+newman
+
+Project 23 Week 18 Final Integration and Defense Verification
+
+→ W16 liveness signal
+[Mon Nov 23 23:16:16 2026] 127.0.0.1:64741 Accepted
+[Mon Nov 23 23:16:17 2026] 127.0.0.1:64741 Closing
+  GET https://localhost:8448/api/health/live [200 OK, 469B, 1348ms]
+  √  HTTP 200
+  √  No store
+  √  Alive
+  √  No environment leak
+
+→ W16 database and schema readiness
+[Mon Nov 23 23:16:17 2026] 127.0.0.1:64744 Accepted
+[Mon Nov 23 23:16:18 2026] 127.0.0.1:64744 Closing
+  GET https://localhost:8448/api/health/ready [200 OK, 510B, 800ms]
+  √  HTTP 200
+  √  No store
+  √  Ready
+  √  Database up
+  √  Schema up
+
+→ W16 correlation and release
+[Mon Nov 23 23:16:18 2026] 127.0.0.1:64747 Accepted
+[Mon Nov 23 23:16:19 2026] 127.0.0.1:64747 Closing
+  GET https://localhost:8448/api/health/ready [200 OK, 509B, 688ms]
+  √  HTTP 200
+  √  No store
+  √  Trace header
+  √  Release
+  √  Server timing
+
+→ Unauthenticated access denied
+[Mon Nov 23 23:16:19 2026] 127.0.0.1:64750 Accepted
+[Mon Nov 23 23:16:20 2026] 127.0.0.1:64750 Closing
+  GET https://localhost:8448/api/students [401 Unauthorized, 485B, 722ms]
+  √  Unauthenticated access denied
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ Invalid token denied
+[Mon Nov 23 23:16:20 2026] 127.0.0.1:64753 Accepted
+[Mon Nov 23 23:16:20 2026] 127.0.0.1:64753 Closing
+  GET https://localhost:8448/api/me [401 Unauthorized, 485B, 765ms]
+  √  Invalid token denied
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ Invalid login input rejected
+[Mon Nov 23 23:16:20 2026] 127.0.0.1:64756 Accepted
+[Mon Nov 23 23:16:21 2026] 127.0.0.1:64756 Closing
+  POST https://localhost:8448/api/auth/login [422 Unprocessable Entity, 707B, 1045ms]
+  √  Invalid login input rejected
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ Student sign in
+[Mon Nov 23 23:16:21 2026] 127.0.0.1:64760 Accepted
+[Mon Nov 23 23:16:23 2026] 127.0.0.1:64760 Closing
+  POST https://localhost:8448/api/auth/login [200 OK, 682B, 1402ms]
+  √  Student sign in
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ Staff sign in
+[Mon Nov 23 23:16:23 2026] 127.0.0.1:64763 Accepted
+[Mon Nov 23 23:16:24 2026] 127.0.0.1:64763 Closing
+  POST https://localhost:8448/api/auth/login [200 OK, 698B, 1277ms]
+  √  Staff sign in
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ Student role cannot list students
+[Mon Nov 23 23:16:24 2026] 127.0.0.1:64766 Accepted
+[Mon Nov 23 23:16:25 2026] 127.0.0.1:64766 Closing
+  GET https://localhost:8448/api/students [403 Forbidden, 512B, 790ms]
+  √  Student role cannot list students
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ Student sees own checklist
+[Mon Nov 23 23:16:25 2026] 127.0.0.1:64769 Accepted
+[Mon Nov 23 23:16:26 2026] 127.0.0.1:64769 Closing
+  GET https://localhost:8448/api/my/enrollment [200 OK, 833B, 796ms]
+  √  Student sees own checklist
+  √  JSON API content type
+  √  Responses are not cacheable
+  √  Student email minimized
+
+→ Staff creates second fictional student
+[Mon Nov 23 23:16:26 2026] 127.0.0.1:64772 Accepted
+[Mon Nov 23 23:16:27 2026] 127.0.0.1:64772 Closing
+  POST https://localhost:8448/api/students [201 Created, 594B, 808ms]
+  √  Staff creates second fictional student
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ Staff assigns requirement
+[Mon Nov 23 23:16:27 2026] 127.0.0.1:64775 Accepted
+[Mon Nov 23 23:16:27 2026] 127.0.0.1:64775 Closing
+  POST https://localhost:8448/api/requirements [201 Created, 692B, 813ms]
+  √  Staff assigns requirement
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ W15 duplicate assignment rejected
+[Mon Nov 23 23:16:28 2026] 127.0.0.1:64778 Accepted
+[Mon Nov 23 23:16:28 2026] 127.0.0.1:64778 Closing
+  POST https://localhost:8448/api/requirements [422 Unprocessable Entity, 600B, 824ms]
+  √  W15 duplicate assignment rejected
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ W15 name boundary 120 accepted
+[Mon Nov 23 23:16:28 2026] 127.0.0.1:64781 Accepted
+[Mon Nov 23 23:16:29 2026] 127.0.0.1:64781 Closing
+  POST https://localhost:8448/api/requirements [201 Created, 789B, 930ms]
+  √  W15 name boundary 120 accepted
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ W15 name boundary 121 rejected
+[Mon Nov 23 23:16:29 2026] 127.0.0.1:64784 Accepted
+[Mon Nov 23 23:16:30 2026] 127.0.0.1:64784 Closing
+  POST https://localhost:8448/api/requirements [422 Unprocessable Entity, 646B, 739ms]
+  √  W15 name boundary 121 rejected
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ W15 empty requirement rejected
+[Mon Nov 23 23:16:30 2026] 127.0.0.1:64787 Accepted
+[Mon Nov 23 23:16:31 2026] 127.0.0.1:64787 Closing
+  POST https://localhost:8448/api/requirements [422 Unprocessable Entity, 590B, 791ms]
+  √  W15 empty requirement rejected
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ W15 nonexistent student rejected
+[Mon Nov 23 23:16:31 2026] 127.0.0.1:64790 Accepted
+[Mon Nov 23 23:16:32 2026] 127.0.0.1:64790 Closing
+  POST https://localhost:8448/api/requirements [422 Unprocessable Entity, 576B, 736ms]
+  √  W15 nonexistent student rejected
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ W15 owner field cannot be reassigned
+[Mon Nov 23 23:16:32 2026] 127.0.0.1:64793 Accepted
+[Mon Nov 23 23:16:32 2026] 127.0.0.1:64793 Closing
+  PATCH https://localhost:8448/api/requirements/4 [422 Unprocessable Entity, 576B, 620ms]
+  √  W15 owner field cannot be reassigned
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ W15 unknown status filter rejected
+[Mon Nov 23 23:16:32 2026] 127.0.0.1:64796 Accepted
+[Mon Nov 23 23:16:33 2026] 127.0.0.1:64796 Closing
+  GET https://localhost:8448/api/requirements?status=Invalid [422 Unprocessable Entity, 564B, 708ms]
+  √  W15 unknown status filter rejected
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ W15 staff cannot use student-only endpoint
+[Mon Nov 23 23:16:33 2026] 127.0.0.1:64799 Accepted
+[Mon Nov 23 23:16:34 2026] 127.0.0.1:64799 Closing
+  GET https://localhost:8448/api/my/enrollment [403 Forbidden, 512B, 685ms]
+  √  W15 staff cannot use student-only endpoint
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ W15 student name boundary 81 rejected
+[Mon Nov 23 23:16:34 2026] 127.0.0.1:64802 Accepted
+[Mon Nov 23 23:16:34 2026] 127.0.0.1:64802 Closing
+  PATCH https://localhost:8448/api/students/2 [422 Unprocessable Entity, 626B, 662ms]
+  √  W15 student name boundary 81 rejected
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ W15 student name boundary 80 accepted
+[Mon Nov 23 23:16:34 2026] 127.0.0.1:64805 Accepted
+[Mon Nov 23 23:16:35 2026] 127.0.0.1:64805 Closing
+  PATCH https://localhost:8448/api/students/2 [200 OK, 663B, 721ms]
+  √  W15 student name boundary 80 accepted
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ Cross-student submission denied
+[Mon Nov 23 23:16:35 2026] 127.0.0.1:64808 Accepted
+[Mon Nov 23 23:16:36 2026] 127.0.0.1:64808 Closing
+  PATCH https://localhost:8448/api/my/requirements/4/submit [404 Not Found, 488B, 736ms]
+  √  Cross-student submission denied
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ Student cannot approve own requirement
+[Mon Nov 23 23:16:36 2026] 127.0.0.1:64811 Accepted
+[Mon Nov 23 23:16:37 2026] 127.0.0.1:64811 Closing
+  PATCH https://localhost:8448/api/requirements/1 [403 Forbidden, 512B, 646ms]
+  √  Student cannot approve own requirement
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ W17 empty staff update gives actionable validation
+[Mon Nov 23 23:16:37 2026] 127.0.0.1:64814 Accepted
+[Mon Nov 23 23:16:37 2026] 127.0.0.1:64814 Closing
+  PATCH https://localhost:8448/api/requirements/1 [422 Unprocessable Entity, 620B, 734ms]
+  √  Empty update rejected
+  √  Actionable update error
+  √  No-store
+
+→ Premature approval denied
+[Mon Nov 23 23:16:37 2026] 127.0.0.1:64817 Accepted
+[Mon Nov 23 23:16:38 2026] 127.0.0.1:64817 Closing
+  PATCH https://localhost:8448/api/requirements/1 [409 Conflict, 522B, 813ms]
+  √  Premature approval denied
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ Student submits requirement
+[Mon Nov 23 23:16:38 2026] 127.0.0.1:64820 Accepted
+[Mon Nov 23 23:16:39 2026] 127.0.0.1:64820 Closing
+  PATCH https://localhost:8448/api/my/requirements/1/submit [200 OK, 574B, 832ms]
+  √  Student submits requirement
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ Duplicate submission denied
+[Mon Nov 23 23:16:39 2026] 127.0.0.1:64823 Accepted
+[Mon Nov 23 23:16:40 2026] 127.0.0.1:64823 Closing
+  PATCH https://localhost:8448/api/my/requirements/1/submit [409 Conflict, 522B, 674ms]
+  √  Duplicate submission denied
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ Staff queue shows submission
+[Mon Nov 23 23:16:40 2026] 127.0.0.1:64826 Accepted
+[Mon Nov 23 23:16:41 2026] 127.0.0.1:64826 Closing
+  GET https://localhost:8448/api/requirements?status=Submitted [200 OK, 1.21kB, 830ms]
+  √  Staff queue shows submission
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ W15 correction boundary 501 rejected
+[Mon Nov 23 23:16:41 2026] 127.0.0.1:64829 Accepted
+[Mon Nov 23 23:16:42 2026] 127.0.0.1:64829 Closing
+  PATCH https://localhost:8448/api/requirements/1 [422 Unprocessable Entity, 618B, 818ms]
+  √  W15 correction boundary 501 rejected
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ W15 correction boundary 500 accepted
+[Mon Nov 23 23:16:42 2026] 127.0.0.1:64832 Accepted
+[Mon Nov 23 23:16:42 2026] 127.0.0.1:64832 Closing
+  PATCH https://localhost:8448/api/requirements/1 [200 OK, 1.69kB, 908ms]
+  √  W15 correction boundary 500 accepted
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ W15 resubmit after boundary correction
+[Mon Nov 23 23:16:43 2026] 127.0.0.1:64835 Accepted
+[Mon Nov 23 23:16:43 2026] 127.0.0.1:64835 Closing
+  PATCH https://localhost:8448/api/my/requirements/1/submit [200 OK, 573B, 761ms]
+  √  W15 resubmit after boundary correction
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ Return without correction note rejected
+[Mon Nov 23 23:16:43 2026] 127.0.0.1:64839 Accepted
+[Mon Nov 23 23:16:44 2026] 127.0.0.1:64839 Closing
+  PATCH https://localhost:8448/api/requirements/1 [422 Unprocessable Entity, 590B, 822ms]
+  √  Return without correction note rejected
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ Staff requests correction
+[Mon Nov 23 23:16:44 2026] 127.0.0.1:64842 Accepted
+[Mon Nov 23 23:16:45 2026] 127.0.0.1:64842 Closing
+  PATCH https://localhost:8448/api/requirements/1 [200 OK, 799B, 901ms]
+  √  Staff requests correction
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ Student reads correction feedback
+[Mon Nov 23 23:16:45 2026] 127.0.0.1:64845 Accepted
+[Mon Nov 23 23:16:46 2026] 127.0.0.1:64845 Closing
+  GET https://localhost:8448/api/my/enrollment [200 OK, 901B, 932ms]
+  √  Student reads correction feedback
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ Student resubmits returned requirement
+[Mon Nov 23 23:16:46 2026] 127.0.0.1:64848 Accepted
+[Mon Nov 23 23:16:47 2026] 127.0.0.1:64848 Closing
+  PATCH https://localhost:8448/api/my/requirements/1/submit [200 OK, 574B, 960ms]
+  √  Student resubmits returned requirement
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ Staff approves resubmission
+[Mon Nov 23 23:16:47 2026] 127.0.0.1:64851 Accepted
+[Mon Nov 23 23:16:48 2026] 127.0.0.1:64851 Closing
+  PATCH https://localhost:8448/api/requirements/1 [200 OK, 678B, 881ms]
+  √  Staff approves resubmission
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ W15 repeated staff decision rejected
+[Mon Nov 23 23:16:48 2026] 127.0.0.1:64854 Accepted
+[Mon Nov 23 23:16:49 2026] 127.0.0.1:64854 Closing
+  PATCH https://localhost:8448/api/requirements/1 [409 Conflict, 522B, 880ms]
+  √  W15 repeated staff decision rejected
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ W15 approved item cannot be submitted
+[Mon Nov 23 23:16:49 2026] 127.0.0.1:64857 Accepted
+[Mon Nov 23 23:16:50 2026] 127.0.0.1:64857 Closing
+  PATCH https://localhost:8448/api/my/requirements/1/submit [409 Conflict, 522B, 820ms]
+  √  W15 approved item cannot be submitted
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ Student sees approved result
+[Mon Nov 23 23:16:50 2026] 127.0.0.1:64860 Accepted
+[Mon Nov 23 23:16:50 2026] 127.0.0.1:64860 Closing
+  GET https://localhost:8448/api/my/enrollment [200 OK, 834B, 784ms]
+  √  Student sees approved result
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ Invalid requirement creation rejected
+[Mon Nov 23 23:16:51 2026] 127.0.0.1:64863 Accepted
+[Mon Nov 23 23:16:51 2026] 127.0.0.1:64863 Closing
+  POST https://localhost:8448/api/requirements [422 Unprocessable Entity, 653B, 764ms]
+  √  Invalid requirement creation rejected
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ Delete ownership test requirement
+[Mon Nov 23 23:16:51 2026] 127.0.0.1:64866 Accepted
+[Mon Nov 23 23:16:52 2026] 127.0.0.1:64866 Closing
+  DELETE https://localhost:8448/api/requirements/4 [200 OK, 486B, 1006ms]
+  √  Delete ownership test requirement
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ W15 deleted requirement returns 404
+[Mon Nov 23 23:16:52 2026] 127.0.0.1:64869 Accepted
+[Mon Nov 23 23:16:53 2026] 127.0.0.1:64869 Closing
+  GET https://localhost:8448/api/requirements/4 [404 Not Found, 528B, 1018ms]
+  √  W15 deleted requirement returns 404
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ W15 delete boundary test record
+[Mon Nov 23 23:16:53 2026] 127.0.0.1:64872 Accepted
+[Mon Nov 23 23:16:54 2026] 127.0.0.1:64872 Closing
+  DELETE https://localhost:8448/api/requirements/5 [200 OK, 485B, 900ms]
+  √  W15 delete boundary test record
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ Delete ownership test student
+[Mon Nov 23 23:16:54 2026] 127.0.0.1:64875 Accepted
+[Mon Nov 23 23:16:55 2026] 127.0.0.1:64875 Closing
+  DELETE https://localhost:8448/api/students/2 [200 OK, 482B, 827ms]
+  √  Delete ownership test student
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ Student logout revokes token
+[Mon Nov 23 23:16:55 2026] 127.0.0.1:64878 Accepted
+[Mon Nov 23 23:16:56 2026] 127.0.0.1:64878 Closing
+  POST https://localhost:8448/api/auth/logout [200 OK, 470B, 832ms]
+  √  Student logout revokes token
+  √  JSON API content type
+  √  Responses are not cacheable
+
+→ Revoked token denied
+[Mon Nov 23 23:16:56 2026] 127.0.0.1:64881 Accepted
+[Mon Nov 23 23:16:57 2026] 127.0.0.1:64881 Closing
+  GET https://localhost:8448/api/me [401 Unauthorized, 485B, 682ms]
+  √  Revoked token denied
+  √  JSON API content type
+  √  Responses are not cacheable
+
+┌─────────────────────────┬─────────────────────┬─────────────────────┐
+│                         │            executed │              failed │
+├─────────────────────────┼─────────────────────┼─────────────────────┤
+│              iterations │                   1 │                   0 │
+├─────────────────────────┼─────────────────────┼─────────────────────┤
+│                requests │                  47 │                   0 │
+├─────────────────────────┼─────────────────────┼─────────────────────┤
+│            test-scripts │                  47 │                   0 │
+├─────────────────────────┼─────────────────────┼─────────────────────┤
+│      prerequest-scripts │                   0 │                   0 │
+├─────────────────────────┼─────────────────────┼─────────────────────┤
+│              assertions │                 147 │                   0 │
+├─────────────────────────┴─────────────────────┴─────────────────────┤
+│ total run duration: 40.9s                                           │
+├─────────────────────────────────────────────────────────────────────┤
+│ total data received: 8.33kB (approx)                                │
+├─────────────────────────────────────────────────────────────────────┤
+│ average response time: 838ms [min: 620ms, max: 1402ms, s.d.: 163ms] │
+└─────────────────────────────────────────────────────────────────────┘

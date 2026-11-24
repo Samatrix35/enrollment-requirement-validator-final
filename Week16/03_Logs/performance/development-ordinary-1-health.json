@@ -1,0 +1,37 @@
+[
+  {
+    "started_at": 1795010007078,
+    "duration_ms": 1650.0475000000006,
+    "status": 200
+  },
+  {
+    "started_at": 1795010010728,
+    "duration_ms": 1117.8692999999985,
+    "status": 200
+  },
+  {
+    "started_at": 1795010013847,
+    "duration_ms": 1360.2549999999974,
+    "status": 200
+  },
+  {
+    "started_at": 1795010017208,
+    "duration_ms": 1128.8974999999991,
+    "status": 200
+  },
+  {
+    "started_at": 1795010020337,
+    "duration_ms": 1121.9884999999995,
+    "status": 200
+  },
+  {
+    "started_at": 1795010023460,
+    "duration_ms": 1418.8358999999982,
+    "status": 200
+  },
+  {
+    "started_at": 1795010026880,
+    "duration_ms": 1138.212599999999,
+    "status": 200
+  }
+]

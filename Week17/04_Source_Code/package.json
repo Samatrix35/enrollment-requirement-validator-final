@@ -1,0 +1,13 @@
+{
+  "name": "enrollment-validator-week17-acceptance",
+  "private": true,
+  "version": "1.17.0",
+  "description": "Optional Week 17 API verification tools; Laravel backend.",
+  "devDependencies": {
+    "newman": "6.2.3"
+  },
+  "scripts": {
+    "api:test": "newman run postman/Week17_Enrollment_Acceptance.postman_collection.json",
+    "api:https": "node tools/verify-https.cjs --reset-demo"
+  }
+}

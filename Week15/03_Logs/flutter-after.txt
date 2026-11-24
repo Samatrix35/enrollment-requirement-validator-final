@@ -1,0 +1,21 @@
+00:00 +0: loading C:/Users/jonga/Documents/Codex/2026-11-17/can-x20/outputs/EnrollmentRequirementValidator_Week15/04_Source_Code/test/week15_api_test.dart
+00:00 +0: C:/Users/jonga/Documents/Codex/2026-11-17/can-x20/outputs/EnrollmentRequirementValidator_Week15/04_Source_Code/test/week15_api_test.dart: D01 malformed 401 still clears token and expires session
+00:00 +1: C:/Users/jonga/Documents/Codex/2026-11-17/can-x20/outputs/EnrollmentRequirementValidator_Week15/04_Source_Code/test/week15_api_test.dart: D02 server failures do not expose internal diagnostics
+00:00 +2: C:/Users/jonga/Documents/Codex/2026-11-17/can-x20/outputs/EnrollmentRequirementValidator_Week15/04_Source_Code/test/week15_api_test.dart: D03 successful non-object JSON is rejected
+00:00 +3: C:/Users/jonga/Documents/Codex/2026-11-17/can-x20/outputs/EnrollmentRequirementValidator_Week15/04_Source_Code/test/week15_api_test.dart: D04 staff queue follows all result pages
+00:00 +4: C:/Users/jonga/Documents/Codex/2026-11-17/can-x20/outputs/EnrollmentRequirementValidator_Week15/04_Source_Code/test/week15_api_test.dart: D05 malformed JSON response yields safe failure
+00:00 +5: C:/Users/jonga/Documents/Codex/2026-11-17/can-x20/outputs/EnrollmentRequirementValidator_Week15/04_Source_Code/test/week15_api_test.dart: D06 manually retrying after service failure can recover
+00:00 +6: C:/Users/jonga/Documents/Codex/2026-11-17/can-x20/outputs/EnrollmentRequirementValidator_Week15/04_Source_Code/test/week15_api_test.dart: D07 failed logout still removes bearer token
+00:00 +7: C:/Users/jonga/Documents/Codex/2026-11-17/can-x20/outputs/EnrollmentRequirementValidator_Week15/04_Source_Code/test/week15_api_test.dart: D08 field validation message is preserved
+00:00 +8: C:/Users/jonga/Documents/Codex/2026-11-17/can-x20/outputs/EnrollmentRequirementValidator_Week15/04_Source_Code/test/week15_api_test.dart: D09 login trims email and sends JSON without a token
+00:00 +9: C:/Users/jonga/Documents/Codex/2026-11-17/can-x20/outputs/EnrollmentRequirementValidator_Week15/04_Source_Code/test/week15_api_test.dart: D10 transport error does not echo credentials
+00:00 +10: C:/Users/jonga/Documents/Codex/2026-11-17/can-x20/outputs/EnrollmentRequirementValidator_Week15/04_Source_Code/test/week15_api_test.dart: D11 timeout includes stalled response body
+00:00 +11: C:/Users/jonga/Documents/Codex/2026-11-17/can-x20/outputs/EnrollmentRequirementValidator_Week15/04_Source_Code/test/week15_api_test.dart: D12 invalid pagination is reported instead of hiding records
+00:00 +12: C:/Users/jonga/Documents/Codex/2026-11-17/can-x20/outputs/EnrollmentRequirementValidator_Week15/04_Source_Code/test/week15_screen_test.dart: W01 blank login prevents network requests
+00:03 +13: C:/Users/jonga/Documents/Codex/2026-11-17/can-x20/outputs/EnrollmentRequirementValidator_Week15/04_Source_Code/test/week15_screen_test.dart: W01 blank login prevents network requests
+00:03 +14: C:/Users/jonga/Documents/Codex/2026-11-17/can-x20/outputs/EnrollmentRequirementValidator_Week15/04_Source_Code/test/week15_screen_test.dart: W02 unavailable service shows retry and recovers
+00:04 +15: C:/Users/jonga/Documents/Codex/2026-11-17/can-x20/outputs/EnrollmentRequirementValidator_Week15/04_Source_Code/test/week15_screen_test.dart: W03 submitting refreshes state without approving enrollment
+00:05 +16: C:/Users/jonga/Documents/Codex/2026-11-17/can-x20/outputs/EnrollmentRequirementValidator_Week15/04_Source_Code/test/week15_screen_test.dart: W04 returned item shows correction and supports resubmission
+00:05 +17: C:/Users/jonga/Documents/Codex/2026-11-17/can-x20/outputs/EnrollmentRequirementValidator_Week15/04_Source_Code/test/week15_screen_test.dart: W05 staff decision refreshes review queue
+00:05 +18: C:/Users/jonga/Documents/Codex/2026-11-17/can-x20/outputs/EnrollmentRequirementValidator_Week15/04_Source_Code/test/week15_screen_test.dart: W06 expired session returns student to sign in
+00:06 +19: All tests passed!

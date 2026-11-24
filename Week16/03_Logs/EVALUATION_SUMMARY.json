@@ -1,0 +1,17 @@
+{
+  "measured_application_requests": 320,
+  "unexpected_errors": 0,
+  "gate_pass_counts_out_of_8": {
+    "p95_pass": 6,
+    "error_pass": 8,
+    "throughput_pass": 5,
+    "health_pass": 0
+  },
+  "backend_one_core_cpu_percent_range": [
+    83.0139943931995,
+    89.53442101074414
+  ],
+  "maximum_sampled_php_rss_mib": 47.94140625,
+  "rollback_recovery_seconds": 1.179,
+  "recommendation": "Conditional supervised fictional local demonstration only; no-go for real enrollment or public peak commitments."
+}

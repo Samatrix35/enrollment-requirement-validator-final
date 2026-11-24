@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="495" height="210" preserveAspectRatio="xMinYMin meet" viewBox="0 0 495 210" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="495" height="210"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-210)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="0" y="193" style="font-family: Helvetica-Bold; font-size: 12px;fill: rgb(7%,29%,27%); stroke:none;" transform="translate(0,386) scale(1,-1)">Implemented local demonstration boundary</text>
+			<rect x="0" y="85" width="145" height="85" rx="8" ry="8" style="stroke: rgb(52%,70%,64%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,94%,92%); fill-rule: evenodd;"/>
+			<text x="44.5" y="150" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,300) scale(1,-1)">Flutter Web</text>
+			<text x="35.382000000000005" y="132" style="font-family: Helvetica; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,264) scale(1,-1)">Student / staff roles</text>
+			<text x="26.652500000000003" y="118" style="font-family: Helvetica; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,236) scale(1,-1)">In-memory bearer token</text>
+			<text x="20.26475" y="104" style="font-family: Helvetica; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,208) scale(1,-1)">Visible states and feedback</text>
+			<rect x="175" y="85" width="145" height="85" rx="8" ry="8" style="stroke: rgb(52%,70%,64%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,94%,92%); fill-rule: evenodd;"/>
+			<text x="204.20499999999998" y="150" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,300) scale(1,-1)">Laravel / Sanctum</text>
+			<text x="199.64225" y="132" style="font-family: Helvetica; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,264) scale(1,-1)">Role + ownership checks</text>
+			<text x="204.245" y="118" style="font-family: Helvetica; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,236) scale(1,-1)">Authoritative validation</text>
+			<text x="198.567" y="104" style="font-family: Helvetica; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,208) scale(1,-1)">State-change / health API</text>
+			<rect x="350" y="85" width="145" height="85" rx="8" ry="8" style="stroke: rgb(52%,70%,64%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,94%,92%); fill-rule: evenodd;"/>
+			<text x="405.885" y="150" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,300) scale(1,-1)">SQLite</text>
+			<text x="376.882" y="132" style="font-family: Helvetica; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,264) scale(1,-1)">Students / requirements</text>
+			<text x="379.71675" y="118" style="font-family: Helvetica; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,236) scale(1,-1)">Users / hashed tokens</text>
+			<text x="381.85025" y="104" style="font-family: Helvetica; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,208) scale(1,-1)">Fictional records only</text>
+			<path d="M 145,125 L 170,125 Z" style="stroke: rgb(14%,44%,36%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="169 129, 175 125, 169 121" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,44%,36%); fill-rule: evenodd;"/>
+			<path d="M 320,125 L 345,125 Z" style="stroke: rgb(14%,44%,36%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="344 129, 350 125, 344 121" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,44%,36%); fill-rule: evenodd;"/>
+			<text x="0" y="60" style="font-family: Helvetica; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,120) scale(1,-1)">Local browser rehearsal: HTTP loopback; separate API regression: verified TLS.</text>
+			<text x="0" y="43" style="font-family: Helvetica; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,86) scale(1,-1)">Proposed deployment B: TLS proxy + PHP-FPM + PostgreSQL (not deployed/tested).</text>
+			<text x="0" y="23" style="font-family: Helvetica-Bold; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,46) scale(1,-1)">Trust: the browser is untrusted; only backend roles and ownership authorize writes.</text>
+		</g>
+	</g>
+</svg>

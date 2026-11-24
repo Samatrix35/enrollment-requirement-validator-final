@@ -1,0 +1,37 @@
+[
+  {
+    "started_at": 1795010113281,
+    "duration_ms": 1339.2304000000004,
+    "status": 200
+  },
+  {
+    "started_at": 1795010116622,
+    "duration_ms": 998.2508000000089,
+    "status": 200
+  },
+  {
+    "started_at": 1795010119620,
+    "duration_ms": 1049.5343999999895,
+    "status": 200
+  },
+  {
+    "started_at": 1795010122671,
+    "duration_ms": 870.5709000000061,
+    "status": 200
+  },
+  {
+    "started_at": 1795010125544,
+    "duration_ms": 1050.9410999999964,
+    "status": 200
+  },
+  {
+    "started_at": 1795010128595,
+    "duration_ms": 1066.8350999999966,
+    "status": 200
+  },
+  {
+    "started_at": 1795010131662,
+    "duration_ms": 925.4104999999981,
+    "status": 200
+  }
+]

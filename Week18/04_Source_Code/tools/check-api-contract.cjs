@@ -1,0 +1,10 @@
+const fs=require('fs'),path=require('path'),assert=require('assert');
+const {execFileSync}=require('child_process');
+const source=path.resolve(__dirname,'..');
+const spec=JSON.parse(fs.readFileSync(path.join(source,'docs/openapi.json')));
+const routes=JSON.parse(execFileSync('php',['artisan','route:list','--path=api','--json'],{cwd:path.join(source,'enrollment_validator_api'),windowsHide:true,encoding:'utf8'}));
+const expected=routes.flatMap(r=>r.method.split('|').filter(m=>m!=='HEAD').map(m=>m.toLowerCase()+' /'+r.uri.slice(4))).sort();
+const actual=Object.entries(spec.paths).flatMap(([p,methods])=>Object.keys(methods).map(m=>m+' '+p)).sort();
+assert.deepStrictEqual(actual,expected,'Contract verbs/paths must match Laravel API routes');
+function walk(v){if(v&&typeof v==='object'){if(v.$ref){assert(v.$ref.startsWith('#/'));let target=spec;for(const p of v.$ref.slice(2).split('/')){target=target[p];assert(target!==undefined,'Unresolved reference '+v.$ref)}}Object.values(v).forEach(walk)}}walk(spec);
+console.log(JSON.stringify({operations:actual.length,all_implemented_routes_documented:true,all_local_references_resolve:true,scope:'Structural and route coverage check; not independent full OpenAPI certification'},null,2));

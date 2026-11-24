@@ -1,0 +1,11 @@
+const fs=require('fs'),path=require('path'),http=require('http'),https=require('https');
+const {spawn,execFileSync}=require('child_process');
+if(!process.argv.includes('--reset-demo'))throw Error('This test resets the local demo database. Use --reset-demo only with disposable fictional data.');
+const newman=require('newman'),source=path.resolve(__dirname,'..'),root=path.resolve(source,'..'),api=path.join(source,'enrollment_validator_api');
+const cert=path.join(__dirname,'certs/localhost.pem'),key=path.join(__dirname,'certs/localhost-key.pem');
+if(!fs.existsSync(cert)||!fs.existsSync(key))throw Error('Generate local test certificates first; see Run-HTTPS-Checks.ps1.');
+execFileSync('php',['artisan','migrate:fresh','--seed','--force'],{cwd:api,stdio:'inherit',windowsHide:true});
+execFileSync('php',['artisan','cache:clear'],{cwd:api,stdio:'inherit',windowsHide:true});
+const backend=spawn('php',['-S','127.0.0.1:8048','-t','public','public/index.php'],{cwd:api,env:{...process.env,APP_ENV:'production',APP_DEBUG:'false',TRUSTED_PROXIES:'127.0.0.1'},windowsHide:true,stdio:'inherit'});
+const proxy=https.createServer({key:fs.readFileSync(key),cert:fs.readFileSync(cert)},(req,res)=>{const up=http.request({hostname:'127.0.0.1',port:8048,path:req.url,method:req.method,headers:{...req.headers,'x-forwarded-proto':'https'}},r=>{res.writeHead(r.statusCode,r.headers);r.pipe(res)});up.on('error',()=>{res.statusCode=502;res.end()});req.pipe(up)}).listen(8448,'127.0.0.1');
+setTimeout(()=>{const collection=JSON.parse(fs.readFileSync(path.join(source,'postman/Week16_Enrollment_Evaluation.postman_collection.json')));collection.variable.find(x=>x.key==='base_url').value='https://localhost:8448/api';newman.run({collection,insecure:false,sslExtraCaCerts:cert,reporters:['cli']},(error,summary)=>{backend.kill();proxy.close();if(error||summary.run.failures.length)process.exitCode=1})},1500);

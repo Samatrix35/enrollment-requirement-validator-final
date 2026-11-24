@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="495" height="210" preserveAspectRatio="xMinYMin meet" viewBox="0 0 495 210" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="495" height="210"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-210)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="0" y="192" style="font-family: Helvetica-Bold; font-size: 11px;fill: rgb(7%,29%,27%); stroke:none;" transform="translate(0,384) scale(1,-1)">Requirement state machine - staff authority preserved</text>
+			<rect x="0" y="120" width="125" height="43" rx="6" ry="6" style="stroke: rgb(52%,70%,64%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,94%,92%); fill-rule: evenodd;"/>
+			<text x="42.775" y="137" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,274) scale(1,-1)">Pending</text>
+			<rect x="180" y="120" width="125" height="43" rx="6" ry="6" style="stroke: rgb(52%,70%,64%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,94%,92%); fill-rule: evenodd;"/>
+			<text x="218.055" y="137" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,274) scale(1,-1)">Submitted</text>
+			<rect x="360" y="120" width="125" height="43" rx="6" ry="6" style="stroke: rgb(52%,70%,64%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,94%,92%); fill-rule: evenodd;"/>
+			<text x="399.165" y="137" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,274) scale(1,-1)">Approved</text>
+			<path d="M 125,141 L 175,141 Z" style="stroke: rgb(14%,44%,36%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="174 145, 180 141, 174 137" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,44%,36%); fill-rule: evenodd;"/>
+			<path d="M 305,141 L 355,141 Z" style="stroke: rgb(14%,44%,36%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="354 145, 360 141, 354 137" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,44%,36%); fill-rule: evenodd;"/>
+			<text x="135" y="151" style="font-family: Helvetica; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,302) scale(1,-1)">student</text>
+			<text x="322" y="151" style="font-family: Helvetica; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,302) scale(1,-1)">staff</text>
+			<rect x="180" y="30" width="125" height="43" rx="6" ry="6" style="stroke: rgb(76%,55%,44%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,94%,90%); fill-rule: evenodd;"/>
+			<text x="197.986" y="47" style="font-family: Helvetica-Bold; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,94) scale(1,-1)">Rejected / correction</text>
+			<path d="M 217,120 L 217,78 Z" style="stroke: rgb(14%,44%,36%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="213 79, 217 73, 221 79" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,44%,36%); fill-rule: evenodd;"/>
+			<path d="M 268,73 L 268,113 Z" style="stroke: rgb(14%,44%,36%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="264 112, 268 118, 272 112" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,44%,36%); fill-rule: evenodd;"/>
+			<text x="8" y="88" style="font-family: Helvetica; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,176) scale(1,-1)">Staff returns with required note</text>
+			<text x="281" y="88" style="font-family: Helvetica; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,176) scale(1,-1)">Student resubmits; note clears</text>
+			<text x="0" y="8" style="font-family: Helvetica; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,16) scale(1,-1)">Disallowed/stale transitions return409. One approved item does not imply institutional clearance.</text>
+		</g>
+	</g>
+</svg>

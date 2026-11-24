@@ -1,0 +1,5 @@
+{
+  "sampling_interval_ms": 1000,
+  "errors": [],
+  "interpretation": "Windows Get-Process TotalProcessorTime and WorkingSet64. CPU percent is one logical-core equivalent, not host-wide percent. Memory is sampled RSS/private bytes, not PHP heap. Collector and load generator share the host; CPU-window endpoints exclude fractions outside sample boundaries."
+}

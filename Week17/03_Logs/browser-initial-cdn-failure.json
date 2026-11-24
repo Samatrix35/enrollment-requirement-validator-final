@@ -1,0 +1,13 @@
+{
+  "captured_at": "2026-11-23T14:15:27.304Z",
+  "release": "w17-r1",
+  "scope": "Developer rehearsal; no stakeholder feedback/approval",
+  "checks": [],
+  "captures": [],
+  "api_responses": [],
+  "page_errors": [
+    "Failed to fetch",
+    "Failed to fetch dynamically imported module: https://www.gstatic.com/flutter-canvaskit/cf636b1dfb818dd6a3ff16e390e93b1a036969c8/chromium/canvaskit.js",
+    "TypeError: Failed to fetch dynamically imported module: https://www.gstatic.com/flutter-canvaskit/cf636b1dfb818dd6a3ff16e390e93b1a036969c8/chromium/canvaskit.js\n\nDart stack trace:\n"
+  ]
+}

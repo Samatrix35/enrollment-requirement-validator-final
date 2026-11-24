@@ -1,0 +1,354 @@
+[
+  {
+    "operation": "student_checklist",
+    "started_at": 1795010085663,
+    "duration_ms": 461.96919999999227,
+    "status": 200,
+    "expected": 200,
+    "request_id": "320feadd-37b7-47dd-afbf-6f9ab860bcc3"
+  },
+  {
+    "operation": "student_checklist",
+    "started_at": 1795010085663,
+    "duration_ms": 961.4094000000041,
+    "status": 200,
+    "expected": 200,
+    "request_id": "f52ae4ce-33a2-4dbf-9855-ddb663f6959e"
+  },
+  {
+    "operation": "staff_queue",
+    "started_at": 1795010085664,
+    "duration_ms": 1533.366399999999,
+    "status": 200,
+    "expected": 200,
+    "request_id": "6e6f1378-d46f-4448-9bfb-05a8335f705f"
+  },
+  {
+    "operation": "student_submit",
+    "started_at": 1795010085664,
+    "duration_ms": 2000.8819000000076,
+    "status": 200,
+    "expected": 200,
+    "request_id": "e4d6fe26-7c7d-45ac-a575-be4a500333e3"
+  },
+  {
+    "operation": "student_checklist",
+    "started_at": 1795010085664,
+    "duration_ms": 2498.7698999999993,
+    "status": 200,
+    "expected": 200,
+    "request_id": "4ad404a9-6dcb-4a0a-a2b1-6825b149cd46"
+  },
+  {
+    "operation": "student_checklist",
+    "started_at": 1795010085664,
+    "duration_ms": 3013.7562000000034,
+    "status": 200,
+    "expected": 200,
+    "request_id": "66905664-a9f7-434f-bf42-76cdb7f58191"
+  },
+  {
+    "operation": "student_checklist",
+    "started_at": 1795010085664,
+    "duration_ms": 3595.541299999997,
+    "status": 200,
+    "expected": 200,
+    "request_id": "86e97f8a-9300-4a81-a82c-91a7c0276954"
+  },
+  {
+    "operation": "staff_queue",
+    "started_at": 1795010085664,
+    "duration_ms": 4169.884399999995,
+    "status": 200,
+    "expected": 200,
+    "request_id": "ad109c5b-8643-4a4c-98f9-852b11b82c1a"
+  },
+  {
+    "operation": "student_checklist",
+    "started_at": 1795010086125,
+    "duration_ms": 4622.850699999995,
+    "status": 200,
+    "expected": 200,
+    "request_id": "1fe4dac5-5401-4886-ba62-5422af9cae69"
+  },
+  {
+    "operation": "staff_queue",
+    "started_at": 1795010086625,
+    "duration_ms": 4655.094400000002,
+    "status": 200,
+    "expected": 200,
+    "request_id": "7e742f28-d7bf-4156-8f2a-4291f0900ca3"
+  },
+  {
+    "operation": "student_submit",
+    "started_at": 1795010087197,
+    "duration_ms": 4549.684699999998,
+    "status": 200,
+    "expected": 200,
+    "request_id": "3c32a67d-e175-4b94-8a05-0616073ae9e1"
+  },
+  {
+    "operation": "staff_return",
+    "started_at": 1795010087665,
+    "duration_ms": 4586.015299999999,
+    "status": 200,
+    "expected": 200,
+    "request_id": "df7e2d24-17b2-43c0-9649-d66bd3d01ccb"
+  },
+  {
+    "operation": "student_checklist",
+    "started_at": 1795010088163,
+    "duration_ms": 4610.0708999999915,
+    "status": 200,
+    "expected": 200,
+    "request_id": "789565d7-19aa-4a38-bcf8-c696460dc06f"
+  },
+  {
+    "operation": "student_checklist",
+    "started_at": 1795010088678,
+    "duration_ms": 4609.666299999997,
+    "status": 200,
+    "expected": 200,
+    "request_id": "c79cd96f-0d41-4860-a6b0-9886d71c6349"
+  },
+  {
+    "operation": "staff_queue",
+    "started_at": 1795010089260,
+    "duration_ms": 4527.831999999995,
+    "status": 200,
+    "expected": 200,
+    "request_id": "1d7d32ac-8e70-46e9-8c19-575bb3cccb2a"
+  },
+  {
+    "operation": "student_submit",
+    "started_at": 1795010089834,
+    "duration_ms": 4546.689899999998,
+    "status": 200,
+    "expected": 200,
+    "request_id": "cba9dc72-195b-4c5a-8f8b-38c22d70fbe0"
+  },
+  {
+    "operation": "staff_queue",
+    "started_at": 1795010090748,
+    "duration_ms": 4193.112100000013,
+    "status": 200,
+    "expected": 200,
+    "request_id": "fb72e268-9e09-4e26-9d8b-850120ad9e15"
+  },
+  {
+    "operation": "student_submit",
+    "started_at": 1795010091280,
+    "duration_ms": 4175.419499999989,
+    "status": 200,
+    "expected": 200,
+    "request_id": "7b454437-a713-495a-bf73-e96b29038788"
+  },
+  {
+    "operation": "staff_return",
+    "started_at": 1795010091747,
+    "duration_ms": 4227.002699999997,
+    "status": 200,
+    "expected": 200,
+    "request_id": "246da193-9fdc-4f82-9179-59fb095c21fa"
+  },
+  {
+    "operation": "student_checklist",
+    "started_at": 1795010092251,
+    "duration_ms": 4663.524000000005,
+    "status": 200,
+    "expected": 200,
+    "request_id": "089b6404-1447-4ac7-8589-a529610da0c0"
+  },
+  {
+    "operation": "student_checklist",
+    "started_at": 1795010092773,
+    "duration_ms": 4605.455000000002,
+    "status": 200,
+    "expected": 200,
+    "request_id": "3c516f6e-2ca8-4a7f-9224-95d6d36630fc"
+  },
+  {
+    "operation": "staff_queue",
+    "started_at": 1795010093287,
+    "duration_ms": 4683.804199999999,
+    "status": 200,
+    "expected": 200,
+    "request_id": "789e898b-6f2a-4c16-ae6f-8da9aed128e9"
+  },
+  {
+    "operation": "student_submit",
+    "started_at": 1795010093787,
+    "duration_ms": 4645.106,
+    "status": 200,
+    "expected": 200,
+    "request_id": "4efc6d60-a0e6-4dbd-9026-bcbacf845554"
+  },
+  {
+    "operation": "staff_return",
+    "started_at": 1795010094381,
+    "duration_ms": 4556.068699999989,
+    "status": 200,
+    "expected": 200,
+    "request_id": "5111320e-b5ff-47cd-b7e9-9921f4e0eff9"
+  },
+  {
+    "operation": "student_submit",
+    "started_at": 1795010094941,
+    "duration_ms": 4406.489600000001,
+    "status": 200,
+    "expected": 200,
+    "request_id": "0537863a-5e2a-4624-b521-98793411a5b4"
+  },
+  {
+    "operation": "staff_return",
+    "started_at": 1795010095455,
+    "duration_ms": 4382.0380000000005,
+    "status": 200,
+    "expected": 200,
+    "request_id": "1914bed8-234c-4d33-9144-7cf20311ae81"
+  },
+  {
+    "operation": "student_checklist",
+    "started_at": 1795010095974,
+    "duration_ms": 4396.909699999989,
+    "status": 200,
+    "expected": 200,
+    "request_id": "d72bb01d-f7ea-403c-9c70-8fc3f016a668"
+  },
+  {
+    "operation": "student_checklist",
+    "started_at": 1795010096914,
+    "duration_ms": 3886.9685000000027,
+    "status": 200,
+    "expected": 200,
+    "request_id": "e0c2c633-f606-456a-bd13-38effac780d1"
+  },
+  {
+    "operation": "staff_queue",
+    "started_at": 1795010097378,
+    "duration_ms": 3984.428800000009,
+    "status": 200,
+    "expected": 200,
+    "request_id": "eeabbcf2-dfdf-4bff-a26d-22bea5046274"
+  },
+  {
+    "operation": "student_submit",
+    "started_at": 1795010097971,
+    "duration_ms": 3904.167499999996,
+    "status": 200,
+    "expected": 200,
+    "request_id": "85a6ede9-6fd5-4349-9ea9-69ff7f20cb9b"
+  },
+  {
+    "operation": "staff_return",
+    "started_at": 1795010098433,
+    "duration_ms": 4566.123099999997,
+    "status": 200,
+    "expected": 200,
+    "request_id": "ef50d48d-2284-4370-a8b3-824ab827e406"
+  },
+  {
+    "operation": "student_checklist",
+    "started_at": 1795010098937,
+    "duration_ms": 4707.468299999993,
+    "status": 200,
+    "expected": 200,
+    "request_id": "31faab18-b6d0-4ac6-89fb-6115d93f2162"
+  },
+  {
+    "operation": "staff_return",
+    "started_at": 1795010099348,
+    "duration_ms": 4851.991999999998,
+    "status": 200,
+    "expected": 200,
+    "request_id": "04ef9872-cbc5-46fe-be75-9e1cf2b5647e"
+  },
+  {
+    "operation": "student_checklist",
+    "started_at": 1795010099838,
+    "duration_ms": 4841.0095,
+    "status": 200,
+    "expected": 200,
+    "request_id": "a8aac5f0-3b68-4d40-b686-7aeefddfb8ff"
+  },
+  {
+    "operation": "student_checklist",
+    "started_at": 1795010100371,
+    "duration_ms": 4856.074600000007,
+    "status": 200,
+    "expected": 200,
+    "request_id": "37237027-85b4-4b2d-8157-eabe7af5a820"
+  },
+  {
+    "operation": "student_checklist",
+    "started_at": 1795010100801,
+    "duration_ms": 4938.518800000005,
+    "status": 200,
+    "expected": 200,
+    "request_id": "646a33ca-bd74-431e-9296-cb1c00a952e6"
+  },
+  {
+    "operation": "student_submit",
+    "started_at": 1795010101363,
+    "duration_ms": 4892.970499999996,
+    "status": 200,
+    "expected": 200,
+    "request_id": "67e4b8a7-0d04-46c3-a95b-8177a4cc9b26"
+  },
+  {
+    "operation": "staff_return",
+    "started_at": 1795010101876,
+    "duration_ms": 4891.299800000008,
+    "status": 200,
+    "expected": 200,
+    "request_id": "8563eacf-5ac1-49fb-baec-f75891e7af66"
+  },
+  {
+    "operation": "student_checklist",
+    "started_at": 1795010102999,
+    "duration_ms": 4286.7091999999975,
+    "status": 200,
+    "expected": 200,
+    "request_id": "86e96d6f-f8ca-4dd4-b87b-84edf7d9b3e9"
+  },
+  {
+    "operation": "student_checklist",
+    "started_at": 1795010103644,
+    "duration_ms": 4130.7543000000005,
+    "status": 200,
+    "expected": 200,
+    "request_id": "6d3b6066-d18f-4d1c-87a7-3ee1e6d19b5c"
+  },
+  {
+    "operation": "student_checklist",
+    "started_at": 1795010104200,
+    "duration_ms": 4032.368300000002,
+    "status": 200,
+    "expected": 200,
+    "request_id": "62648a67-8967-4692-a72b-9033188fd653"
+  },
+  {
+    "operation": "student_checklist",
+    "started_at": 1795010104679,
+    "duration_ms": 4387.130099999995,
+    "status": 200,
+    "expected": 200,
+    "request_id": "d6176469-7eb9-404e-87b6-63d0defd78bc"
+  },
+  {
+    "operation": "student_checklist",
+    "started_at": 1795010105227,
+    "duration_ms": 4353.349499999997,
+    "status": 200,
+    "expected": 200,
+    "request_id": "b038b6e4-55ca-4809-92fd-5663d5575e96"
+  },
+  {
+    "operation": "staff_return",
+    "started_at": 1795010106256,
+    "duration_ms": 3849.3478999999934,
+    "status": 200,
+    "expected": 200,
+    "request_id": "6600cc1e-362a-4ce4-ab45-ae60d30532a0"
+  }
+]

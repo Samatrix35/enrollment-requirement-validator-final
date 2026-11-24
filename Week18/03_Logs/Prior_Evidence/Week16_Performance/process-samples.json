@@ -1,0 +1,5170 @@
+[
+  {
+    "timestamp": 1795010002564,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 0.859375,
+    "working_set_bytes": 35487744,
+    "private_bytes": 21364736
+  },
+  {
+    "timestamp": 1795010002595,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010002597,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 48095232,
+    "private_bytes": 25055232
+  },
+  {
+    "timestamp": 1795010003600,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 0.859375,
+    "working_set_bytes": 35487744,
+    "private_bytes": 21364736
+  },
+  {
+    "timestamp": 1795010003636,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010003638,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 48095232,
+    "private_bytes": 25055232
+  },
+  {
+    "timestamp": 1795010004640,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 1.71875,
+    "working_set_bytes": 42582016,
+    "private_bytes": 27836416
+  },
+  {
+    "timestamp": 1795010004642,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010004644,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 48095232,
+    "private_bytes": 25055232
+  },
+  {
+    "timestamp": 1795010005646,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 2.65625,
+    "working_set_bytes": 46850048,
+    "private_bytes": 32129024
+  },
+  {
+    "timestamp": 1795010005648,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010005649,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 48095232,
+    "private_bytes": 25055232
+  },
+  {
+    "timestamp": 1795010006651,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 3.5625,
+    "working_set_bytes": 46850048,
+    "private_bytes": 32129024
+  },
+  {
+    "timestamp": 1795010006653,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010006655,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 48095232,
+    "private_bytes": 25055232
+  },
+  {
+    "timestamp": 1795010007658,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 4.46875,
+    "working_set_bytes": 49000448,
+    "private_bytes": 34230272
+  },
+  {
+    "timestamp": 1795010007660,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010007661,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 48095232,
+    "private_bytes": 25055232
+  },
+  {
+    "timestamp": 1795010008663,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 5.390625,
+    "working_set_bytes": 48967680,
+    "private_bytes": 34230272
+  },
+  {
+    "timestamp": 1795010008665,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010008667,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 47902720,
+    "private_bytes": 24514560
+  },
+  {
+    "timestamp": 1795010009668,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 6.328125,
+    "working_set_bytes": 47144960,
+    "private_bytes": 32129024
+  },
+  {
+    "timestamp": 1795010009670,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010009671,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46931968,
+    "private_bytes": 24256512
+  },
+  {
+    "timestamp": 1795010010674,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 7.234375,
+    "working_set_bytes": 48033792,
+    "private_bytes": 34230272
+  },
+  {
+    "timestamp": 1795010010676,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010010678,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46931968,
+    "private_bytes": 24256512
+  },
+  {
+    "timestamp": 1795010011680,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 8.15625,
+    "working_set_bytes": 49029120,
+    "private_bytes": 34390016
+  },
+  {
+    "timestamp": 1795010011681,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010011683,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46931968,
+    "private_bytes": 24256512
+  },
+  {
+    "timestamp": 1795010012686,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 9.125,
+    "working_set_bytes": 48427008,
+    "private_bytes": 34390016
+  },
+  {
+    "timestamp": 1795010012688,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010012690,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46931968,
+    "private_bytes": 24256512
+  },
+  {
+    "timestamp": 1795010013692,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 10.046875,
+    "working_set_bytes": 49164288,
+    "private_bytes": 34390016
+  },
+  {
+    "timestamp": 1795010013694,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010013697,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46931968,
+    "private_bytes": 24256512
+  },
+  {
+    "timestamp": 1795010014699,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 10.953125,
+    "working_set_bytes": 49197056,
+    "private_bytes": 34390016
+  },
+  {
+    "timestamp": 1795010014702,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010014705,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46931968,
+    "private_bytes": 24256512
+  },
+  {
+    "timestamp": 1795010015710,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 11.84375,
+    "working_set_bytes": 49037312,
+    "private_bytes": 34390016
+  },
+  {
+    "timestamp": 1795010015711,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010015713,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46931968,
+    "private_bytes": 24256512
+  },
+  {
+    "timestamp": 1795010016715,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 12.78125,
+    "working_set_bytes": 47280128,
+    "private_bytes": 32288768
+  },
+  {
+    "timestamp": 1795010016717,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010016719,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46931968,
+    "private_bytes": 24256512
+  },
+  {
+    "timestamp": 1795010017721,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 13.671875,
+    "working_set_bytes": 48173056,
+    "private_bytes": 34390016
+  },
+  {
+    "timestamp": 1795010017723,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010017725,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46931968,
+    "private_bytes": 24256512
+  },
+  {
+    "timestamp": 1795010018727,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 14.671875,
+    "working_set_bytes": 45895680,
+    "private_bytes": 32288768
+  },
+  {
+    "timestamp": 1795010018729,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010018731,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46931968,
+    "private_bytes": 24256512
+  },
+  {
+    "timestamp": 1795010019732,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 15.640625,
+    "working_set_bytes": 49086464,
+    "private_bytes": 34390016
+  },
+  {
+    "timestamp": 1795010019733,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010019735,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46931968,
+    "private_bytes": 24256512
+  },
+  {
+    "timestamp": 1795010020737,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 16.546875,
+    "working_set_bytes": 48316416,
+    "private_bytes": 34390016
+  },
+  {
+    "timestamp": 1795010020739,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010020741,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46931968,
+    "private_bytes": 24256512
+  },
+  {
+    "timestamp": 1795010021743,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 17.484375,
+    "working_set_bytes": 47067136,
+    "private_bytes": 32288768
+  },
+  {
+    "timestamp": 1795010021745,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010021747,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46931968,
+    "private_bytes": 24256512
+  },
+  {
+    "timestamp": 1795010022749,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 18.359375,
+    "working_set_bytes": 49160192,
+    "private_bytes": 34390016
+  },
+  {
+    "timestamp": 1795010022750,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010022752,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46931968,
+    "private_bytes": 24256512
+  },
+  {
+    "timestamp": 1795010023753,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 19.28125,
+    "working_set_bytes": 49197056,
+    "private_bytes": 34390016
+  },
+  {
+    "timestamp": 1795010023755,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010023757,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46931968,
+    "private_bytes": 24256512
+  },
+  {
+    "timestamp": 1795010024759,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 20.140625,
+    "working_set_bytes": 49164288,
+    "private_bytes": 34390016
+  },
+  {
+    "timestamp": 1795010024761,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010024789,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46931968,
+    "private_bytes": 24256512
+  },
+  {
+    "timestamp": 1795010025792,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 21.09375,
+    "working_set_bytes": 48168960,
+    "private_bytes": 34390016
+  },
+  {
+    "timestamp": 1795010025794,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010025796,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46931968,
+    "private_bytes": 24256512
+  },
+  {
+    "timestamp": 1795010026798,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 22.046875,
+    "working_set_bytes": 49086464,
+    "private_bytes": 34390016
+  },
+  {
+    "timestamp": 1795010026800,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010026802,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46931968,
+    "private_bytes": 24256512
+  },
+  {
+    "timestamp": 1795010027804,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 22.96875,
+    "working_set_bytes": 48324608,
+    "private_bytes": 34390016
+  },
+  {
+    "timestamp": 1795010027806,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010027807,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46931968,
+    "private_bytes": 24256512
+  },
+  {
+    "timestamp": 1795010028810,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 23.703125,
+    "working_set_bytes": 48312320,
+    "private_bytes": 34390016
+  },
+  {
+    "timestamp": 1795010028812,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010028814,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46931968,
+    "private_bytes": 24256512
+  },
+  {
+    "timestamp": 1795010029816,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 23.703125,
+    "working_set_bytes": 48312320,
+    "private_bytes": 34390016
+  },
+  {
+    "timestamp": 1795010029818,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010029820,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46940160,
+    "private_bytes": 24256512
+  },
+  {
+    "timestamp": 1795010030823,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 24.40625,
+    "working_set_bytes": 49164288,
+    "private_bytes": 34390016
+  },
+  {
+    "timestamp": 1795010030824,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010030826,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46940160,
+    "private_bytes": 24256512
+  },
+  {
+    "timestamp": 1795010031827,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 25.25,
+    "working_set_bytes": 49164288,
+    "private_bytes": 34390016
+  },
+  {
+    "timestamp": 1795010031829,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010031831,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46940160,
+    "private_bytes": 24256512
+  },
+  {
+    "timestamp": 1795010032835,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 26.1875,
+    "working_set_bytes": 49164288,
+    "private_bytes": 34390016
+  },
+  {
+    "timestamp": 1795010032837,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010032840,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46940160,
+    "private_bytes": 24256512
+  },
+  {
+    "timestamp": 1795010033842,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 27.03125,
+    "working_set_bytes": 49164288,
+    "private_bytes": 34390016
+  },
+  {
+    "timestamp": 1795010033844,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010033846,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46940160,
+    "private_bytes": 24256512
+  },
+  {
+    "timestamp": 1795010034848,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 27.890625,
+    "working_set_bytes": 49168384,
+    "private_bytes": 34390016
+  },
+  {
+    "timestamp": 1795010034850,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010034852,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46940160,
+    "private_bytes": 24256512
+  },
+  {
+    "timestamp": 1795010035854,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 28.734375,
+    "working_set_bytes": 48173056,
+    "private_bytes": 34390016
+  },
+  {
+    "timestamp": 1795010035856,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010035857,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46940160,
+    "private_bytes": 24256512
+  },
+  {
+    "timestamp": 1795010036860,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 29.640625,
+    "working_set_bytes": 49176576,
+    "private_bytes": 34390016
+  },
+  {
+    "timestamp": 1795010036861,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010036863,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46940160,
+    "private_bytes": 24256512
+  },
+  {
+    "timestamp": 1795010037864,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 30.46875,
+    "working_set_bytes": 49176576,
+    "private_bytes": 34390016
+  },
+  {
+    "timestamp": 1795010037866,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010037867,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46940160,
+    "private_bytes": 24256512
+  },
+  {
+    "timestamp": 1795010038870,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 31.359375,
+    "working_set_bytes": 46047232,
+    "private_bytes": 32288768
+  },
+  {
+    "timestamp": 1795010038872,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010038874,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46940160,
+    "private_bytes": 24256512
+  },
+  {
+    "timestamp": 1795010039876,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 32.328125,
+    "working_set_bytes": 50270208,
+    "private_bytes": 36491264
+  },
+  {
+    "timestamp": 1795010039878,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010039880,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46940160,
+    "private_bytes": 24256512
+  },
+  {
+    "timestamp": 1795010040882,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 33.1875,
+    "working_set_bytes": 49082368,
+    "private_bytes": 34390016
+  },
+  {
+    "timestamp": 1795010040884,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010040886,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46940160,
+    "private_bytes": 24256512
+  },
+  {
+    "timestamp": 1795010041889,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 34.078125,
+    "working_set_bytes": 49164288,
+    "private_bytes": 34390016
+  },
+  {
+    "timestamp": 1795010041891,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010042277,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46940160,
+    "private_bytes": 24256512
+  },
+  {
+    "timestamp": 1795010043279,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 35.0625,
+    "working_set_bytes": 48144384,
+    "private_bytes": 34390016
+  },
+  {
+    "timestamp": 1795010043281,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010043283,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46940160,
+    "private_bytes": 24256512
+  },
+  {
+    "timestamp": 1795010044286,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 35.96875,
+    "working_set_bytes": 48185344,
+    "private_bytes": 34390016
+  },
+  {
+    "timestamp": 1795010044288,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010044290,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46940160,
+    "private_bytes": 24256512
+  },
+  {
+    "timestamp": 1795010045291,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 36.890625,
+    "working_set_bytes": 49119232,
+    "private_bytes": 34390016
+  },
+  {
+    "timestamp": 1795010045293,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010045295,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46940160,
+    "private_bytes": 24256512
+  },
+  {
+    "timestamp": 1795010046297,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 37.859375,
+    "working_set_bytes": 48603136,
+    "private_bytes": 34390016
+  },
+  {
+    "timestamp": 1795010046299,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010046301,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46940160,
+    "private_bytes": 24256512
+  },
+  {
+    "timestamp": 1795010047304,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 38.734375,
+    "working_set_bytes": 49164288,
+    "private_bytes": 34390016
+  },
+  {
+    "timestamp": 1795010047305,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010047307,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46940160,
+    "private_bytes": 24256512
+  },
+  {
+    "timestamp": 1795010048309,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 39.609375,
+    "working_set_bytes": 49160192,
+    "private_bytes": 34480128
+  },
+  {
+    "timestamp": 1795010048311,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010048313,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46940160,
+    "private_bytes": 24256512
+  },
+  {
+    "timestamp": 1795010049316,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 40.53125,
+    "working_set_bytes": 49160192,
+    "private_bytes": 34480128
+  },
+  {
+    "timestamp": 1795010049318,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010049320,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46940160,
+    "private_bytes": 24256512
+  },
+  {
+    "timestamp": 1795010050323,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 41.40625,
+    "working_set_bytes": 49238016,
+    "private_bytes": 34480128
+  },
+  {
+    "timestamp": 1795010050325,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010050326,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46940160,
+    "private_bytes": 24256512
+  },
+  {
+    "timestamp": 1795010051329,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 42.296875,
+    "working_set_bytes": 49270784,
+    "private_bytes": 34480128
+  },
+  {
+    "timestamp": 1795010051331,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010051332,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46940160,
+    "private_bytes": 24256512
+  },
+  {
+    "timestamp": 1795010052334,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 43.203125,
+    "working_set_bytes": 49160192,
+    "private_bytes": 34480128
+  },
+  {
+    "timestamp": 1795010052336,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010052338,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46940160,
+    "private_bytes": 24256512
+  },
+  {
+    "timestamp": 1795010053341,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 44.125,
+    "working_set_bytes": 48390144,
+    "private_bytes": 34480128
+  },
+  {
+    "timestamp": 1795010053344,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010053346,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46940160,
+    "private_bytes": 24256512
+  },
+  {
+    "timestamp": 1795010054347,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 45.078125,
+    "working_set_bytes": 48398336,
+    "private_bytes": 34480128
+  },
+  {
+    "timestamp": 1795010054349,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010054350,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46940160,
+    "private_bytes": 24256512
+  },
+  {
+    "timestamp": 1795010055353,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 45.953125,
+    "working_set_bytes": 49238016,
+    "private_bytes": 34480128
+  },
+  {
+    "timestamp": 1795010055355,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010055356,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46940160,
+    "private_bytes": 24256512
+  },
+  {
+    "timestamp": 1795010056359,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 46.859375,
+    "working_set_bytes": 49238016,
+    "private_bytes": 34480128
+  },
+  {
+    "timestamp": 1795010056360,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010056362,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46940160,
+    "private_bytes": 24256512
+  },
+  {
+    "timestamp": 1795010057365,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 47.75,
+    "working_set_bytes": 49238016,
+    "private_bytes": 34480128
+  },
+  {
+    "timestamp": 1795010057366,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010057367,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46940160,
+    "private_bytes": 24256512
+  },
+  {
+    "timestamp": 1795010058369,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 48.625,
+    "working_set_bytes": 48398336,
+    "private_bytes": 34480128
+  },
+  {
+    "timestamp": 1795010058371,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010058373,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46940160,
+    "private_bytes": 24256512
+  },
+  {
+    "timestamp": 1795010059374,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 49.5625,
+    "working_set_bytes": 49242112,
+    "private_bytes": 34480128
+  },
+  {
+    "timestamp": 1795010059376,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39198720,
+    "private_bytes": 25042944
+  },
+  {
+    "timestamp": 1795010059377,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46940160,
+    "private_bytes": 24256512
+  },
+  {
+    "timestamp": 1795010060381,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 50.296875,
+    "working_set_bytes": 49172480,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010060383,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39137280,
+    "private_bytes": 24932352
+  },
+  {
+    "timestamp": 1795010060385,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46886912,
+    "private_bytes": 24150016
+  },
+  {
+    "timestamp": 1795010061387,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 51.21875,
+    "working_set_bytes": 49172480,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010061389,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39137280,
+    "private_bytes": 24932352
+  },
+  {
+    "timestamp": 1795010061391,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46886912,
+    "private_bytes": 24150016
+  },
+  {
+    "timestamp": 1795010062392,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 52.078125,
+    "working_set_bytes": 49172480,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010062394,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39137280,
+    "private_bytes": 24932352
+  },
+  {
+    "timestamp": 1795010062396,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46886912,
+    "private_bytes": 24150016
+  },
+  {
+    "timestamp": 1795010063398,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 52.96875,
+    "working_set_bytes": 47071232,
+    "private_bytes": 32264192
+  },
+  {
+    "timestamp": 1795010063399,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39137280,
+    "private_bytes": 24932352
+  },
+  {
+    "timestamp": 1795010063400,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46886912,
+    "private_bytes": 24150016
+  },
+  {
+    "timestamp": 1795010064402,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 53.84375,
+    "working_set_bytes": 48177152,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010064403,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39137280,
+    "private_bytes": 24932352
+  },
+  {
+    "timestamp": 1795010064405,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46886912,
+    "private_bytes": 24150016
+  },
+  {
+    "timestamp": 1795010065407,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 54.796875,
+    "working_set_bytes": 49094656,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010065409,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39137280,
+    "private_bytes": 24932352
+  },
+  {
+    "timestamp": 1795010065411,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46886912,
+    "private_bytes": 24150016
+  },
+  {
+    "timestamp": 1795010066414,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 55.75,
+    "working_set_bytes": 48324608,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010066416,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39137280,
+    "private_bytes": 24932352
+  },
+  {
+    "timestamp": 1795010066418,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46886912,
+    "private_bytes": 24150016
+  },
+  {
+    "timestamp": 1795010067419,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 56.625,
+    "working_set_bytes": 49172480,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010067420,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39137280,
+    "private_bytes": 24932352
+  },
+  {
+    "timestamp": 1795010067422,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46886912,
+    "private_bytes": 24150016
+  },
+  {
+    "timestamp": 1795010068423,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 57.5625,
+    "working_set_bytes": 47075328,
+    "private_bytes": 32264192
+  },
+  {
+    "timestamp": 1795010068425,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39137280,
+    "private_bytes": 24932352
+  },
+  {
+    "timestamp": 1795010068426,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46886912,
+    "private_bytes": 24150016
+  },
+  {
+    "timestamp": 1795010069428,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 58.453125,
+    "working_set_bytes": 47071232,
+    "private_bytes": 32264192
+  },
+  {
+    "timestamp": 1795010069429,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39137280,
+    "private_bytes": 24932352
+  },
+  {
+    "timestamp": 1795010069430,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46886912,
+    "private_bytes": 24150016
+  },
+  {
+    "timestamp": 1795010070432,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 59.296875,
+    "working_set_bytes": 48181248,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010070433,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39137280,
+    "private_bytes": 24932352
+  },
+  {
+    "timestamp": 1795010070435,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46886912,
+    "private_bytes": 24150016
+  },
+  {
+    "timestamp": 1795010071436,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 60.28125,
+    "working_set_bytes": 45903872,
+    "private_bytes": 32264192
+  },
+  {
+    "timestamp": 1795010071438,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39137280,
+    "private_bytes": 24932352
+  },
+  {
+    "timestamp": 1795010071440,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46886912,
+    "private_bytes": 24150016
+  },
+  {
+    "timestamp": 1795010072443,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 61.171875,
+    "working_set_bytes": 49094656,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010072445,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39137280,
+    "private_bytes": 24932352
+  },
+  {
+    "timestamp": 1795010072447,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46886912,
+    "private_bytes": 24150016
+  },
+  {
+    "timestamp": 1795010073448,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 62.046875,
+    "working_set_bytes": 48324608,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010073449,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39137280,
+    "private_bytes": 24932352
+  },
+  {
+    "timestamp": 1795010073450,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46886912,
+    "private_bytes": 24150016
+  },
+  {
+    "timestamp": 1795010074452,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 62.9375,
+    "working_set_bytes": 47296512,
+    "private_bytes": 32264192
+  },
+  {
+    "timestamp": 1795010074453,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39137280,
+    "private_bytes": 24932352
+  },
+  {
+    "timestamp": 1795010074454,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46886912,
+    "private_bytes": 24150016
+  },
+  {
+    "timestamp": 1795010075456,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 63.78125,
+    "working_set_bytes": 49168384,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010075457,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39137280,
+    "private_bytes": 24932352
+  },
+  {
+    "timestamp": 1795010075458,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46886912,
+    "private_bytes": 24150016
+  },
+  {
+    "timestamp": 1795010076460,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 64.671875,
+    "working_set_bytes": 49172480,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010076462,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39137280,
+    "private_bytes": 24932352
+  },
+  {
+    "timestamp": 1795010076464,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46886912,
+    "private_bytes": 24150016
+  },
+  {
+    "timestamp": 1795010077467,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 65.578125,
+    "working_set_bytes": 49250304,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010077470,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39137280,
+    "private_bytes": 24932352
+  },
+  {
+    "timestamp": 1795010077471,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46886912,
+    "private_bytes": 24150016
+  },
+  {
+    "timestamp": 1795010078474,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 66.46875,
+    "working_set_bytes": 48046080,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010078475,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39137280,
+    "private_bytes": 24932352
+  },
+  {
+    "timestamp": 1795010078477,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46886912,
+    "private_bytes": 24150016
+  },
+  {
+    "timestamp": 1795010079479,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 67.359375,
+    "working_set_bytes": 49590272,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010079480,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39137280,
+    "private_bytes": 24932352
+  },
+  {
+    "timestamp": 1795010079482,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46886912,
+    "private_bytes": 24150016
+  },
+  {
+    "timestamp": 1795010080483,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 68.3125,
+    "working_set_bytes": 46182400,
+    "private_bytes": 32264192
+  },
+  {
+    "timestamp": 1795010080485,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39137280,
+    "private_bytes": 24932352
+  },
+  {
+    "timestamp": 1795010080488,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46886912,
+    "private_bytes": 24150016
+  },
+  {
+    "timestamp": 1795010081491,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 69.21875,
+    "working_set_bytes": 49172480,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010081493,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39137280,
+    "private_bytes": 24932352
+  },
+  {
+    "timestamp": 1795010081495,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46886912,
+    "private_bytes": 24150016
+  },
+  {
+    "timestamp": 1795010082497,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 69.625,
+    "working_set_bytes": 49172480,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010082499,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39137280,
+    "private_bytes": 24932352
+  },
+  {
+    "timestamp": 1795010082501,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46886912,
+    "private_bytes": 24150016
+  },
+  {
+    "timestamp": 1795010083502,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 70.5,
+    "working_set_bytes": 49172480,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010083503,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39137280,
+    "private_bytes": 24932352
+  },
+  {
+    "timestamp": 1795010083504,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46886912,
+    "private_bytes": 24150016
+  },
+  {
+    "timestamp": 1795010084507,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 71.375,
+    "working_set_bytes": 49172480,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010084509,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39137280,
+    "private_bytes": 24932352
+  },
+  {
+    "timestamp": 1795010084511,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46886912,
+    "private_bytes": 24150016
+  },
+  {
+    "timestamp": 1795010085512,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 72.171875,
+    "working_set_bytes": 49172480,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010085514,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39137280,
+    "private_bytes": 24932352
+  },
+  {
+    "timestamp": 1795010085515,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46886912,
+    "private_bytes": 24150016
+  },
+  {
+    "timestamp": 1795010086517,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 73.0625,
+    "working_set_bytes": 49176576,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010086518,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39137280,
+    "private_bytes": 24932352
+  },
+  {
+    "timestamp": 1795010086519,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46886912,
+    "private_bytes": 24150016
+  },
+  {
+    "timestamp": 1795010087520,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 73.921875,
+    "working_set_bytes": 48181248,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010087521,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39137280,
+    "private_bytes": 24932352
+  },
+  {
+    "timestamp": 1795010087522,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46886912,
+    "private_bytes": 24150016
+  },
+  {
+    "timestamp": 1795010088524,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 74.765625,
+    "working_set_bytes": 49184768,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010088526,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39137280,
+    "private_bytes": 24932352
+  },
+  {
+    "timestamp": 1795010088528,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46886912,
+    "private_bytes": 24150016
+  },
+  {
+    "timestamp": 1795010089531,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 75.625,
+    "working_set_bytes": 49184768,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010089533,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39137280,
+    "private_bytes": 24932352
+  },
+  {
+    "timestamp": 1795010089535,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46886912,
+    "private_bytes": 24150016
+  },
+  {
+    "timestamp": 1795010090538,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 76.546875,
+    "working_set_bytes": 46055424,
+    "private_bytes": 32264192
+  },
+  {
+    "timestamp": 1795010090539,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39137280,
+    "private_bytes": 24932352
+  },
+  {
+    "timestamp": 1795010090540,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46886912,
+    "private_bytes": 24150016
+  },
+  {
+    "timestamp": 1795010091543,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 77.40625,
+    "working_set_bytes": 48148480,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010091545,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39137280,
+    "private_bytes": 24932352
+  },
+  {
+    "timestamp": 1795010091548,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46886912,
+    "private_bytes": 24150016
+  },
+  {
+    "timestamp": 1795010092551,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 78.34375,
+    "working_set_bytes": 48332800,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010092553,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39137280,
+    "private_bytes": 24932352
+  },
+  {
+    "timestamp": 1795010092555,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46886912,
+    "private_bytes": 24150016
+  },
+  {
+    "timestamp": 1795010093556,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 79.1875,
+    "working_set_bytes": 49172480,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010093557,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39137280,
+    "private_bytes": 24932352
+  },
+  {
+    "timestamp": 1795010093559,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46886912,
+    "private_bytes": 24150016
+  },
+  {
+    "timestamp": 1795010094560,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 80.03125,
+    "working_set_bytes": 49094656,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010094561,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39137280,
+    "private_bytes": 24932352
+  },
+  {
+    "timestamp": 1795010094563,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46886912,
+    "private_bytes": 24150016
+  },
+  {
+    "timestamp": 1795010095566,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 80.875,
+    "working_set_bytes": 49094656,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010095567,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39137280,
+    "private_bytes": 24932352
+  },
+  {
+    "timestamp": 1795010095569,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46886912,
+    "private_bytes": 24150016
+  },
+  {
+    "timestamp": 1795010096570,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 81.8125,
+    "working_set_bytes": 46235648,
+    "private_bytes": 32264192
+  },
+  {
+    "timestamp": 1795010096571,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39137280,
+    "private_bytes": 24932352
+  },
+  {
+    "timestamp": 1795010096573,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46886912,
+    "private_bytes": 24150016
+  },
+  {
+    "timestamp": 1795010097575,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 82.6875,
+    "working_set_bytes": 49172480,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010097577,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39137280,
+    "private_bytes": 24932352
+  },
+  {
+    "timestamp": 1795010097579,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46886912,
+    "private_bytes": 24150016
+  },
+  {
+    "timestamp": 1795010098581,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 83.53125,
+    "working_set_bytes": 49094656,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010098583,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39137280,
+    "private_bytes": 24932352
+  },
+  {
+    "timestamp": 1795010098584,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46886912,
+    "private_bytes": 24150016
+  },
+  {
+    "timestamp": 1795010099586,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 84.46875,
+    "working_set_bytes": 49094656,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010099587,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39137280,
+    "private_bytes": 24932352
+  },
+  {
+    "timestamp": 1795010099589,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46886912,
+    "private_bytes": 24150016
+  },
+  {
+    "timestamp": 1795010100590,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 85.328125,
+    "working_set_bytes": 49172480,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010100592,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39137280,
+    "private_bytes": 24932352
+  },
+  {
+    "timestamp": 1795010100593,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46886912,
+    "private_bytes": 24150016
+  },
+  {
+    "timestamp": 1795010101596,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 86.203125,
+    "working_set_bytes": 48193536,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010101597,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39137280,
+    "private_bytes": 24932352
+  },
+  {
+    "timestamp": 1795010101598,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46886912,
+    "private_bytes": 24150016
+  },
+  {
+    "timestamp": 1795010102601,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 87.140625,
+    "working_set_bytes": 46997504,
+    "private_bytes": 32264192
+  },
+  {
+    "timestamp": 1795010102602,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39137280,
+    "private_bytes": 24932352
+  },
+  {
+    "timestamp": 1795010102604,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46886912,
+    "private_bytes": 24150016
+  },
+  {
+    "timestamp": 1795010103606,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 87.96875,
+    "working_set_bytes": 48607232,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010103608,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39137280,
+    "private_bytes": 24932352
+  },
+  {
+    "timestamp": 1795010103610,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46886912,
+    "private_bytes": 24150016
+  },
+  {
+    "timestamp": 1795010104612,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 88.875,
+    "working_set_bytes": 48336896,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010104613,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39137280,
+    "private_bytes": 24932352
+  },
+  {
+    "timestamp": 1795010104615,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46886912,
+    "private_bytes": 24150016
+  },
+  {
+    "timestamp": 1795010105617,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 89.765625,
+    "working_set_bytes": 49176576,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010105619,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39137280,
+    "private_bytes": 24932352
+  },
+  {
+    "timestamp": 1795010105621,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46886912,
+    "private_bytes": 24150016
+  },
+  {
+    "timestamp": 1795010106624,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 90.65625,
+    "working_set_bytes": 49176576,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010106626,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39137280,
+    "private_bytes": 24932352
+  },
+  {
+    "timestamp": 1795010106627,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46886912,
+    "private_bytes": 24150016
+  },
+  {
+    "timestamp": 1795010107629,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 91.515625,
+    "working_set_bytes": 49172480,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010107631,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39137280,
+    "private_bytes": 24932352
+  },
+  {
+    "timestamp": 1795010107632,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46886912,
+    "private_bytes": 24150016
+  },
+  {
+    "timestamp": 1795010108633,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 92.40625,
+    "working_set_bytes": 47075328,
+    "private_bytes": 32264192
+  },
+  {
+    "timestamp": 1795010108634,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39137280,
+    "private_bytes": 24932352
+  },
+  {
+    "timestamp": 1795010108635,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46886912,
+    "private_bytes": 24150016
+  },
+  {
+    "timestamp": 1795010109638,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.25,
+    "working_set_bytes": 47071232,
+    "private_bytes": 32264192
+  },
+  {
+    "timestamp": 1795010109639,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 39137280,
+    "private_bytes": 24932352
+  },
+  {
+    "timestamp": 1795010109640,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 46886912,
+    "private_bytes": 24150016
+  },
+  {
+    "timestamp": 1795010110642,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010110643,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 1.28125,
+    "working_set_bytes": 39145472,
+    "private_bytes": 24932352
+  },
+  {
+    "timestamp": 1795010110645,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.21875,
+    "working_set_bytes": 47075328,
+    "private_bytes": 24150016
+  },
+  {
+    "timestamp": 1795010111646,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010111647,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 2.265625,
+    "working_set_bytes": 45494272,
+    "private_bytes": 31465472
+  },
+  {
+    "timestamp": 1795010111649,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.234375,
+    "working_set_bytes": 47304704,
+    "private_bytes": 24150016
+  },
+  {
+    "timestamp": 1795010112653,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010112654,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 3.109375,
+    "working_set_bytes": 45674496,
+    "private_bytes": 31465472
+  },
+  {
+    "timestamp": 1795010112656,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.234375,
+    "working_set_bytes": 47714304,
+    "private_bytes": 24150016
+  },
+  {
+    "timestamp": 1795010113657,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010113659,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 3.890625,
+    "working_set_bytes": 47788032,
+    "private_bytes": 33566720
+  },
+  {
+    "timestamp": 1795010113661,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.28125,
+    "working_set_bytes": 48181248,
+    "private_bytes": 24150016
+  },
+  {
+    "timestamp": 1795010114663,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010114664,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 4.890625,
+    "working_set_bytes": 45686784,
+    "private_bytes": 31465472
+  },
+  {
+    "timestamp": 1795010114666,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.28125,
+    "working_set_bytes": 48771072,
+    "private_bytes": 25235456
+  },
+  {
+    "timestamp": 1795010115668,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010115669,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 5.71875,
+    "working_set_bytes": 48812032,
+    "private_bytes": 33579008
+  },
+  {
+    "timestamp": 1795010115670,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.296875,
+    "working_set_bytes": 48750592,
+    "private_bytes": 25231360
+  },
+  {
+    "timestamp": 1795010116673,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010116674,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 6.578125,
+    "working_set_bytes": 46768128,
+    "private_bytes": 33591296
+  },
+  {
+    "timestamp": 1795010116675,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.3125,
+    "working_set_bytes": 49086464,
+    "private_bytes": 25235456
+  },
+  {
+    "timestamp": 1795010117677,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010117679,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 7.484375,
+    "working_set_bytes": 45633536,
+    "private_bytes": 31580160
+  },
+  {
+    "timestamp": 1795010117681,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.328125,
+    "working_set_bytes": 49324032,
+    "private_bytes": 26038272
+  },
+  {
+    "timestamp": 1795010118682,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010118684,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 8.3125,
+    "working_set_bytes": 47845376,
+    "private_bytes": 33681408
+  },
+  {
+    "timestamp": 1795010118686,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.34375,
+    "working_set_bytes": 49483776,
+    "private_bytes": 26038272
+  },
+  {
+    "timestamp": 1795010119689,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010119691,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 9.203125,
+    "working_set_bytes": 47968256,
+    "private_bytes": 33681408
+  },
+  {
+    "timestamp": 1795010119692,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.359375,
+    "working_set_bytes": 49737728,
+    "private_bytes": 25862144
+  },
+  {
+    "timestamp": 1795010120695,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010120696,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 10.09375,
+    "working_set_bytes": 45867008,
+    "private_bytes": 31580160
+  },
+  {
+    "timestamp": 1795010120698,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.359375,
+    "working_set_bytes": 49807360,
+    "private_bytes": 26312704
+  },
+  {
+    "timestamp": 1795010121701,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010121703,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 11.046875,
+    "working_set_bytes": 45879296,
+    "private_bytes": 31580160
+  },
+  {
+    "timestamp": 1795010121705,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.359375,
+    "working_set_bytes": 49532928,
+    "private_bytes": 25628672
+  },
+  {
+    "timestamp": 1795010122707,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010122710,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 11.890625,
+    "working_set_bytes": 47968256,
+    "private_bytes": 33681408
+  },
+  {
+    "timestamp": 1795010122711,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.375,
+    "working_set_bytes": 49561600,
+    "private_bytes": 25628672
+  },
+  {
+    "timestamp": 1795010123714,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010123716,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 12.765625,
+    "working_set_bytes": 44793856,
+    "private_bytes": 31580160
+  },
+  {
+    "timestamp": 1795010123718,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.375,
+    "working_set_bytes": 49819648,
+    "private_bytes": 26312704
+  },
+  {
+    "timestamp": 1795010124720,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010124722,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 13.625,
+    "working_set_bytes": 49045504,
+    "private_bytes": 33771520
+  },
+  {
+    "timestamp": 1795010124723,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.390625,
+    "working_set_bytes": 49766400,
+    "private_bytes": 25628672
+  },
+  {
+    "timestamp": 1795010125726,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010125728,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 14.515625,
+    "working_set_bytes": 47292416,
+    "private_bytes": 33771520
+  },
+  {
+    "timestamp": 1795010125729,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.40625,
+    "working_set_bytes": 49991680,
+    "private_bytes": 26312704
+  },
+  {
+    "timestamp": 1795010126731,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010126732,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 15.375,
+    "working_set_bytes": 45162496,
+    "private_bytes": 31760384
+  },
+  {
+    "timestamp": 1795010126734,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.40625,
+    "working_set_bytes": 49995776,
+    "private_bytes": 26312704
+  },
+  {
+    "timestamp": 1795010127737,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010127739,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 16.1875,
+    "working_set_bytes": 48095232,
+    "private_bytes": 33861632
+  },
+  {
+    "timestamp": 1795010127741,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.40625,
+    "working_set_bytes": 49995776,
+    "private_bytes": 26312704
+  },
+  {
+    "timestamp": 1795010128743,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010128744,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 17.015625,
+    "working_set_bytes": 48128000,
+    "private_bytes": 33861632
+  },
+  {
+    "timestamp": 1795010128745,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.421875,
+    "working_set_bytes": 50135040,
+    "private_bytes": 26312704
+  },
+  {
+    "timestamp": 1795010129748,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010129750,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 17.890625,
+    "working_set_bytes": 45998080,
+    "private_bytes": 31760384
+  },
+  {
+    "timestamp": 1795010129751,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.4375,
+    "working_set_bytes": 50135040,
+    "private_bytes": 26312704
+  },
+  {
+    "timestamp": 1795010130753,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010130755,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 18.734375,
+    "working_set_bytes": 49074176,
+    "private_bytes": 33861632
+  },
+  {
+    "timestamp": 1795010130757,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.4375,
+    "working_set_bytes": 50143232,
+    "private_bytes": 26312704
+  },
+  {
+    "timestamp": 1795010131760,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010131762,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 19.578125,
+    "working_set_bytes": 47894528,
+    "private_bytes": 33861632
+  },
+  {
+    "timestamp": 1795010131764,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.4375,
+    "working_set_bytes": 50143232,
+    "private_bytes": 26312704
+  },
+  {
+    "timestamp": 1795010132766,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010132767,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 20.5,
+    "working_set_bytes": 45764608,
+    "private_bytes": 31760384
+  },
+  {
+    "timestamp": 1795010132769,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.4375,
+    "working_set_bytes": 50225152,
+    "private_bytes": 26312704
+  },
+  {
+    "timestamp": 1795010133772,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010133773,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 21.1875,
+    "working_set_bytes": 47316992,
+    "private_bytes": 33861632
+  },
+  {
+    "timestamp": 1795010133775,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.4375,
+    "working_set_bytes": 50106368,
+    "private_bytes": 26476544
+  },
+  {
+    "timestamp": 1795010134776,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010134777,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 21.359375,
+    "working_set_bytes": 47316992,
+    "private_bytes": 33861632
+  },
+  {
+    "timestamp": 1795010134779,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.4375,
+    "working_set_bytes": 50126848,
+    "private_bytes": 26554368
+  },
+  {
+    "timestamp": 1795010135781,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010135782,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 22.140625,
+    "working_set_bytes": 48091136,
+    "private_bytes": 33861632
+  },
+  {
+    "timestamp": 1795010135783,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.453125,
+    "working_set_bytes": 50139136,
+    "private_bytes": 26554368
+  },
+  {
+    "timestamp": 1795010136786,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010136790,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 22.890625,
+    "working_set_bytes": 48091136,
+    "private_bytes": 33861632
+  },
+  {
+    "timestamp": 1795010136792,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.453125,
+    "working_set_bytes": 50139136,
+    "private_bytes": 26554368
+  },
+  {
+    "timestamp": 1795010137795,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010137796,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 23.625,
+    "working_set_bytes": 48123904,
+    "private_bytes": 33861632
+  },
+  {
+    "timestamp": 1795010137798,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.46875,
+    "working_set_bytes": 50036736,
+    "private_bytes": 25849856
+  },
+  {
+    "timestamp": 1795010138799,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010138801,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 24.234375,
+    "working_set_bytes": 48091136,
+    "private_bytes": 33861632
+  },
+  {
+    "timestamp": 1795010138803,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.515625,
+    "working_set_bytes": 50987008,
+    "private_bytes": 27176960
+  },
+  {
+    "timestamp": 1795010139806,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010139808,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 24.8125,
+    "working_set_bytes": 48095232,
+    "private_bytes": 33861632
+  },
+  {
+    "timestamp": 1795010139810,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.515625,
+    "working_set_bytes": 50987008,
+    "private_bytes": 27176960
+  },
+  {
+    "timestamp": 1795010140812,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010140814,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 25.390625,
+    "working_set_bytes": 48099328,
+    "private_bytes": 33861632
+  },
+  {
+    "timestamp": 1795010140815,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.515625,
+    "working_set_bytes": 51011584,
+    "private_bytes": 27176960
+  },
+  {
+    "timestamp": 1795010141817,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010141818,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 26.234375,
+    "working_set_bytes": 48017408,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010141820,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.546875,
+    "working_set_bytes": 51085312,
+    "private_bytes": 27197440
+  },
+  {
+    "timestamp": 1795010142821,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010142822,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 27.125,
+    "working_set_bytes": 48201728,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010142824,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.5625,
+    "working_set_bytes": 51142656,
+    "private_bytes": 27271168
+  },
+  {
+    "timestamp": 1795010143827,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010143828,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 28.0625,
+    "working_set_bytes": 47108096,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010143830,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.578125,
+    "working_set_bytes": 51453952,
+    "private_bytes": 27541504
+  },
+  {
+    "timestamp": 1795010144832,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010144833,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 29.015625,
+    "working_set_bytes": 49201152,
+    "private_bytes": 36052992
+  },
+  {
+    "timestamp": 1795010144835,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.609375,
+    "working_set_bytes": 51507200,
+    "private_bytes": 27541504
+  },
+  {
+    "timestamp": 1795010145837,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010145838,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 29.921875,
+    "working_set_bytes": 47419392,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010145840,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.609375,
+    "working_set_bytes": 51638272,
+    "private_bytes": 27541504
+  },
+  {
+    "timestamp": 1795010146842,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010146844,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 30.796875,
+    "working_set_bytes": 48185344,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010146860,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.625,
+    "working_set_bytes": 51695616,
+    "private_bytes": 27578368
+  },
+  {
+    "timestamp": 1795010147863,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010147864,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 31.71875,
+    "working_set_bytes": 48021504,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010147866,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.640625,
+    "working_set_bytes": 51695616,
+    "private_bytes": 27578368
+  },
+  {
+    "timestamp": 1795010148868,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010148871,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 32.65625,
+    "working_set_bytes": 47120384,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010148874,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.640625,
+    "working_set_bytes": 51761152,
+    "private_bytes": 27578368
+  },
+  {
+    "timestamp": 1795010149876,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010149878,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 33.53125,
+    "working_set_bytes": 47419392,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010149880,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.640625,
+    "working_set_bytes": 51765248,
+    "private_bytes": 27578368
+  },
+  {
+    "timestamp": 1795010150883,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010150885,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 34.46875,
+    "working_set_bytes": 46088192,
+    "private_bytes": 31850496
+  },
+  {
+    "timestamp": 1795010150887,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.640625,
+    "working_set_bytes": 54046720,
+    "private_bytes": 27578368
+  },
+  {
+    "timestamp": 1795010151889,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010151891,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 35.40625,
+    "working_set_bytes": 49172480,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010151892,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.640625,
+    "working_set_bytes": 54046720,
+    "private_bytes": 27578368
+  },
+  {
+    "timestamp": 1795010152894,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010152895,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 36.328125,
+    "working_set_bytes": 47431680,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010152896,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.671875,
+    "working_set_bytes": 54124544,
+    "private_bytes": 27578368
+  },
+  {
+    "timestamp": 1795010153899,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010153901,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 37.265625,
+    "working_set_bytes": 47443968,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010153902,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.671875,
+    "working_set_bytes": 54370304,
+    "private_bytes": 27578368
+  },
+  {
+    "timestamp": 1795010154904,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010154906,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 38.15625,
+    "working_set_bytes": 48209920,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010154908,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.6875,
+    "working_set_bytes": 54370304,
+    "private_bytes": 27578368
+  },
+  {
+    "timestamp": 1795010155910,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010155912,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 39.0625,
+    "working_set_bytes": 47144960,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010155914,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.6875,
+    "working_set_bytes": 54370304,
+    "private_bytes": 27578368
+  },
+  {
+    "timestamp": 1795010156916,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010156918,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 39.96875,
+    "working_set_bytes": 45346816,
+    "private_bytes": 31850496
+  },
+  {
+    "timestamp": 1795010156919,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.71875,
+    "working_set_bytes": 54370304,
+    "private_bytes": 27578368
+  },
+  {
+    "timestamp": 1795010157922,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010157924,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 40.890625,
+    "working_set_bytes": 47448064,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010157925,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.734375,
+    "working_set_bytes": 54411264,
+    "private_bytes": 27648000
+  },
+  {
+    "timestamp": 1795010158927,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010158929,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 41.734375,
+    "working_set_bytes": 48214016,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010158932,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.734375,
+    "working_set_bytes": 54484992,
+    "private_bytes": 27922432
+  },
+  {
+    "timestamp": 1795010159934,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010159936,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 42.640625,
+    "working_set_bytes": 48214016,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010159938,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.734375,
+    "working_set_bytes": 54136832,
+    "private_bytes": 27607040
+  },
+  {
+    "timestamp": 1795010160939,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010160941,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 43.5625,
+    "working_set_bytes": 48214016,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010160942,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.765625,
+    "working_set_bytes": 54136832,
+    "private_bytes": 27607040
+  },
+  {
+    "timestamp": 1795010161945,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010161947,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 44.4375,
+    "working_set_bytes": 48214016,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010161949,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.765625,
+    "working_set_bytes": 53911552,
+    "private_bytes": 27271168
+  },
+  {
+    "timestamp": 1795010162952,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010162955,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 45.3125,
+    "working_set_bytes": 47448064,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010162957,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.765625,
+    "working_set_bytes": 53698560,
+    "private_bytes": 27037696
+  },
+  {
+    "timestamp": 1795010163960,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010163962,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 46.140625,
+    "working_set_bytes": 48214016,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010163963,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.765625,
+    "working_set_bytes": 53837824,
+    "private_bytes": 27226112
+  },
+  {
+    "timestamp": 1795010164965,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010164967,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 47.015625,
+    "working_set_bytes": 48214016,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010164969,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.765625,
+    "working_set_bytes": 54013952,
+    "private_bytes": 27455488
+  },
+  {
+    "timestamp": 1795010165972,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010165975,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 47.859375,
+    "working_set_bytes": 48214016,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010165978,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.78125,
+    "working_set_bytes": 54255616,
+    "private_bytes": 27791360
+  },
+  {
+    "timestamp": 1795010166984,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010166985,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 48.78125,
+    "working_set_bytes": 48214016,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010166986,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.78125,
+    "working_set_bytes": 54267904,
+    "private_bytes": 27791360
+  },
+  {
+    "timestamp": 1795010167988,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010167989,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 49.65625,
+    "working_set_bytes": 49192960,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010167991,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.78125,
+    "working_set_bytes": 54104064,
+    "private_bytes": 27422720
+  },
+  {
+    "timestamp": 1795010168992,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010168994,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 50.578125,
+    "working_set_bytes": 48046080,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010168996,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.78125,
+    "working_set_bytes": 54366208,
+    "private_bytes": 27496448
+  },
+  {
+    "timestamp": 1795010169998,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010169999,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 51.484375,
+    "working_set_bytes": 47443968,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010170000,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.796875,
+    "working_set_bytes": 54472704,
+    "private_bytes": 27705344
+  },
+  {
+    "timestamp": 1795010171003,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010171004,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 52.453125,
+    "working_set_bytes": 48209920,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010171006,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.796875,
+    "working_set_bytes": 54542336,
+    "private_bytes": 27709440
+  },
+  {
+    "timestamp": 1795010172007,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010172009,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 53.390625,
+    "working_set_bytes": 48209920,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010172011,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.8125,
+    "working_set_bytes": 54542336,
+    "private_bytes": 27709440
+  },
+  {
+    "timestamp": 1795010173012,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010173014,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 54.296875,
+    "working_set_bytes": 46112768,
+    "private_bytes": 31850496
+  },
+  {
+    "timestamp": 1795010173016,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.828125,
+    "working_set_bytes": 54566912,
+    "private_bytes": 27709440
+  },
+  {
+    "timestamp": 1795010174018,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010174019,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 55.109375,
+    "working_set_bytes": 46665728,
+    "private_bytes": 31850496
+  },
+  {
+    "timestamp": 1795010174020,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.828125,
+    "working_set_bytes": 54669312,
+    "private_bytes": 27983872
+  },
+  {
+    "timestamp": 1795010175022,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010175024,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 55.984375,
+    "working_set_bytes": 48046080,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010175025,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.84375,
+    "working_set_bytes": 54943744,
+    "private_bytes": 28266496
+  },
+  {
+    "timestamp": 1795010176027,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010176029,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 56.9375,
+    "working_set_bytes": 45948928,
+    "private_bytes": 31850496
+  },
+  {
+    "timestamp": 1795010176030,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.84375,
+    "working_set_bytes": 54513664,
+    "private_bytes": 27844608
+  },
+  {
+    "timestamp": 1795010177033,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010177034,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 57.828125,
+    "working_set_bytes": 48209920,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010177035,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.859375,
+    "working_set_bytes": 54599680,
+    "private_bytes": 27963392
+  },
+  {
+    "timestamp": 1795010178037,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010178038,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 58.6875,
+    "working_set_bytes": 48209920,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010178040,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.875,
+    "working_set_bytes": 54841344,
+    "private_bytes": 28037120
+  },
+  {
+    "timestamp": 1795010179042,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010179044,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 59.5625,
+    "working_set_bytes": 47128576,
+    "private_bytes": 31850496
+  },
+  {
+    "timestamp": 1795010179045,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.875,
+    "working_set_bytes": 54906880,
+    "private_bytes": 28094464
+  },
+  {
+    "timestamp": 1795010180048,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010180050,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 60.453125,
+    "working_set_bytes": 47124480,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010180053,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.890625,
+    "working_set_bytes": 54923264,
+    "private_bytes": 28094464
+  },
+  {
+    "timestamp": 1795010181055,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010181057,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 61.34375,
+    "working_set_bytes": 48046080,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010181059,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.90625,
+    "working_set_bytes": 55054336,
+    "private_bytes": 28094464
+  },
+  {
+    "timestamp": 1795010182061,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010182064,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 62.25,
+    "working_set_bytes": 47419392,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010182065,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.921875,
+    "working_set_bytes": 55132160,
+    "private_bytes": 28094464
+  },
+  {
+    "timestamp": 1795010183066,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010183067,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 63.140625,
+    "working_set_bytes": 48209920,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010183068,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.9375,
+    "working_set_bytes": 55140352,
+    "private_bytes": 28176384
+  },
+  {
+    "timestamp": 1795010184071,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010184072,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 64.03125,
+    "working_set_bytes": 48238592,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010184074,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.953125,
+    "working_set_bytes": 55144448,
+    "private_bytes": 28176384
+  },
+  {
+    "timestamp": 1795010185075,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010185078,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 64.921875,
+    "working_set_bytes": 48205824,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010185080,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.96875,
+    "working_set_bytes": 55144448,
+    "private_bytes": 28176384
+  },
+  {
+    "timestamp": 1795010186082,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010186083,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 65.78125,
+    "working_set_bytes": 47124480,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010186085,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.984375,
+    "working_set_bytes": 55287808,
+    "private_bytes": 28725248
+  },
+  {
+    "timestamp": 1795010187085,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010187087,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 66.21875,
+    "working_set_bytes": 45031424,
+    "private_bytes": 31850496
+  },
+  {
+    "timestamp": 1795010187088,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.984375,
+    "working_set_bytes": 55345152,
+    "private_bytes": 28725248
+  },
+  {
+    "timestamp": 1795010188089,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010188091,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 66.21875,
+    "working_set_bytes": 45031424,
+    "private_bytes": 31850496
+  },
+  {
+    "timestamp": 1795010188092,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 0.984375,
+    "working_set_bytes": 55345152,
+    "private_bytes": 28725248
+  },
+  {
+    "timestamp": 1795010189093,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010189094,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 66.625,
+    "working_set_bytes": 48205824,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010189096,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 1,
+    "working_set_bytes": 55345152,
+    "private_bytes": 28725248
+  },
+  {
+    "timestamp": 1795010190097,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010190099,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 67.453125,
+    "working_set_bytes": 48214016,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010190100,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 1,
+    "working_set_bytes": 55046144,
+    "private_bytes": 28401664
+  },
+  {
+    "timestamp": 1795010191102,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010191103,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 68.3125,
+    "working_set_bytes": 48214016,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010191104,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 1.015625,
+    "working_set_bytes": 55107584,
+    "private_bytes": 28463104
+  },
+  {
+    "timestamp": 1795010192106,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010192107,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 69.078125,
+    "working_set_bytes": 48214016,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010192108,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 1.0625,
+    "working_set_bytes": 55656448,
+    "private_bytes": 29220864
+  },
+  {
+    "timestamp": 1795010193111,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010193112,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 69.9375,
+    "working_set_bytes": 47132672,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010193113,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 1.078125,
+    "working_set_bytes": 55529472,
+    "private_bytes": 29556736
+  },
+  {
+    "timestamp": 1795010194115,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010194116,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 70.78125,
+    "working_set_bytes": 48230400,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010194118,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 1.09375,
+    "working_set_bytes": 55869440,
+    "private_bytes": 29712384
+  },
+  {
+    "timestamp": 1795010195120,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010195121,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 71.59375,
+    "working_set_bytes": 47136768,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010195123,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 1.109375,
+    "working_set_bytes": 56012800,
+    "private_bytes": 29941760
+  },
+  {
+    "timestamp": 1795010196124,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010196125,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 72.515625,
+    "working_set_bytes": 46665728,
+    "private_bytes": 31850496
+  },
+  {
+    "timestamp": 1795010196126,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 1.109375,
+    "working_set_bytes": 56012800,
+    "private_bytes": 29941760
+  },
+  {
+    "timestamp": 1795010197129,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010197130,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 73.359375,
+    "working_set_bytes": 47448064,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010197131,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 1.109375,
+    "working_set_bytes": 55762944,
+    "private_bytes": 29474816
+  },
+  {
+    "timestamp": 1795010198133,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010198135,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 74.21875,
+    "working_set_bytes": 48214016,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010198137,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 1.125,
+    "working_set_bytes": 56000512,
+    "private_bytes": 30171136
+  },
+  {
+    "timestamp": 1795010199139,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010199141,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 75.125,
+    "working_set_bytes": 48046080,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010199144,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 1.125,
+    "working_set_bytes": 56033280,
+    "private_bytes": 30220288
+  },
+  {
+    "timestamp": 1795010200147,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010200149,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 75.90625,
+    "working_set_bytes": 48078848,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010200151,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 1.140625,
+    "working_set_bytes": 56033280,
+    "private_bytes": 30220288
+  },
+  {
+    "timestamp": 1795010201154,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010201155,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 76.75,
+    "working_set_bytes": 48209920,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010201156,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 1.15625,
+    "working_set_bytes": 56864768,
+    "private_bytes": 30736384
+  },
+  {
+    "timestamp": 1795010202159,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010202160,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 77.671875,
+    "working_set_bytes": 46153728,
+    "private_bytes": 31850496
+  },
+  {
+    "timestamp": 1795010202161,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 1.15625,
+    "working_set_bytes": 56922112,
+    "private_bytes": 30736384
+  },
+  {
+    "timestamp": 1795010203163,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010203164,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 78.59375,
+    "working_set_bytes": 49233920,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010203165,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 1.171875,
+    "working_set_bytes": 56877056,
+    "private_bytes": 30040064
+  },
+  {
+    "timestamp": 1795010204167,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010204169,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 79.421875,
+    "working_set_bytes": 48078848,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010204171,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 1.1875,
+    "working_set_bytes": 56684544,
+    "private_bytes": 29822976
+  },
+  {
+    "timestamp": 1795010205174,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010205176,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 80.28125,
+    "working_set_bytes": 48209920,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010205179,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 1.1875,
+    "working_set_bytes": 56750080,
+    "private_bytes": 29949952
+  },
+  {
+    "timestamp": 1795010206182,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010206184,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 81.140625,
+    "working_set_bytes": 47136768,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010206185,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 1.203125,
+    "working_set_bytes": 56819712,
+    "private_bytes": 30113792
+  },
+  {
+    "timestamp": 1795010207188,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010207190,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 82.015625,
+    "working_set_bytes": 48209920,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010207193,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 1.203125,
+    "working_set_bytes": 56918016,
+    "private_bytes": 30126080
+  },
+  {
+    "timestamp": 1795010208196,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010208198,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 82.96875,
+    "working_set_bytes": 47435776,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010208199,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 1.203125,
+    "working_set_bytes": 56922112,
+    "private_bytes": 30171136
+  },
+  {
+    "timestamp": 1795010209200,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010209201,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 83.8125,
+    "working_set_bytes": 48242688,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010209202,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 1.21875,
+    "working_set_bytes": 57110528,
+    "private_bytes": 30306304
+  },
+  {
+    "timestamp": 1795010210204,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010210205,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 84.71875,
+    "working_set_bytes": 47448064,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010210206,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 57151488,
+    "private_bytes": 30306304
+  },
+  {
+    "timestamp": 1795010211209,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010211210,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 85.609375,
+    "working_set_bytes": 48218112,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010211211,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 1.234375,
+    "working_set_bytes": 57335808,
+    "private_bytes": 30576640
+  },
+  {
+    "timestamp": 1795010212212,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010212213,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 86.40625,
+    "working_set_bytes": 48246784,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010212214,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 1.25,
+    "working_set_bytes": 57335808,
+    "private_bytes": 30576640
+  },
+  {
+    "timestamp": 1795010213216,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010213218,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 87.296875,
+    "working_set_bytes": 45043712,
+    "private_bytes": 31850496
+  },
+  {
+    "timestamp": 1795010213219,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 1.265625,
+    "working_set_bytes": 57397248,
+    "private_bytes": 30576640
+  },
+  {
+    "timestamp": 1795010214222,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010214224,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 88.140625,
+    "working_set_bytes": 48209920,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010214226,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 1.265625,
+    "working_set_bytes": 57036800,
+    "private_bytes": 30085120
+  },
+  {
+    "timestamp": 1795010215229,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010215230,
+    "role": "controlled_php",
+    "process_id": 14424,
+    "cpu_seconds": 89,
+    "working_set_bytes": 48214016,
+    "private_bytes": 33951744
+  },
+  {
+    "timestamp": 1795010215231,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 1.265625,
+    "working_set_bytes": 57098240,
+    "private_bytes": 30269440
+  },
+  {
+    "timestamp": 1795010216233,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010216263,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 1.265625,
+    "working_set_bytes": 56848384,
+    "private_bytes": 29704192
+  },
+  {
+    "timestamp": 1795010217266,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010217268,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 1.265625,
+    "working_set_bytes": 56848384,
+    "private_bytes": 29704192
+  },
+  {
+    "timestamp": 1795010218271,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010218273,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 1.265625,
+    "working_set_bytes": 56934400,
+    "private_bytes": 29868032
+  },
+  {
+    "timestamp": 1795010219276,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010219280,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 1.296875,
+    "working_set_bytes": 57204736,
+    "private_bytes": 30019584
+  },
+  {
+    "timestamp": 1795010220284,
+    "role": "development_php",
+    "process_id": 22112,
+    "cpu_seconds": 93.671875,
+    "working_set_bytes": 48320512,
+    "private_bytes": 34365440
+  },
+  {
+    "timestamp": 1795010220286,
+    "role": "tls_proxy",
+    "process_id": 4492,
+    "cpu_seconds": 1.296875,
+    "working_set_bytes": 57368576,
+    "private_bytes": 30179328
+  }
+]

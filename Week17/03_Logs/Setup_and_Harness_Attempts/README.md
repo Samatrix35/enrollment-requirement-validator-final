@@ -1,0 +1,2 @@
+# Setup and harness attempts
+These are earlier environment or browser-locator failures, not the final application result. Flutter groups some semantics in aria-label values and duplicates validation text in an accessibility announcement; the harness was corrected to select the intended element. The application already displayed the expected state in those cases. Actual D01/D02 before-fix failures remain in03_Logs; the CDN startup failure is preserved separately as D03. Final results are backend-tests.txt, flutter-tests.txt, postman-results.json and browser-acceptance.json.

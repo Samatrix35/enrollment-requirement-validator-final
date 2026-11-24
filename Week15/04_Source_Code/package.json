@@ -1,0 +1,13 @@
+{
+  "name": "enrollment-validator-week15-verification",
+  "private": true,
+  "version": "1.15.0",
+  "description": "Optional Postman Newman verification runner; the application backend is Laravel.",
+  "devDependencies": {
+    "newman": "6.2.3"
+  },
+  "scripts": {
+    "api:test": "newman run postman/Week15_Enrollment_IA6.postman_collection.json",
+    "api:https": "node tools/verify-https.cjs --reset-demo"
+  }
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="495" height="105" preserveAspectRatio="xMinYMin meet" viewBox="0 0 495 105" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="495" height="105"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-105)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="10" y="27" width="145" height="60" style="stroke: rgb(41%,56%,50%); stroke-linecap: butt; stroke-width: 1; fill: rgb(89%,94%,92%); fill-rule: evenodd;"/>
+			<text x="51.75" y="63" style="font-family: Helvetica-Bold; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,126) scale(1,-1)">Flutter Web</text>
+			<text x="48.44" y="45" style="font-family: Helvetica; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,90) scale(1,-1)">in-memory session</text>
+			<path d="M 155,57 L 171,57 Z" style="stroke: rgb(14%,43%,33%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="167 61, 174 57, 167 53" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,43%,33%); fill-rule: evenodd;"/>
+			<rect x="175" y="27" width="145" height="60" style="stroke: rgb(41%,56%,50%); stroke-linecap: butt; stroke-width: 1; fill: rgb(89%,94%,92%); fill-rule: evenodd;"/>
+			<text x="217.04149999999998" y="63" style="font-family: Helvetica-Bold; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,126) scale(1,-1)">Laravel API</text>
+			<text x="212.54" y="45" style="font-family: Helvetica; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,90) scale(1,-1)">roles and validation</text>
+			<path d="M 320,57 L 336,57 Z" style="stroke: rgb(14%,43%,33%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="332 61, 339 57, 332 53" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,43%,33%); fill-rule: evenodd;"/>
+			<rect x="340" y="27" width="145" height="60" style="stroke: rgb(41%,56%,50%); stroke-linecap: butt; stroke-width: 1; fill: rgb(89%,94%,92%); fill-rule: evenodd;"/>
+			<text x="394.2735" y="63" style="font-family: Helvetica-Bold; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,126) scale(1,-1)">SQLite</text>
+			<text x="383.992" y="45" style="font-family: Helvetica; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,90) scale(1,-1)">fictional records</text>
+		</g>
+	</g>
+</svg>

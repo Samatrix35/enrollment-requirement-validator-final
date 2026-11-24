@@ -1,0 +1,19 @@
+{
+  "project": 23,
+  "assessment": "Week 16 Performance Reliability and Deployment Evaluation",
+  "fictional_students": 200,
+  "requirements_per_student": 3,
+  "repetitions": 2,
+  "duration_seconds": 20,
+  "warmup_requests": 6,
+  "profiles": {
+    "ordinary": {"virtual_users": 2, "think_ms": 250, "p95_target_ms": 2000, "minimum_rps": 1},
+    "peak": {"virtual_users": 8, "think_ms": 0, "p95_target_ms": 5000, "minimum_rps": 2}
+  },
+  "operation_cycle": ["student_checklist", "student_checklist", "staff_queue", "student_submit_then_staff_return", "student_checklist"],
+  "unexpected_error_target_percent": 1,
+  "readiness_p95_target_ms": 1000,
+  "readiness_probe_interval_ms": 2000,
+  "recovery_target_seconds": 15,
+  "notes": "Preissued fictional tokens; login/password hashing is outside the load measurement. Closed-loop workers wait for responses; offered traffic is not an open arrival-rate model. The submit/return operation makes two HTTP requests and is not an approval of a real student. Both environments share one host and use a single PHP built-in server worker. Targets are fixed before measurement and are prototype acceptance goals, not institution-supplied SLAs."
+}

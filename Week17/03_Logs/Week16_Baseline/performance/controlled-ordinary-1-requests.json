@@ -1,0 +1,266 @@
+[
+  {
+    "operation": "student_checklist",
+    "started_at": 1795010113279,
+    "duration_ms": 461.1666000000114,
+    "status": 200,
+    "expected": 200,
+    "request_id": "7d3c564a-0413-4e7a-8b3b-4e243d9a06de"
+  },
+  {
+    "operation": "student_checklist",
+    "started_at": 1795010113280,
+    "duration_ms": 938.3854999999894,
+    "status": 200,
+    "expected": 200,
+    "request_id": "cd895677-8310-40ab-8b58-6a58785456fe"
+  },
+  {
+    "operation": "student_checklist",
+    "started_at": 1795010113991,
+    "duration_ms": 1175.659799999994,
+    "status": 200,
+    "expected": 200,
+    "request_id": "c41b8df4-5528-41f5-9d57-a78ee1f94739"
+  },
+  {
+    "operation": "staff_queue",
+    "started_at": 1795010114469,
+    "duration_ms": 1260.9004999999888,
+    "status": 200,
+    "expected": 200,
+    "request_id": "a5527cec-22be-4dcf-b76b-68186c2bd5c8"
+  },
+  {
+    "operation": "staff_queue",
+    "started_at": 1795010115418,
+    "duration_ms": 905.3361999999906,
+    "status": 200,
+    "expected": 200,
+    "request_id": "108de364-2bf7-4cb3-884c-b8ec48f2e2c1"
+  },
+  {
+    "operation": "student_submit",
+    "started_at": 1795010115981,
+    "duration_ms": 806.3622999999934,
+    "status": 200,
+    "expected": 200,
+    "request_id": "a564db0f-ede6-4553-8abd-422161d13174"
+  },
+  {
+    "operation": "student_submit",
+    "started_at": 1795010116574,
+    "duration_ms": 687.4728000000032,
+    "status": 200,
+    "expected": 200,
+    "request_id": "17f1e790-d8e8-445f-8978-c07b11a3b691"
+  },
+  {
+    "operation": "staff_return",
+    "started_at": 1795010116787,
+    "duration_ms": 1336.578800000003,
+    "status": 200,
+    "expected": 200,
+    "request_id": "1d370bc5-5bc6-4c90-8ce3-c51a3f478613"
+  },
+  {
+    "operation": "staff_return",
+    "started_at": 1795010117261,
+    "duration_ms": 1536.1091999999917,
+    "status": 200,
+    "expected": 200,
+    "request_id": "c457945e-1599-4ec9-bf2a-9a3f849a993e"
+  },
+  {
+    "operation": "student_checklist",
+    "started_at": 1795010118374,
+    "duration_ms": 962.4144000000088,
+    "status": 200,
+    "expected": 200,
+    "request_id": "90905941-0ebe-4ef1-8fd1-1c5eae8a5006"
+  },
+  {
+    "operation": "student_checklist",
+    "started_at": 1795010119047,
+    "duration_ms": 767.1843999999983,
+    "status": 200,
+    "expected": 200,
+    "request_id": "183773df-04d8-49ca-948a-021a89688a71"
+  },
+  {
+    "operation": "student_checklist",
+    "started_at": 1795010119587,
+    "duration_ms": 720.0733999999939,
+    "status": 200,
+    "expected": 200,
+    "request_id": "6a4706ea-6769-46d2-ad5d-8e22d889f34a"
+  },
+  {
+    "operation": "student_checklist",
+    "started_at": 1795010120064,
+    "duration_ms": 1098.6904000000068,
+    "status": 200,
+    "expected": 200,
+    "request_id": "1558e4eb-21c5-4a72-b66c-ca7df38497e5"
+  },
+  {
+    "operation": "student_checklist",
+    "started_at": 1795010120560,
+    "duration_ms": 1402.7415000000037,
+    "status": 200,
+    "expected": 200,
+    "request_id": "aaa445ab-3558-4d85-ade7-720f70fb5d23"
+  },
+  {
+    "operation": "student_checklist",
+    "started_at": 1795010121412,
+    "duration_ms": 1163.0837000000029,
+    "status": 200,
+    "expected": 200,
+    "request_id": "170da567-bb24-45b2-bd15-3bda0068d8fd"
+  },
+  {
+    "operation": "staff_queue",
+    "started_at": 1795010122212,
+    "duration_ms": 971.5687999999936,
+    "status": 200,
+    "expected": 200,
+    "request_id": "473402e9-d440-4f68-b587-f4a69db574b4"
+  },
+  {
+    "operation": "staff_queue",
+    "started_at": 1795010122825,
+    "duration_ms": 1277.4245999999985,
+    "status": 200,
+    "expected": 200,
+    "request_id": "6c43e18f-195f-40b0-998b-4593133cec29"
+  },
+  {
+    "operation": "student_submit",
+    "started_at": 1795010123435,
+    "duration_ms": 1140.6334999999963,
+    "status": 200,
+    "expected": 200,
+    "request_id": "bff31ccd-b5fe-4877-8187-56c064337d7d"
+  },
+  {
+    "operation": "student_submit",
+    "started_at": 1795010124353,
+    "duration_ms": 703.1727000000101,
+    "status": 200,
+    "expected": 200,
+    "request_id": "644c65a9-9bca-4dff-affd-81e93ddc2bff"
+  },
+  {
+    "operation": "staff_return",
+    "started_at": 1795010124576,
+    "duration_ms": 1018.8299999999872,
+    "status": 200,
+    "expected": 200,
+    "request_id": "cf67108d-5be0-4ef1-96c9-9e00822f82a7"
+  },
+  {
+    "operation": "staff_return",
+    "started_at": 1795010125056,
+    "duration_ms": 1104.7752999999793,
+    "status": 200,
+    "expected": 200,
+    "request_id": "6096fa3c-ccda-496c-bc65-0ebcac8bfb2f"
+  },
+  {
+    "operation": "student_checklist",
+    "started_at": 1795010125844,
+    "duration_ms": 1325.0065999999933,
+    "status": 200,
+    "expected": 200,
+    "request_id": "ed2b1fb9-21df-4fd8-9df0-0c555892f008"
+  },
+  {
+    "operation": "student_checklist",
+    "started_at": 1795010126411,
+    "duration_ms": 1304.746599999984,
+    "status": 200,
+    "expected": 200,
+    "request_id": "daf077ab-d0be-4e36-a30d-28019158af8b"
+  },
+  {
+    "operation": "student_checklist",
+    "started_at": 1795010127420,
+    "duration_ms": 838.9700000000012,
+    "status": 200,
+    "expected": 200,
+    "request_id": "5a2fd405-1375-41c7-a391-51f63a1eeab5"
+  },
+  {
+    "operation": "student_checklist",
+    "started_at": 1795010127966,
+    "duration_ms": 808.4676000000036,
+    "status": 200,
+    "expected": 200,
+    "request_id": "73f9cbc0-e2ef-4192-b94b-c68d71a45da3"
+  },
+  {
+    "operation": "student_checklist",
+    "started_at": 1795010128510,
+    "duration_ms": 802.2707999999984,
+    "status": 200,
+    "expected": 200,
+    "request_id": "a5af4d14-007f-451c-af41-dca6a04c1e1d"
+  },
+  {
+    "operation": "student_checklist",
+    "started_at": 1795010129025,
+    "duration_ms": 1156.0722999999998,
+    "status": 200,
+    "expected": 200,
+    "request_id": "55652ff2-e398-4dec-ba65-b9a0f2bd5af5"
+  },
+  {
+    "operation": "staff_queue",
+    "started_at": 1795010129564,
+    "duration_ms": 1163.6434000000008,
+    "status": 200,
+    "expected": 200,
+    "request_id": "eef7b5c6-81f9-475f-89c1-d51d651fdb06"
+  },
+  {
+    "operation": "staff_queue",
+    "started_at": 1795010130433,
+    "duration_ms": 902.3393999999971,
+    "status": 200,
+    "expected": 200,
+    "request_id": "66bf6c2b-e537-4e38-8e2d-8cd19bd55316"
+  },
+  {
+    "operation": "student_submit",
+    "started_at": 1795010130979,
+    "duration_ms": 791.0726999999897,
+    "status": 200,
+    "expected": 200,
+    "request_id": "629d82c5-ee00-4c76-9eb3-13eb95a31cff"
+  },
+  {
+    "operation": "student_submit",
+    "started_at": 1795010131586,
+    "duration_ms": 651.8390999999829,
+    "status": 200,
+    "expected": 200,
+    "request_id": "3409360b-26f3-4d13-9a10-d32c7078b656"
+  },
+  {
+    "operation": "staff_return",
+    "started_at": 1795010131770,
+    "duration_ms": 1311.2245999999868,
+    "status": 200,
+    "expected": 200,
+    "request_id": "79557cb9-af35-44be-8b02-c024f19786e3"
+  },
+  {
+    "operation": "staff_return",
+    "started_at": 1795010132238,
+    "duration_ms": 1412.8304000000062,
+    "status": 200,
+    "expected": 200,
+    "request_id": "ef98d4be-023a-4af8-8e10-54cbf7129c19"
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "release": "w16-r1",
+  "created_at": "2026-11-18T13:53:19.304Z",
+  "configuration_sha256": "53ae4d721ff38e69dd31837238c56e24689cbbef8c8e8ca5edd277a585d089b7",
+  "routes_sha256": "92a08b99d7dc2abd3bfde846ce5b8dafb1742d8d7d2773c0b16c9266304a7edb",
+  "database": "isolated 200-student / 600-requirement fixture",
+  "framework_version": "v12.73.0"
+}

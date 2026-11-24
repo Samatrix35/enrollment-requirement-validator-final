@@ -1,0 +1,3 @@
+Flutter failed to list directory at "C:\Users\jonga\Documents\Codex\2026-11-17\can-x20\work\week17\flutter-sdk\dev". The file or directory could not be found.
+PathNotFoundException: Directory listing failed, path = 'C:\Users\jonga\Documents\Codex\2026-11-17\can-x20\work\week17\flutter-sdk\dev\*' (OS Error: The system cannot find the path specified, errno = 3)
+This can sometimes happen if the file was deleted or moved while the tool was running. Try running "flutter clean" and try again.

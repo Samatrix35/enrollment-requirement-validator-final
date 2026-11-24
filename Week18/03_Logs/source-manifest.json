@@ -1,0 +1,628 @@
+{
+  "project": 23,
+  "week": 18,
+  "release": "w18-final",
+  "target": "Flutter Web + Laravel API",
+  "files": [
+    {
+      "path": "04_Source_Code/.gitignore",
+      "bytes": 746,
+      "sha256": "441eaa1de5b3db9fae056e7503567e9f8dd94173e1389c60f76956abf729015a"
+    },
+    {
+      "path": "04_Source_Code/.metadata",
+      "bytes": 1706,
+      "sha256": "1e6f619f44431123a19db1f9d998f479f190c702b606665dfcef83fc14a1c9bb"
+    },
+    {
+      "path": "04_Source_Code/.vscode/tasks.json",
+      "bytes": 1157,
+      "sha256": "1e65980046f65aa6372cbe6566c9f57125bb7c3ddf19d8027a276e0305a3975b"
+    },
+    {
+      "path": "04_Source_Code/analysis_options.yaml",
+      "bytes": 1547,
+      "sha256": "d6702eea40def1dc7143adfcf5a3fdf59b8f83ac2ca298857c502775830813a7"
+    },
+    {
+      "path": "04_Source_Code/Build-Local-Web.ps1",
+      "bytes": 352,
+      "sha256": "8beaf1e1d666f526e1072db46d7d66c6d2e8144f6096928112666b7db2dd4c8f"
+    },
+    {
+      "path": "04_Source_Code/docs/API_Reference.md",
+      "bytes": 2976,
+      "sha256": "80218b818831f3b168c2a7515ebf01af338fec53e359d26791370e366bf4c46a"
+    },
+    {
+      "path": "04_Source_Code/docs/Architecture_and_Decision.md",
+      "bytes": 2033,
+      "sha256": "ce1ec4ca5b739573bf8250df2914c08b0891c01c614d951c1117fcee43b4ccb1"
+    },
+    {
+      "path": "04_Source_Code/docs/Data_Model.md",
+      "bytes": 2307,
+      "sha256": "16f5b98d28a49114651f23b75e54aec4d40404330ea84ba250a9a6a73e8d1d5f"
+    },
+    {
+      "path": "04_Source_Code/docs/openapi.json",
+      "bytes": 53917,
+      "sha256": "834533d3d2d0a4522f11b770b14f24805c104b4a8106c58bac281e5dbcc99260"
+    },
+    {
+      "path": "04_Source_Code/docs/Operations_and_Maintenance.md",
+      "bytes": 3003,
+      "sha256": "ab709701982955cf43a58fddf188305457942b3a4c377ed854f3c6af122d37a5"
+    },
+    {
+      "path": "04_Source_Code/docs/Setup_and_Reproduction.md",
+      "bytes": 3165,
+      "sha256": "d505d03646ad188b0b93ab45a8b0c05873e3f34a685c5dfc1e5dc5a00f0a2401"
+    },
+    {
+      "path": "04_Source_Code/docs/User_Guide.md",
+      "bytes": 1595,
+      "sha256": "220b2d9f9041091f0b321dfa8bdc9cd07d27ee93b74aca6ab8f96fe9a87b39a1"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/.editorconfig",
+      "bytes": 258,
+      "sha256": "d9a5756ca5adea55000be0ee4f5af68946e3554c986981b7f8e35e7acaad28fa"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/.env.example",
+      "bytes": 1537,
+      "sha256": "037af2f75cdfdf1574dbb7e73997517c6ce14dd010d672dde60585e60e54563e"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/.gitattributes",
+      "bytes": 186,
+      "sha256": "a40eb27ee0b545ca5b5542daaf99fec51f84f23b3766a6353864ef2a115bc51c"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/.gitignore",
+      "bytes": 286,
+      "sha256": "2049db033d4f531564a125d6bb85fef678d924f998b75c895e9d3e5bb2e68cca"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/app/Http/Controllers/Api/AuthController.php",
+      "bytes": 2743,
+      "sha256": "21ca492a44e3b8eef3d3e463a331e145534ecf0a819ddcb11b3ad4910a7458c6"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/app/Http/Controllers/Api/HealthController.php",
+      "bytes": 1684,
+      "sha256": "057030121d2aebdb06bc931a6260080461f46410c163c2d3ffe3b911381b46e2"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/app/Http/Controllers/Api/MyEnrollmentController.php",
+      "bytes": 2205,
+      "sha256": "7b5bd6c57a5c9e8c99270f25a24ff3b7d8e9c5b37674adcaa93423c3a20e1164"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/app/Http/Controllers/Api/RequirementController.php",
+      "bytes": 5195,
+      "sha256": "24769c0e8012ba1336b657c8ea921468e6680ec39020b5664a1fc6bdee0b6336"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/app/Http/Controllers/Api/StudentController.php",
+      "bytes": 2863,
+      "sha256": "f413fb7d3b72f67bfaac2dc46961933933208944a49a60f8fbcfc383e55239d6"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/app/Http/Controllers/Controller.php",
+      "bytes": 77,
+      "sha256": "25d1c1ef8e6cc8a376553faacfba2b07d9dfaee9bdbb84f14f77517580e9deb1"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/app/Http/Middleware/ApplySecurityHeaders.php",
+      "bytes": 796,
+      "sha256": "5332b21e832ccaa543df47b20a2b3d523ea0eef9b83ba33a8fbc80b896b39a5f"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/app/Http/Middleware/EnsureRole.php",
+      "bytes": 499,
+      "sha256": "072ae10b84a267af42238d2a28af0eacfa7d077a0cab801e6e708b254c9b3ca8"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/app/Http/Middleware/RecordRequestMetrics.php",
+      "bytes": 1577,
+      "sha256": "11d07577800199b0084d25b8a382bd30036d0f5211914851b4ec4faed1f05337"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/app/Http/Middleware/RequireHttpsInProduction.php",
+      "bytes": 442,
+      "sha256": "3ab58ec1b460da2348a2ea9a0cfe7297c5a05ccc6c5290e685a54b6bb827ebca"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/app/Http/Resources/RequirementResource.php",
+      "bytes": 1138,
+      "sha256": "8cac561cb828ff21296bb8f66b734b02be8a1a44ce834a0840c6168803707d39"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/app/Http/Resources/StudentResource.php",
+      "bytes": 691,
+      "sha256": "ce97b9de30c17a7d54f705008c12c42758784ca90ed8005343bd8ec036628a42"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/app/Models/Requirement.php",
+      "bytes": 385,
+      "sha256": "a43e6a84c972bfc6ecfc3d95192c4c249a764c6d6d45ef5da613076855cdc767"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/app/Models/Student.php",
+      "bytes": 584,
+      "sha256": "644d08aabcf042366966648217e3b1102c351f1245ccf5a2ad586c7e96396712"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/app/Models/User.php",
+      "bytes": 1252,
+      "sha256": "7638ab4fc65ab3525a118074e53ce957d08518061fe0c6633d3ca3316a7d6be5"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/app/Providers/AppServiceProvider.php",
+      "bytes": 361,
+      "sha256": "caf306ef6a25a547bbb7edd5508a39b51c365083eb6dd58378cf2242018e94c7"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/artisan",
+      "bytes": 425,
+      "sha256": "f91a517c0c5d3a904c3f390933964a5e08ec1fc68146882730daac4aca4ffcec"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/bootstrap/app.php",
+      "bytes": 1236,
+      "sha256": "80933a5cd61395ec9b110530e1d247e0399a66c8f70680ccd2428f6652da0938"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/bootstrap/cache/.gitignore",
+      "bytes": 16,
+      "sha256": "4bb38be6d6d9ef0d2f9bcc339850ff48d821eccfa739369402b354c9ba946ea2"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/bootstrap/providers.php",
+      "bytes": 64,
+      "sha256": "2ef405f988a6ef3f5222bfbdd89352a6ad7b2e9e21aa25e236ac5dff58358953"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/composer.json",
+      "bytes": 2416,
+      "sha256": "99e0f6ce053dd071ddbe32bc5ce3b7ea909149c1dcc77eea6931899354aa2fae"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/composer.lock",
+      "bytes": 315919,
+      "sha256": "2414741ef5d3003114c4744eb13e4cf37064d1fc71a56a450d7aa5d765ae312d"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/config/app.php",
+      "bytes": 4263,
+      "sha256": "c8863128d674a2c067542d6d83b9f0a899a8ad1c5f84a60e5cc9ca5e37654935"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/config/auth.php",
+      "bytes": 4029,
+      "sha256": "d5bd78db15ec31df30248bb56dff53d385d7826d9ab0cfb2846dc6ce06d531c0"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/config/cache.php",
+      "bytes": 3476,
+      "sha256": "dc3a64749bc19946ba6a054be0b67ae8c450c9401799cb176ac0a0b8d4756664"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/config/cors.php",
+      "bytes": 548,
+      "sha256": "20dbb19f16a0d407fa6d6ac090e3bb0a7c8b307e63d1146232fa0d2203bebf73"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/config/database.php",
+      "bytes": 6313,
+      "sha256": "5d9ecaff7e3f27e3716a8c7902e44f95a139e03b2308c14299840e527a208475"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/config/enrollment.php",
+      "bytes": 74,
+      "sha256": "99df3dc51a08fc9af2bb71aaeec87063f58bb069eb43a06b118420750d76775b"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/config/filesystems.php",
+      "bytes": 2500,
+      "sha256": "46b977d9555ed617aa0d42055a0c76a34c9d16c63ee634ff6683bc95712c9317"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/config/logging.php",
+      "bytes": 4310,
+      "sha256": "6e0885a09b96f9e3e9ccfae9e536da3c33dbd53a7710a518c05ac0f2b6808fb8"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/config/mail.php",
+      "bytes": 3539,
+      "sha256": "433acc0d5342a074b32e44b3d7ffba153c3eaf292a5a2fc94d7cb6ee0addb147"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/config/queue.php",
+      "bytes": 3824,
+      "sha256": "a185a3e86b65db26938204f4f50cf0c0ca99974e9926b9cdcef6b7743feea482"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/config/sanctum.php",
+      "bytes": 3136,
+      "sha256": "c913b58d8efe2220e11fcaf84f009f4e718a141f64a1517b276af261dcf8a889"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/config/services.php",
+      "bytes": 1035,
+      "sha256": "2226be3fa0e560fc8cd628f3e8f50fcd78639a24375f5e931d0c656eaf1d4ce8"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/config/session.php",
+      "bytes": 7858,
+      "sha256": "c7f637c49f3e61d5488a11653b06a6b5a8a73b335d1dadbd84666be5ec4f6de6"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/database/.gitignore",
+      "bytes": 10,
+      "sha256": "e758642d95e83e907e010b6e46b07b3f953c7cef11fe5ebefc2a77b9d7b4d5f7"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/database/factories/UserFactory.php",
+      "bytes": 1075,
+      "sha256": "05c4cfa8e4dc7ebe659c66717b30ea6970f62d732a1bbce32b55650cccc6aa8d"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/database/migrations/0001_01_01_000000_create_users_table.php",
+      "bytes": 1473,
+      "sha256": "10d79883bc08ce46510f9ad8b1830b4d06d586dc56ae2c8bac3b3e491f69a90f"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/database/migrations/0001_01_01_000001_create_cache_table.php",
+      "bytes": 849,
+      "sha256": "20f769d3c11748c1cc42c41cd3789b0b9b2cd0db44ee22d378addac3ff8aed4f"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/database/migrations/0001_01_01_000002_create_jobs_table.php",
+      "bytes": 1812,
+      "sha256": "7c9c712adf4091c87bf2612f4d0dccdfa1df4501553e4ac068b83d7bd5462fa5"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/database/migrations/2026_10_30_084051_create_students_table.php",
+      "bytes": 785,
+      "sha256": "49457b105b9d96f1509de359659ffb35ea05e07593624de938646be21468988b"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/database/migrations/2026_10_30_085407_create_personal_access_tokens_table.php",
+      "bytes": 863,
+      "sha256": "c81ecde85ea5072188c468dcaf79776728b6eb8f684d63fc0d88a4908484ca75"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/database/migrations/2026_10_30_114355_create_requirements_table.php",
+      "bytes": 810,
+      "sha256": "8701c87ca0ccf72215cd612c3a8a5b3230d6cb28168d0fcb8b12e27a8fd0ba17"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/database/migrations/2026_11_17_000001_add_roles_and_student_link_to_users_table.php",
+      "bytes": 845,
+      "sha256": "f452c5198b991a5dcfa384c13ad88ebca30c952fe2ddd6d0bdabafd59cbd87ab"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/database/migrations/2026_11_18_000001_unique_student_requirement.php",
+      "bytes": 552,
+      "sha256": "2ea74580b016cff63e24d83c276d26190cb4ad7c202572612d5e796620b57631"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/database/migrations/2026_11_18_160001_add_review_queue_index.php",
+      "bytes": 508,
+      "sha256": "f7d23daf62e90d1ad2acc12e6f23742fc2acdf25cecd7aa814a150128d1e09b0"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/database/seeders/DatabaseSeeder.php",
+      "bytes": 2314,
+      "sha256": "5187bf6c19a2e4da9958a182ceea039d97e7daf4f7b8030d47235db16d7ef6b0"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/package.json",
+      "bytes": 355,
+      "sha256": "f468a85e1fc5e344ff9505f0aaa407b3307fdc2af2f4ad9891a31c6c5d0a2845"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/phpunit.xml",
+      "bytes": 1173,
+      "sha256": "bbc808f5e83ec45da2c9e2493b73282149bef023dd3ed91e762a49f18f951e0f"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/public/.htaccess",
+      "bytes": 740,
+      "sha256": "b7e379c77639fd56144947dbae84c84eb466d9c686ea81f2f013ae85421da923"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/public/favicon.ico",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/public/index.php",
+      "bytes": 543,
+      "sha256": "eba77cba39695b6bd091fe5211d481f7ebb2ce2d8d26230b5a609465d0a4aff9"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/public/robots.txt",
+      "bytes": 24,
+      "sha256": "e5c4b84484ee4216e9373be99380320c25dd94805f99f0a805846f087636553f"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/README.md",
+      "bytes": 353,
+      "sha256": "c167664544c28f1c3f1e2bd27071d8cb6903bb55cc8b39b36036cf1004a1ddb2"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/resources/css/app.css",
+      "bytes": 413,
+      "sha256": "370514b05335f69079d62747e4a119469213de68dc760ed0566ce0f9e22a56fd"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/resources/js/app.js",
+      "bytes": 22,
+      "sha256": "cf6dab196c721f6911ff99cc4f910897f978599a2d289971a316a5fc33091f94"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/resources/js/bootstrap.js",
+      "bytes": 127,
+      "sha256": "6fd9fc82e68fa915a882f4e227b9faacbe7bfd66cb953c628840e83bda6b72f4"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/resources/views/welcome.blade.php",
+      "bytes": 82540,
+      "sha256": "2712f5909e694cf0676ace8a9b9da3e190293e7a6cb5995fde756491c8385521"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/routes/api.php",
+      "bytes": 1282,
+      "sha256": "a57d000eb6058245e0c018b6ed17912fd045fe418fad9ebc194971d80661a13e"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/routes/console.php",
+      "bytes": 210,
+      "sha256": "9adccc33e7dd400683e434774077c7fdb2f299c5712cedf16a43fdf56f2850fa"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/routes/web.php",
+      "bytes": 108,
+      "sha256": "248c7eeeb43bb61ee4fb6603e52b44843c64f72a841d671bcd41871aab23f970"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/storage/app/.gitignore",
+      "bytes": 33,
+      "sha256": "993b9e3709d7b5189da331725d1169d79e561a509db2490b722b525073d2d976"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/storage/app/private/.gitignore",
+      "bytes": 14,
+      "sha256": "240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/storage/app/public/.gitignore",
+      "bytes": 14,
+      "sha256": "240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/storage/framework/.gitignore",
+      "bytes": 119,
+      "sha256": "2d452d65596636197757afa17df52331c84da7bb74ee0f3462fd5be4eb6afdc6"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/storage/framework/cache/.gitignore",
+      "bytes": 21,
+      "sha256": "32f79194633ddb34f013c6ee8819d112104ff822357adf308ec385b46a7f42f6"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/storage/framework/cache/data/.gitignore",
+      "bytes": 16,
+      "sha256": "4bb38be6d6d9ef0d2f9bcc339850ff48d821eccfa739369402b354c9ba946ea2"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/storage/framework/sessions/.gitignore",
+      "bytes": 16,
+      "sha256": "4bb38be6d6d9ef0d2f9bcc339850ff48d821eccfa739369402b354c9ba946ea2"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/storage/framework/testing/.gitignore",
+      "bytes": 14,
+      "sha256": "240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/storage/framework/views/.gitignore",
+      "bytes": 16,
+      "sha256": "4bb38be6d6d9ef0d2f9bcc339850ff48d821eccfa739369402b354c9ba946ea2"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/storage/logs/.gitignore",
+      "bytes": 16,
+      "sha256": "4bb38be6d6d9ef0d2f9bcc339850ff48d821eccfa739369402b354c9ba946ea2"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/tests/Feature/ExampleTest.php",
+      "bytes": 359,
+      "sha256": "aaa4a192fb4aa96d4e81eda06a29968da3d9a73b71026b87a67297e66dd985b8"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/tests/Feature/SecureEnrollmentApiTest.php",
+      "bytes": 6204,
+      "sha256": "f60813f2f902cbce6f34049a77e6eb279a64ab3ea25b66121da106269ee1e183"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/tests/Feature/Week15HardeningTest.php",
+      "bytes": 7710,
+      "sha256": "85db5326a15c4506f3068031021a744e32db89332c7c095377b8afa499b31a85"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/tests/Feature/Week16OperationsTest.php",
+      "bytes": 3446,
+      "sha256": "3ee3921f1a9eaeb4fec1428cefe23cb79ff6c5258b9794557dd78ec4b814a97e"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/tests/Feature/Week17AcceptanceTest.php",
+      "bytes": 2353,
+      "sha256": "39ad1dfc734111406010efa5b2a359e29e45ead0608b6b81b9ecea5e0d72ebec"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/tests/TestCase.php",
+      "bytes": 142,
+      "sha256": "c7c209f5579c42647c1f7b2a79ac828e8b54ac62a98442045a6e94fa2c0d0ebc"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/tests/Unit/ExampleTest.php",
+      "bytes": 243,
+      "sha256": "ffacae5c1a2a44c809420af5b3b404910da1b12167d58764dac6d10b8ba8cfaf"
+    },
+    {
+      "path": "04_Source_Code/enrollment_validator_api/vite.config.js",
+      "bytes": 331,
+      "sha256": "1bd7f75ae1df969c819e63114e9be5f0e2a69e399d4dcab4373aa680314a93d9"
+    },
+    {
+      "path": "04_Source_Code/EnrollmentValidator.code-workspace",
+      "bytes": 179,
+      "sha256": "52172b2ff710e5693be891265cd62012cc2fd18d5e800f35a8ca3d795980665f"
+    },
+    {
+      "path": "04_Source_Code/lib/api_client.dart",
+      "bytes": 5832,
+      "sha256": "481a72680ae03d7202f5311d34e0099170a065bc2563363e65d0b0eeef18c330"
+    },
+    {
+      "path": "04_Source_Code/lib/auth_controller.dart",
+      "bytes": 1808,
+      "sha256": "db8cc2ef4f4ccf8e7886d5d39672e909a865d1c111f897af63f6700fc85f3dd2"
+    },
+    {
+      "path": "04_Source_Code/lib/main.dart",
+      "bytes": 22985,
+      "sha256": "af30fc0d10de76a747e349527ccfe678b8ddd29f4dbbc65c8d710cd3351fc6bd"
+    },
+    {
+      "path": "04_Source_Code/package-lock.json",
+      "bytes": 66537,
+      "sha256": "81aeec8e22274c531f8226890505046d8ecba6364f4be8e6660841640c9c5108"
+    },
+    {
+      "path": "04_Source_Code/package.json",
+      "bytes": 383,
+      "sha256": "9b01d83f718a30f356e1849f5aae0f0a6611c004fa50b7e31af7e7db907629db"
+    },
+    {
+      "path": "04_Source_Code/postman/Week18_Final_Defense.postman_collection.json",
+      "bytes": 61369,
+      "sha256": "b7145d11dd62bf3ab25bfa41563c4387c4a197aafc83cdf98f2f30fa586876d1"
+    },
+    {
+      "path": "04_Source_Code/pubspec.lock",
+      "bytes": 6985,
+      "sha256": "f30f38cc1ca7942743eecda2c725dec53d9cd1c2be1be4ae22f497d6bdf0b21a"
+    },
+    {
+      "path": "04_Source_Code/pubspec.yaml",
+      "bytes": 4016,
+      "sha256": "af748b1895d2ab74cf3d06a6455438b4f6631bbe64728492e9c1847b85e44537"
+    },
+    {
+      "path": "04_Source_Code/README.md",
+      "bytes": 1894,
+      "sha256": "9c64b2fc107fd8c81b97cdfb0a3adaac6cdd971578c4dae94c1b2d7141334f76"
+    },
+    {
+      "path": "04_Source_Code/Run-Checks.ps1",
+      "bytes": 475,
+      "sha256": "a81d3990adfc9aedeb85a973681920c333848f63993f67f70bdf6894af14c2b5"
+    },
+    {
+      "path": "04_Source_Code/Setup-Demo.ps1",
+      "bytes": 1341,
+      "sha256": "18fa0fb512fc91d7c178d2da029831cfd115f5e7ec1dd7f34bd65c1778c85fb8"
+    },
+    {
+      "path": "04_Source_Code/test/week15_api_test.dart",
+      "bytes": 5605,
+      "sha256": "57eead76559c14bdbe732880c44a8c76373612ca8217b37e50a4bc58299b55ec"
+    },
+    {
+      "path": "04_Source_Code/test/week15_screen_test.dart",
+      "bytes": 5515,
+      "sha256": "c07a7c07d164db8cf34de61f6566577b68b52f2051a9c0d2f45dddc1a129ba1a"
+    },
+    {
+      "path": "04_Source_Code/test/week16_health_test.dart",
+      "bytes": 1975,
+      "sha256": "1297bc6e0991db2cc0709fe63298cb344419e3c2545d372236544582b241a6be"
+    },
+    {
+      "path": "04_Source_Code/test/week17_acceptance_test.dart",
+      "bytes": 1150,
+      "sha256": "8cd34c51d0d0c234202034e7ec2ad8c34531bd4f22aca9501a2bd0d252ca676e"
+    },
+    {
+      "path": "04_Source_Code/test/widget_test.dart",
+      "bytes": 580,
+      "sha256": "1524ca6eab3854df61bfbfb853c3d0e1c244a7ac61acc3e9a6c6b1647fef927a"
+    },
+    {
+      "path": "04_Source_Code/tools/check-api-contract.cjs",
+      "bytes": 1238,
+      "sha256": "08c1d4db088517689cf9cb5af3447b494b5e568451054dc8ba3d1b9365ebe974"
+    },
+    {
+      "path": "04_Source_Code/tools/Run-HTTPS-Checks.ps1",
+      "bytes": 1250,
+      "sha256": "0cac95e06faa54cb986513dd5032ef14164b71740def5c55542e36bb5401c9b2"
+    },
+    {
+      "path": "04_Source_Code/tools/run-week18-demo.cjs",
+      "bytes": 10677,
+      "sha256": "7a25d7b396d4ab9e49e87eef199e56c03963bf99f82add38952ae53fe804e240"
+    },
+    {
+      "path": "04_Source_Code/tools/serve-web.cjs",
+      "bytes": 744,
+      "sha256": "f07cc204b3ee002821f6d61b246830feaf7d577b6eafc73dfb31cf1d1ec39cc6"
+    },
+    {
+      "path": "04_Source_Code/tools/verify-https.cjs",
+      "bytes": 2453,
+      "sha256": "1548a26130657960399d12bbf5e892a8ebd85ab1baaf10cb285913b74a74ee46"
+    },
+    {
+      "path": "04_Source_Code/web/favicon.png",
+      "bytes": 917,
+      "sha256": "7ab2525f4b86b65d3e4c70358a17e5a1aaf6f437f99cbcc046dad73d59bb9015"
+    },
+    {
+      "path": "04_Source_Code/web/icons/Icon-192.png",
+      "bytes": 5292,
+      "sha256": "3dce99077602f70421c1c6b2a240bc9b83d64d86681d45f2154143310c980be3"
+    },
+    {
+      "path": "04_Source_Code/web/icons/Icon-512.png",
+      "bytes": 8252,
+      "sha256": "baccb205ae45f0b421be1657259b4943ac40c95094ab877f3bcbe12cd544dcbe"
+    },
+    {
+      "path": "04_Source_Code/web/icons/Icon-maskable-192.png",
+      "bytes": 5594,
+      "sha256": "d2c842e22a9f4ec9d996b23373a905c88d9a203b220c5c151885ad621f974b5c"
+    },
+    {
+      "path": "04_Source_Code/web/icons/Icon-maskable-512.png",
+      "bytes": 20998,
+      "sha256": "6aee06cdcab6b2aef74b1734c4778f4421d2da100b0ff9e52b21b55240202929"
+    },
+    {
+      "path": "04_Source_Code/web/index.html",
+      "bytes": 1569,
+      "sha256": "45e40d2ca29ad26d2f2c47e136c7b4e045a7c18dbf0d4f668126c5594cf64d04"
+    },
+    {
+      "path": "04_Source_Code/web/manifest.json",
+      "bytes": 960,
+      "sha256": "88335a51cdb5cf79485b50921d8eecf4021f6aba7c2612a25f50077209fe4f86"
+    }
+  ]
+}

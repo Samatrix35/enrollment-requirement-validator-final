@@ -1,0 +1,32 @@
+{
+  "fault": "Candidate deployment points to an unavailable SQLite database",
+  "fault_started_at": 1795010217146,
+  "fault_detected_at": 1795010218523,
+  "detection_ms": 1377,
+  "candidate_liveness_status": 200,
+  "candidate_readiness_status": 503,
+  "candidate_release": "w16-bad",
+  "rollback_started_at": 1795010218523,
+  "rollback_ended_at": 1795010219702,
+  "recovery_seconds": 1.179,
+  "recovery_target_seconds": 15,
+  "restored_readiness_status": 200,
+  "restored_release": "w16-r1",
+  "authenticated_workflow_status": 200,
+  "checkpoint_sha256": "a2103bec26e112dae96343b46697ca79a5d4d02eabd82847e572857285e0a24a",
+  "restored_file_sha256_before_requests": "a2103bec26e112dae96343b46697ca79a5d4d02eabd82847e572857285e0a24a",
+  "checkpoint_record": {
+    "id": 1,
+    "status": "Rejected",
+    "remarks": "Fictional workload correction cycle."
+  },
+  "restored_record": {
+    "id": 1,
+    "status": "Rejected",
+    "remarks": "Fictional workload correction cycle."
+  },
+  "checkpoint_restored_exactly": true,
+  "record_preserved": true,
+  "scope": "Configuration rollback and point-in-time SQLite restore, with the backend stopped. No legitimate writes occurred after the checkpoint; not proof of continuous production RPO=0, schema rollback, or multi-host failover.",
+  "pass": true
+}

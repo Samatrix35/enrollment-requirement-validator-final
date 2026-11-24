@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="495" height="190" preserveAspectRatio="xMinYMin meet" viewBox="0 0 495 190" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="495" height="190"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-190)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="0" y="177" style="font-family: Helvetica-Bold; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,354) scale(1,-1)">Same-host configurations used for measurement</text>
+			<text x="0" y="152" style="font-family: Helvetica; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,304) scale(1,-1)">Development</text>
+			<rect x="0" y="92" width="105" height="47" style="stroke: rgb(48%,63%,55%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,94%,92%); fill-rule: evenodd;"/>
+			<text x="19.244500000000002" y="121" style="font-family: Helvetica-Bold; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,242) scale(1,-1)">Load generator</text>
+			<text x="24.436" y="105" style="font-family: Helvetica; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,210) scale(1,-1)">loopback HTTP</text>
+			<rect x="250" y="92" width="105" height="47" style="stroke: rgb(48%,63%,55%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,94%,92%); fill-rule: evenodd;"/>
+			<text x="273.236" y="121" style="font-family: Helvetica-Bold; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,242) scale(1,-1)">PHP / Laravel</text>
+			<text x="273.096" y="105" style="font-family: Helvetica; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,210) scale(1,-1)">uncached / local</text>
+			<rect x="380" y="92" width="105" height="47" style="stroke: rgb(48%,63%,55%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,94%,92%); fill-rule: evenodd;"/>
+			<text x="412.9965" y="121" style="font-family: Helvetica-Bold; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,242) scale(1,-1)">SQLite A</text>
+			<text x="406.436" y="105" style="font-family: Helvetica; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,210) scale(1,-1)">fictional fixture</text>
+			<path d="M 105,115 L 245,115 Z" style="stroke: rgb(15%,41%,30%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="244 119, 250 115, 244 111" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(15%,41%,30%); fill-rule: evenodd;"/>
+			<path d="M 355,115 L 375,115 Z" style="stroke: rgb(15%,41%,30%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="374 119, 380 115, 374 111" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(15%,41%,30%); fill-rule: evenodd;"/>
+			<text x="0" y="73" style="font-family: Helvetica; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,146) scale(1,-1)">Controlled surrogate</text>
+			<rect x="0" y="12" width="105" height="47" style="stroke: rgb(48%,63%,55%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,94%,92%); fill-rule: evenodd;"/>
+			<text x="19.244500000000002" y="41" style="font-family: Helvetica-Bold; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,82) scale(1,-1)">Load generator</text>
+			<text x="24.884" y="25" style="font-family: Helvetica; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,50) scale(1,-1)">verified HTTPS</text>
+			<rect x="125" y="12" width="105" height="47" style="stroke: rgb(48%,63%,55%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,94%,92%); fill-rule: evenodd;"/>
+			<text x="142.494" y="41" style="font-family: Helvetica-Bold; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,82) scale(1,-1)">Node TLS proxy</text>
+			<text x="146.548" y="25" style="font-family: Helvetica; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,50) scale(1,-1)">explicit local trust</text>
+			<rect x="250" y="12" width="105" height="47" style="stroke: rgb(48%,63%,55%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,94%,92%); fill-rule: evenodd;"/>
+			<text x="273.236" y="41" style="font-family: Helvetica-Bold; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,82) scale(1,-1)">PHP / Laravel</text>
+			<text x="267.092" y="25" style="font-family: Helvetica; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,50) scale(1,-1)">cached / production</text>
+			<rect x="380" y="12" width="105" height="47" style="stroke: rgb(48%,63%,55%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,94%,92%); fill-rule: evenodd;"/>
+			<text x="412.9965" y="41" style="font-family: Helvetica-Bold; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,82) scale(1,-1)">SQLite B</text>
+			<text x="406.876" y="25" style="font-family: Helvetica; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,50) scale(1,-1)">separate copy</text>
+			<path d="M 105,35 L 120,35 Z" style="stroke: rgb(15%,41%,30%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="119 39, 125 35, 119 31" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(15%,41%,30%); fill-rule: evenodd;"/>
+			<path d="M 230,35 L 245,35 Z" style="stroke: rgb(15%,41%,30%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="244 39, 250 35, 244 31" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(15%,41%,30%); fill-rule: evenodd;"/>
+			<path d="M 355,35 L 375,35 Z" style="stroke: rgb(15%,41%,30%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="374 39, 380 35, 374 31" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(15%,41%,30%); fill-rule: evenodd;"/>
+		</g>
+	</g>
+</svg>
